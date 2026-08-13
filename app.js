@@ -1,6 +1,6 @@
 const app = document.querySelector("#app");
 const topActions = document.querySelector("#top-actions");
-const QUESTION_SECONDS = 105;
+const QUESTION_SECONDS = 120;
 const QUESTION_EDIT_STORAGE_KEY = "epso-question-bank-edits-v1";
 const HOME_TRAINER_ORDER = ["verbal", "numerical", "abstract", "eu"];
 
