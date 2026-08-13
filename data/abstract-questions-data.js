@@ -1,0 +1,3371 @@
+window.__QUESTION_BANKS__ = window.__QUESTION_BANKS__ || {};
+window.__QUESTION_BANKS__.abstract = [
+  {
+    "id": "abstract-q-1",
+    "part": "Abstract Reasoning",
+    "number": 1,
+    "prompt": "Which figure completes the series below?",
+    "options": {
+      "A": "Figure A",
+      "B": "Figure B",
+      "C": "Figure C",
+      "D": "Figure D",
+      "E": "Figure E"
+    },
+    "answer": "A",
+    "rationale": "Rule 1: The number of circles by default shows how many 90 degree rotations the triangle will take in a clockwise direction in the following turn.\nRule 2: The number of hearts indicates how many steps the shading within the triangle will take in an anticlockwise direction in the following turn.\nRule 3: Shaded circles and hearts are ‘disabled’, that is, they do not exert any influence on the shape.",
+    "rules": [
+      {
+        "label": "Rule 1",
+        "text": "The number of circles by default shows how many 90 degree rotations the triangle will take in a clockwise direction in the following turn."
+      },
+      {
+        "label": "Rule 2",
+        "text": "The number of hearts indicates how many steps the shading within the triangle will take in an anticlockwise direction in the following turn."
+      },
+      {
+        "label": "Rule 3",
+        "text": "Shaded circles and hearts are ‘disabled’, that is, they do not exert any influence on the shape."
+      }
+    ],
+    "figures": [
+      "./assets/abstract/question-001.png"
+    ],
+    "source": "Administrators-2023-Ultimate-Eu-Test-Book.pdf"
+  },
+  {
+    "id": "abstract-q-2",
+    "part": "Abstract Reasoning",
+    "number": 2,
+    "prompt": "Which figure completes the series below?",
+    "options": {
+      "A": "Figure A",
+      "B": "Figure B",
+      "C": "Figure C",
+      "D": "Figure D",
+      "E": "Figure E"
+    },
+    "answer": "A",
+    "rationale": "Rule 1: The number of sides the top left shape has indicates how many vertical steps the shaded section of the grid will take in the following turn. A shaded shape indicates moving upwards, an unshaded shape means moving downwards. When the shaded section reaches the edge of the grid, it re-appears on the other side.\nRule 2: The number of sides the top right shape has indicates how many horizontal steps the shaded section of the grid will take in the following turn. A shaded shape means moving left, an unshaded shape means moving right.\nRule 3: The shading alternates between black and grey.",
+    "rules": [
+      {
+        "label": "Rule 1",
+        "text": "The number of sides the top left shape has indicates how many vertical steps the shaded section of the grid will take in the following turn. A shaded shape indicates moving upwards, an unshaded shape means moving downwards. When the shaded section reaches the edge of the grid, it re-appears on the other side."
+      },
+      {
+        "label": "Rule 2",
+        "text": "The number of sides the top right shape has indicates how many horizontal steps the shaded section of the grid will take in the following turn. A shaded shape means moving left, an unshaded shape means moving right."
+      },
+      {
+        "label": "Rule 3",
+        "text": "The shading alternates between black and grey."
+      }
+    ],
+    "figures": [
+      "./assets/abstract/question-002.png"
+    ],
+    "source": "Administrators-2023-Ultimate-Eu-Test-Book.pdf"
+  },
+  {
+    "id": "abstract-q-3",
+    "part": "Abstract Reasoning",
+    "number": 3,
+    "prompt": "Which figure completes the series below?",
+    "options": {
+      "A": "Figure A",
+      "B": "Figure B",
+      "C": "Figure C",
+      "D": "Figure D",
+      "E": "Figure E"
+    },
+    "answer": "E",
+    "rationale": "Rule 1: The arrow in the top left corner shows whether a new line of smilies will be dropped on the current ones in the following turn (arrow pointing upwards) or an existing line will be removed (arrow pointing downwards) from the bottom. When new smileys are added, they arrive in groups of 2-3-2-3.\nRule 2: Shaded arrows indicate that sad smilies will be dropped in the next figure.\nRule 3: Sad smilies will turn into happy smilies in the second turn of their existence.",
+    "rules": [
+      {
+        "label": "Rule 1",
+        "text": "The arrow in the top left corner shows whether a new line of smilies will be dropped on the current ones in the following turn (arrow pointing upwards) or an existing line will be removed (arrow pointing downwards) from the bottom. When new smileys are added, they arrive in groups of 2-3-2-3."
+      },
+      {
+        "label": "Rule 2",
+        "text": "Shaded arrows indicate that sad smilies will be dropped in the next figure."
+      },
+      {
+        "label": "Rule 3",
+        "text": "Sad smilies will turn into happy smilies in the second turn of their existence."
+      }
+    ],
+    "figures": [
+      "./assets/abstract/question-003.png"
+    ],
+    "source": "Administrators-2023-Ultimate-Eu-Test-Book.pdf"
+  },
+  {
+    "id": "abstract-q-4",
+    "part": "Abstract Reasoning",
+    "number": 4,
+    "prompt": "Which figure completes the series below?",
+    "options": {
+      "A": "Figure A",
+      "B": "Figure B",
+      "C": "Figure C",
+      "D": "Figure D",
+      "E": "Figure E"
+    },
+    "answer": "C",
+    "rationale": "Rule 1: The number of ‘snowflakes’ indicates how many balls of ice cream the cone will consist of in the following turn. Every time a snowflake appears in a figure, the cone will get an extra ball of ice cream in the following turn. Whenever a ‘sun’ is present, the cone will lose a random ball of ice cream in the following turn.\nRule 2: An unshaded ball of ice cream turns shaded in the second turn of its existence and then disappears in the third.\nRule 3: As long as there is a shaded ball of ice cream present, the cone becomes shaded as well.",
+    "rules": [
+      {
+        "label": "Rule 1",
+        "text": "The number of ‘snowflakes’ indicates how many balls of ice cream the cone will consist of in the following turn. Every time a snowflake appears in a figure, the cone will get an extra ball of ice cream in the following turn. Whenever a ‘sun’ is present, the cone will lose a random ball of ice cream in the following turn."
+      },
+      {
+        "label": "Rule 2",
+        "text": "An unshaded ball of ice cream turns shaded in the second turn of its existence and then disappears in the third."
+      },
+      {
+        "label": "Rule 3",
+        "text": "As long as there is a shaded ball of ice cream present, the cone becomes shaded as well."
+      }
+    ],
+    "figures": [
+      "./assets/abstract/question-004.png"
+    ],
+    "source": "Administrators-2023-Ultimate-Eu-Test-Book.pdf"
+  },
+  {
+    "id": "abstract-q-5",
+    "part": "Abstract Reasoning",
+    "number": 5,
+    "prompt": "Which figure completes the series below?",
+    "options": {
+      "A": "Figure A",
+      "B": "Figure B",
+      "C": "Figure C",
+      "D": "Figure D",
+      "E": "Figure E"
+    },
+    "answer": "B",
+    "rationale": "Rule 1: The lower shape takes the posture (direction of arrow) of the upper one from the previous turn.\nRule 2: The upper circle is shaded for two turns, then the bottom one for one turn – this pattern then repeats.\nRule 3: Each time the arrow on the bottom circle is attached to the top half of the circle, a triangle appears in the image.",
+    "rules": [
+      {
+        "label": "Rule 1",
+        "text": "The lower shape takes the posture (direction of arrow) of the upper one from the previous turn."
+      },
+      {
+        "label": "Rule 2",
+        "text": "The upper circle is shaded for two turns, then the bottom one for one turn – this pattern then repeats."
+      },
+      {
+        "label": "Rule 3",
+        "text": "Each time the arrow on the bottom circle is attached to the top half of the circle, a triangle appears in the image."
+      }
+    ],
+    "figures": [
+      "./assets/abstract/question-005.png"
+    ],
+    "source": "Administrators-2023-Ultimate-Eu-Test-Book.pdf"
+  },
+  {
+    "id": "abstract-q-6",
+    "part": "Abstract Reasoning",
+    "number": 6,
+    "prompt": "Which figure completes the series below?",
+    "options": {
+      "A": "Figure A",
+      "B": "Figure B",
+      "C": "Figure C",
+      "D": "Figure D",
+      "E": "Figure E"
+    },
+    "answer": "D",
+    "rationale": "Rule 1: The star shows where in the grid the circle will appear next.\nRule 2: In every turn, the previous position of the circle is shaded.\nRule 3: The circle is shaded if it’s next to the star.",
+    "rules": [
+      {
+        "label": "Rule 1",
+        "text": "The star shows where in the grid the circle will appear next."
+      },
+      {
+        "label": "Rule 2",
+        "text": "In every turn, the previous position of the circle is shaded."
+      },
+      {
+        "label": "Rule 3",
+        "text": "The circle is shaded if it’s next to the star."
+      }
+    ],
+    "figures": [
+      "./assets/abstract/question-006.png"
+    ],
+    "source": "Administrators-2023-Ultimate-Eu-Test-Book.pdf"
+  },
+  {
+    "id": "abstract-q-7",
+    "part": "Abstract Reasoning",
+    "number": 7,
+    "prompt": "Which figure completes the series below?",
+    "options": {
+      "A": "Figure A",
+      "B": "Figure B",
+      "C": "Figure C",
+      "D": "Figure D",
+      "E": "Figure E"
+    },
+    "answer": "A",
+    "rationale": "Rule 1: The middle shape takes the form of the top right shape from the previous turn.\nRule 2: The bottom right shape shows what the middle shape will look like two turns from now.\nRule 3: The top and bottom shapes on the left do the same but with previous versions of the middle shape.",
+    "rules": [
+      {
+        "label": "Rule 1",
+        "text": "The middle shape takes the form of the top right shape from the previous turn."
+      },
+      {
+        "label": "Rule 2",
+        "text": "The bottom right shape shows what the middle shape will look like two turns from now."
+      },
+      {
+        "label": "Rule 3",
+        "text": "The top and bottom shapes on the left do the same but with previous versions of the middle shape."
+      }
+    ],
+    "figures": [
+      "./assets/abstract/question-007.png"
+    ],
+    "source": "Administrators-2023-Ultimate-Eu-Test-Book.pdf"
+  },
+  {
+    "id": "abstract-q-8",
+    "part": "Abstract Reasoning",
+    "number": 8,
+    "prompt": "Which figure completes the series below?",
+    "options": {
+      "A": "Figure A",
+      "B": "Figure B",
+      "C": "Figure C",
+      "D": "Figure D",
+      "E": "Figure E"
+    },
+    "answer": "C",
+    "rationale": "Rule 1: In each turn, both the top and the bottom row of circles start with 5 – 5 circles, but some of these circles are ‘destroyed’ by the shaded triangles pointing at them.\nRule 2: Circles will become shaded if they have unshaded triangles pointing at them.\nRule 3: Figures in the series alternate between having more circles than triangles and vice versa.",
+    "rules": [
+      {
+        "label": "Rule 1",
+        "text": "In each turn, both the top and the bottom row of circles start with 5 – 5 circles, but some of these circles are ‘destroyed’ by the shaded triangles pointing at them."
+      },
+      {
+        "label": "Rule 2",
+        "text": "Circles will become shaded if they have unshaded triangles pointing at them."
+      },
+      {
+        "label": "Rule 3",
+        "text": "Figures in the series alternate between having more circles than triangles and vice versa."
+      }
+    ],
+    "figures": [
+      "./assets/abstract/question-008.png"
+    ],
+    "source": "Administrators-2023-Ultimate-Eu-Test-Book.pdf"
+  },
+  {
+    "id": "abstract-q-9",
+    "part": "Abstract Reasoning",
+    "number": 9,
+    "prompt": "Which figure completes the series below?",
+    "options": {
+      "A": "Figure A",
+      "B": "Figure B",
+      "C": "Figure C",
+      "D": "Figure D",
+      "E": "Figure E"
+    },
+    "answer": "D",
+    "rationale": "Rule 1: The shaded section of the circle in the top left corner shows where the shape in the middle was pointing in the previous turn. The shaded section of the circle in the middle shows where the shape is pointing in the current turn, while the shaded section of the last circle shows where the shape will be pointing in the following turn.\nRule 2: The shape in the middle is shaded for two turns then unshaded for a single turn. This pattern then repeats.\nRule 3: A second row of circles appears at the bottom, with the same rules applying to them.",
+    "rules": [
+      {
+        "label": "Rule 1",
+        "text": "The shaded section of the circle in the top left corner shows where the shape in the middle was pointing in the previous turn. The shaded section of the circle in the middle shows where the shape is pointing in the current turn, while the shaded section of the last circle shows where the shape will be pointing in the following turn."
+      },
+      {
+        "label": "Rule 2",
+        "text": "The shape in the middle is shaded for two turns then unshaded for a single turn. This pattern then repeats."
+      },
+      {
+        "label": "Rule 3",
+        "text": "A second row of circles appears at the bottom, with the same rules applying to them."
+      }
+    ],
+    "figures": [
+      "./assets/abstract/question-009.png"
+    ],
+    "source": "Administrators-2023-Ultimate-Eu-Test-Book.pdf"
+  },
+  {
+    "id": "abstract-q-10",
+    "part": "Abstract Reasoning",
+    "number": 10,
+    "prompt": "Which figure completes the series below?",
+    "options": {
+      "A": "Figure A",
+      "B": "Figure B",
+      "C": "Figure C",
+      "D": "Figure D",
+      "E": "Figure E"
+    },
+    "answer": "E",
+    "rationale": "Rule 1: The shape in the top arm of the cross will appear in the left arm in the following turn. This shape then will be “judged” by the smiley face. If the face is smiling, the shape will transfer to the right arm without change. If the face is frowning, the shape will transfer with one fewer side, while if the face is sad, the shape will transfer with two sides taken away.\nRule 2: Each time the face is smiling, a small dot will appear at bottom of the cross which then stays there for the rest of the series.\nRule 3: Each time the face is sad, a dot is removed.",
+    "rules": [
+      {
+        "label": "Rule 1",
+        "text": "The shape in the top arm of the cross will appear in the left arm in the following turn. This shape then will be “judged” by the smiley face. If the face is smiling, the shape will transfer to the right arm without change. If the face is frowning, the shape will transfer with one fewer side, while if the face is sad, the shape will transfer with two sides taken away."
+      },
+      {
+        "label": "Rule 2",
+        "text": "Each time the face is smiling, a small dot will appear at bottom of the cross which then stays there for the rest of the series."
+      },
+      {
+        "label": "Rule 3",
+        "text": "Each time the face is sad, a dot is removed."
+      }
+    ],
+    "figures": [
+      "./assets/abstract/question-010.png"
+    ],
+    "source": "Administrators-2023-Ultimate-Eu-Test-Book.pdf"
+  },
+  {
+    "id": "abstract-q-11",
+    "part": "Abstract Reasoning",
+    "number": 11,
+    "prompt": "Which figure completes the series below?",
+    "options": {
+      "A": "Figure A",
+      "B": "Figure B",
+      "C": "Figure C",
+      "D": "Figure D",
+      "E": "Figure E"
+    },
+    "answer": "E",
+    "rationale": "Rule 1: The circle is divided into two halves with shapes in both. The total number of sides is always larger in the top half of the circle.\nRule 2: A shaded shape’s sides are not counted towards the total number of sides.\nRule 3: In even-numbered turns (2,4, etc.), the total number of shapes (in both halves) is odd, while in odd turns, this number is even.",
+    "rules": [
+      {
+        "label": "Rule 1",
+        "text": "The circle is divided into two halves with shapes in both. The total number of sides is always larger in the top half of the circle."
+      },
+      {
+        "label": "Rule 2",
+        "text": "A shaded shape’s sides are not counted towards the total number of sides."
+      },
+      {
+        "label": "Rule 3",
+        "text": "In even-numbered turns (2,4, etc.), the total number of shapes (in both halves) is odd, while in odd turns, this number is even."
+      }
+    ],
+    "figures": [
+      "./assets/abstract/question-011.png"
+    ],
+    "source": "Administrators-2023-Ultimate-Eu-Test-Book.pdf"
+  },
+  {
+    "id": "abstract-q-12",
+    "part": "Abstract Reasoning",
+    "number": 12,
+    "prompt": "Which figure completes the series below?",
+    "options": {
+      "A": "Figure A",
+      "B": "Figure B",
+      "C": "Figure C",
+      "D": "Figure D",
+      "E": "Figure E"
+    },
+    "answer": "A",
+    "rationale": "Rule 1: Vertical arrows within the circles indicate whether the given circle will appear/remain in the upper row or the bottom row in the following turn.\nRule 2: Circles with arrows pointing to the right will become shaded in the following turn.\nRule 3: Circles with arrows pointing to the left will be removed in the following turn.",
+    "rules": [
+      {
+        "label": "Rule 1",
+        "text": "Vertical arrows within the circles indicate whether the given circle will appear/remain in the upper row or the bottom row in the following turn."
+      },
+      {
+        "label": "Rule 2",
+        "text": "Circles with arrows pointing to the right will become shaded in the following turn."
+      },
+      {
+        "label": "Rule 3",
+        "text": "Circles with arrows pointing to the left will be removed in the following turn."
+      }
+    ],
+    "figures": [
+      "./assets/abstract/question-012.png"
+    ],
+    "source": "Administrators-2023-Ultimate-Eu-Test-Book.pdf"
+  },
+  {
+    "id": "abstract-q-13",
+    "part": "Abstract Reasoning",
+    "number": 13,
+    "prompt": "Which figure completes the series below?",
+    "options": {
+      "A": "Figure A",
+      "B": "Figure B",
+      "C": "Figure C",
+      "D": "Figure D",
+      "E": "Figure E"
+    },
+    "answer": "E",
+    "rationale": "Rule 1: The number of circles increases by two in each turn (eyes and eye segments are counted as circles).\nRule 2: In every even turn, a single circle becomes shaded.\nRule 3: The nose, starting as a triangle, gains an additional side in each odd turn.",
+    "rules": [
+      {
+        "label": "Rule 1",
+        "text": "The number of circles increases by two in each turn (eyes and eye segments are counted as circles)."
+      },
+      {
+        "label": "Rule 2",
+        "text": "In every even turn, a single circle becomes shaded."
+      },
+      {
+        "label": "Rule 3",
+        "text": "The nose, starting as a triangle, gains an additional side in each odd turn."
+      }
+    ],
+    "figures": [
+      "./assets/abstract/question-013.png"
+    ],
+    "source": "Administrators-2023-Ultimate-Eu-Test-Book.pdf"
+  },
+  {
+    "id": "abstract-q-14",
+    "part": "Abstract Reasoning",
+    "number": 14,
+    "prompt": "Which figure completes the series below?",
+    "options": {
+      "A": "Figure A",
+      "B": "Figure B",
+      "C": "Figure C",
+      "D": "Figure D",
+      "E": "Figure E"
+    },
+    "answer": "D",
+    "rationale": "Rule 1: The number of unshaded circles indicates how many times the smaller shape will rotate 45 degrees in a clockwise direction in the following turn, becoming the larger shape at the same time. In the next figure, the rule again applies to the smaller shape, the larger shape is always only the result of the rotation.\nRule 2: Shaded circles cause an anticlockwise 45 degree rotation similarly to the mechanism described in Rule 1.\nRule 3: The number of circles alternates between odd and even.",
+    "rules": [
+      {
+        "label": "Rule 1",
+        "text": "The number of unshaded circles indicates how many times the smaller shape will rotate 45 degrees in a clockwise direction in the following turn, becoming the larger shape at the same time. In the next figure, the rule again applies to the smaller shape, the larger shape is always only the result of the rotation."
+      },
+      {
+        "label": "Rule 2",
+        "text": "Shaded circles cause an anticlockwise 45 degree rotation similarly to the mechanism described in Rule 1."
+      },
+      {
+        "label": "Rule 3",
+        "text": "The number of circles alternates between odd and even."
+      }
+    ],
+    "figures": [
+      "./assets/abstract/question-014.png"
+    ],
+    "source": "Administrators-2023-Ultimate-Eu-Test-Book.pdf"
+  },
+  {
+    "id": "abstract-q-15",
+    "part": "Abstract Reasoning",
+    "number": 15,
+    "prompt": "Which figure completes the series below?",
+    "options": {
+      "A": "Figure A",
+      "B": "Figure B",
+      "C": "Figure C",
+      "D": "Figure D",
+      "E": "Figure E"
+    },
+    "answer": "A",
+    "rationale": "Rule 1: The number and location of the suns indicate how many leaves the flower will gain in the following turn. The side on which a given sun appears will determine the side on which the corresponding leaf will appear. The leaves are not cumulative, that is, leaves are removed before the new leaves are added in each turn.\nRule 2: Clouds have an effect opposite to that of suns. A sun and a cloud cancel each other out.\nRule 3: A lightning bolt will turn all the leaves black (if any) on the side on which it appears in the following turn.",
+    "rules": [
+      {
+        "label": "Rule 1",
+        "text": "The number and location of the suns indicate how many leaves the flower will gain in the following turn. The side on which a given sun appears will determine the side on which the corresponding leaf will appear. The leaves are not cumulative, that is, leaves are removed before the new leaves are added in each turn."
+      },
+      {
+        "label": "Rule 2",
+        "text": "Clouds have an effect opposite to that of suns. A sun and a cloud cancel each other out."
+      },
+      {
+        "label": "Rule 3",
+        "text": "A lightning bolt will turn all the leaves black (if any) on the side on which it appears in the following turn."
+      }
+    ],
+    "figures": [
+      "./assets/abstract/question-015.png"
+    ],
+    "source": "Administrators-2023-Ultimate-Eu-Test-Book.pdf"
+  },
+  {
+    "id": "abstract-q-16",
+    "part": "Abstract Reasoning",
+    "number": 16,
+    "prompt": "Which figure completes the series below?",
+    "options": {
+      "A": "Figure A",
+      "B": "Figure B",
+      "C": "Figure C",
+      "D": "Figure D",
+      "E": "Figure E"
+    },
+    "answer": "C",
+    "rationale": "Rule 1: The triangle takes an increasing number of steps down the shape. When it reaches the bottom of the shape, it re-appears at the top, continuing its movement.\nRule 2: The triangle gains a new side each time it lands on an odd section of the shape (counting from the top).\nRule 3: In each turn, the previous position of the triangle is shaded.",
+    "rules": [
+      {
+        "label": "Rule 1",
+        "text": "The triangle takes an increasing number of steps down the shape. When it reaches the bottom of the shape, it re-appears at the top, continuing its movement."
+      },
+      {
+        "label": "Rule 2",
+        "text": "The triangle gains a new side each time it lands on an odd section of the shape (counting from the top)."
+      },
+      {
+        "label": "Rule 3",
+        "text": "In each turn, the previous position of the triangle is shaded."
+      }
+    ],
+    "figures": [
+      "./assets/abstract/question-016.png"
+    ],
+    "source": "Administrators-2023-Ultimate-Eu-Test-Book.pdf"
+  },
+  {
+    "id": "abstract-q-17",
+    "part": "Abstract Reasoning",
+    "number": 17,
+    "prompt": "Which figure completes the series below?",
+    "options": {
+      "A": "Figure A",
+      "B": "Figure B",
+      "C": "Figure C",
+      "D": "Figure D",
+      "E": "Figure E"
+    },
+    "answer": "C",
+    "rationale": "Rule 1: The shape within the structure gains an additional side for two turns then loses one in the third. This pattern then repeats.\nRule 2: The structure rotates 45 degrees in a clockwise direction after each turn where the shape within it was unshaded. If it was shaded, the structure rotates in an anticlockwise direction.\nRule 3: A circle appears under the structure each time the shape within has an odd number of sides.",
+    "rules": [
+      {
+        "label": "Rule 1",
+        "text": "The shape within the structure gains an additional side for two turns then loses one in the third. This pattern then repeats."
+      },
+      {
+        "label": "Rule 2",
+        "text": "The structure rotates 45 degrees in a clockwise direction after each turn where the shape within it was unshaded. If it was shaded, the structure rotates in an anticlockwise direction."
+      },
+      {
+        "label": "Rule 3",
+        "text": "A circle appears under the structure each time the shape within has an odd number of sides."
+      }
+    ],
+    "figures": [
+      "./assets/abstract/question-017.png"
+    ],
+    "source": "Administrators-2023-Ultimate-Eu-Test-Book.pdf"
+  },
+  {
+    "id": "abstract-q-18",
+    "part": "Abstract Reasoning",
+    "number": 18,
+    "prompt": "Which figure completes the series below?",
+    "options": {
+      "A": "Figure A",
+      "B": "Figure B",
+      "C": "Figure C",
+      "D": "Figure D",
+      "E": "Figure E"
+    },
+    "answer": "A",
+    "rationale": "Rule 1: In each turn, the shape above the bowl has as many sides as the number of unshaded squares in the bowl in the previous turn.\nRule 2: In each turn, the shape under the bowl has as many sides as the number of shaded squares in the bowl in the previous turn.\nRule 3: Shapes (with the exception of the squares in the bowl) change their shading from turn to turn.",
+    "rules": [
+      {
+        "label": "Rule 1",
+        "text": "In each turn, the shape above the bowl has as many sides as the number of unshaded squares in the bowl in the previous turn."
+      },
+      {
+        "label": "Rule 2",
+        "text": "In each turn, the shape under the bowl has as many sides as the number of shaded squares in the bowl in the previous turn."
+      },
+      {
+        "label": "Rule 3",
+        "text": "Shapes (with the exception of the squares in the bowl) change their shading from turn to turn."
+      }
+    ],
+    "figures": [
+      "./assets/abstract/question-018.png"
+    ],
+    "source": "Administrators-2023-Ultimate-Eu-Test-Book.pdf"
+  },
+  {
+    "id": "abstract-q-19",
+    "part": "Abstract Reasoning",
+    "number": 19,
+    "prompt": "Which figure completes the series below?",
+    "options": {
+      "A": "Figure A",
+      "B": "Figure B",
+      "C": "Figure C",
+      "D": "Figure D",
+      "E": "Figure E"
+    },
+    "answer": "B",
+    "rationale": "Rule 1: The circle attached to the six-headed star takes an increasing number of steps around the points of the star in a clockwise direction, while the circle on the four-headed star does the same, but in an anticlockwise direction.\nRule 2: The circle on the six headed star is shaded if situated on any of the three upper arms of the star, while the circle on the other star is shaded when situated on the top or the bottom arm.\nRule 3: The triangle becomes shaded if one circle is shaded.",
+    "rules": [
+      {
+        "label": "Rule 1",
+        "text": "The circle attached to the six-headed star takes an increasing number of steps around the points of the star in a clockwise direction, while the circle on the four-headed star does the same, but in an anticlockwise direction."
+      },
+      {
+        "label": "Rule 2",
+        "text": "The circle on the six headed star is shaded if situated on any of the three upper arms of the star, while the circle on the other star is shaded when situated on the top or the bottom arm."
+      },
+      {
+        "label": "Rule 3",
+        "text": "The triangle becomes shaded if one circle is shaded."
+      }
+    ],
+    "figures": [
+      "./assets/abstract/question-019.png"
+    ],
+    "source": "Administrators-2023-Ultimate-Eu-Test-Book.pdf"
+  },
+  {
+    "id": "abstract-q-20",
+    "part": "Abstract Reasoning",
+    "number": 20,
+    "prompt": "Which figure completes the series below?",
+    "options": {
+      "A": "Figure A",
+      "B": "Figure B",
+      "C": "Figure C",
+      "D": "Figure D",
+      "E": "Figure E"
+    },
+    "answer": "A",
+    "rationale": "Rule 1: The shape shown at the base of the arrow will appear in the following turn in the position where the arrow is pointing.\nRule 2: Shapes turn shaded and rotated 45 degrees clockwise in the third turn of their existence.\nRule 3: Shapes disappear in the fourth turn of their existence.",
+    "rules": [
+      {
+        "label": "Rule 1",
+        "text": "The shape shown at the base of the arrow will appear in the following turn in the position where the arrow is pointing."
+      },
+      {
+        "label": "Rule 2",
+        "text": "Shapes turn shaded and rotated 45 degrees clockwise in the third turn of their existence."
+      },
+      {
+        "label": "Rule 3",
+        "text": "Shapes disappear in the fourth turn of their existence."
+      }
+    ],
+    "figures": [
+      "./assets/abstract/question-020.png"
+    ],
+    "source": "Administrators-2023-Ultimate-Eu-Test-Book.pdf"
+  },
+  {
+    "id": "abstract-q-21",
+    "part": "Abstract Reasoning",
+    "number": 21,
+    "prompt": "Which figure completes the series below?",
+    "options": {
+      "A": "Figure A",
+      "B": "Figure B",
+      "C": "Figure C",
+      "D": "Figure D",
+      "E": "Figure E"
+    },
+    "answer": "E",
+    "rationale": "Rule 1: A circle is surrounded by two other shapes, one of them shaded. The shaded shape will either gain a side in the following turn (when the straight line is above the shapes) or lose one (when the straight line is below the shapes).\nRule 2: If the circle is shaded, the shapes switch places in the following turn.\nRule 3: The shading goes left-right-left-right, etc.",
+    "rules": [
+      {
+        "label": "Rule 1",
+        "text": "A circle is surrounded by two other shapes, one of them shaded. The shaded shape will either gain a side in the following turn (when the straight line is above the shapes) or lose one (when the straight line is below the shapes)."
+      },
+      {
+        "label": "Rule 2",
+        "text": "If the circle is shaded, the shapes switch places in the following turn."
+      },
+      {
+        "label": "Rule 3",
+        "text": "The shading goes left-right-left-right, etc."
+      }
+    ],
+    "figures": [
+      "./assets/abstract/question-021.png"
+    ],
+    "source": "Administrators-2023-Ultimate-Eu-Test-Book.pdf"
+  },
+  {
+    "id": "abstract-q-22",
+    "part": "Abstract Reasoning",
+    "number": 22,
+    "prompt": "Which figure completes the series below?",
+    "options": {
+      "A": "Figure A",
+      "B": "Figure B",
+      "C": "Figure C",
+      "D": "Figure D",
+      "E": "Figure E"
+    },
+    "answer": "C",
+    "rationale": "Rule 1: Circles at the top and the bottom indicate how many ‘chimneys’ will be visible in the following turn. The shading of the circles changes from turn to turn.\nRule 2: Counting from the left, even numbered chimneys are shaded at the top, and odd numbered ones are shaded at the bottom.\nRule 3: If three or more chimneys are shaded, the rectangle becomes shaded as well.",
+    "rules": [
+      {
+        "label": "Rule 1",
+        "text": "Circles at the top and the bottom indicate how many ‘chimneys’ will be visible in the following turn. The shading of the circles changes from turn to turn."
+      },
+      {
+        "label": "Rule 2",
+        "text": "Counting from the left, even numbered chimneys are shaded at the top, and odd numbered ones are shaded at the bottom."
+      },
+      {
+        "label": "Rule 3",
+        "text": "If three or more chimneys are shaded, the rectangle becomes shaded as well."
+      }
+    ],
+    "figures": [
+      "./assets/abstract/question-022.png"
+    ],
+    "source": "Administrators-2023-Ultimate-Eu-Test-Book.pdf"
+  },
+  {
+    "id": "abstract-q-23",
+    "part": "Abstract Reasoning",
+    "number": 23,
+    "prompt": "Which figure completes the series below?",
+    "options": {
+      "A": "Figure A",
+      "B": "Figure B",
+      "C": "Figure C",
+      "D": "Figure D",
+      "E": "Figure E"
+    },
+    "answer": "A",
+    "rationale": "Rule 1: The shape in the middle is the same as that shape from the corners from the previous turn which had the most sides (see also Rule 2).\nRule 2: Shaded shapes in the corners cannot become shapes in the middle.\nRule 3: The central shape becomes shaded every second time it appears.",
+    "rules": [
+      {
+        "label": "Rule 1",
+        "text": "The shape in the middle is the same as that shape from the corners from the previous turn which had the most sides (see also Rule 2)."
+      },
+      {
+        "label": "Rule 2",
+        "text": "Shaded shapes in the corners cannot become shapes in the middle."
+      },
+      {
+        "label": "Rule 3",
+        "text": "The central shape becomes shaded every second time it appears."
+      }
+    ],
+    "figures": [
+      "./assets/abstract/question-023.png"
+    ],
+    "source": "Administrators-2023-Ultimate-Eu-Test-Book.pdf"
+  },
+  {
+    "id": "abstract-q-24",
+    "part": "Abstract Reasoning",
+    "number": 24,
+    "prompt": "Which figure completes the series below?",
+    "options": {
+      "A": "Figure A",
+      "B": "Figure B",
+      "C": "Figure C",
+      "D": "Figure D",
+      "E": "Figure E"
+    },
+    "answer": "B",
+    "rationale": "Rule 1: The shape within the circle is first the shape that was to the left from the circle then to the right of the circle in the previous turn. This pattern then repeats.\nRule 2: Shapes on the left are shaded if they have on odd number of sides, while shapes on the right are shaded when they have an even number of sides.\nRule 3: The shape within the circle is shaded in every second turn.",
+    "rules": [
+      {
+        "label": "Rule 1",
+        "text": "The shape within the circle is first the shape that was to the left from the circle then to the right of the circle in the previous turn. This pattern then repeats."
+      },
+      {
+        "label": "Rule 2",
+        "text": "Shapes on the left are shaded if they have on odd number of sides, while shapes on the right are shaded when they have an even number of sides."
+      },
+      {
+        "label": "Rule 3",
+        "text": "The shape within the circle is shaded in every second turn."
+      }
+    ],
+    "figures": [
+      "./assets/abstract/question-024.png"
+    ],
+    "source": "Administrators-2023-Ultimate-Eu-Test-Book.pdf"
+  },
+  {
+    "id": "abstract-q-25",
+    "part": "Abstract Reasoning",
+    "number": 25,
+    "prompt": "Which figure completes the series below?",
+    "options": {
+      "A": "Figure A",
+      "B": "Figure B",
+      "C": "Figure C",
+      "D": "Figure D",
+      "E": "Figure E"
+    },
+    "answer": "A",
+    "rationale": "Rule 1: An arrow pointing upwards shows that the shape will gain a side; if the arrow is pointing downwards, the shape will lose a side. An arrow pointing to the left signals that a new shape will appear, while an arrow pointing to the right shows that the shape will disappear. All transformations take place in the following turn.\nRule 2: Every second shape that appears is shaded.\nRule 3: No two arrows can point in the same direction in a given figure.",
+    "rules": [
+      {
+        "label": "Rule 1",
+        "text": "An arrow pointing upwards shows that the shape will gain a side; if the arrow is pointing downwards, the shape will lose a side. An arrow pointing to the left signals that a new shape will appear, while an arrow pointing to the right shows that the shape will disappear. All transformations take place in the following turn."
+      },
+      {
+        "label": "Rule 2",
+        "text": "Every second shape that appears is shaded."
+      },
+      {
+        "label": "Rule 3",
+        "text": "No two arrows can point in the same direction in a given figure."
+      }
+    ],
+    "figures": [
+      "./assets/abstract/question-025.png"
+    ],
+    "source": "Administrators-2023-Ultimate-Eu-Test-Book.pdf"
+  },
+  {
+    "id": "abstract-q-26",
+    "part": "Abstract Reasoning",
+    "number": 26,
+    "prompt": "Which figure completes the series below?",
+    "options": {
+      "A": "Figure A",
+      "B": "Figure B",
+      "C": "Figure C",
+      "D": "Figure D",
+      "E": "Figure E"
+    },
+    "answer": "B",
+    "rationale": "Rule 1: If a horizontal unshaded arrow points to a circle, it will be shaded in the following turn.\nRule 2: If an arrow is pointing downwards, both circles will be shaded in the given row in the following turn, while if it’s pointing upwards, neither of them will be.\nRule 3: If an arrow is shaded, its effect is the opposite of the default effect described above. In the case of horizontal arrows, this means that the circle ‘behind’ the arrow will become shaded.",
+    "rules": [
+      {
+        "label": "Rule 1",
+        "text": "If a horizontal unshaded arrow points to a circle, it will be shaded in the following turn."
+      },
+      {
+        "label": "Rule 2",
+        "text": "If an arrow is pointing downwards, both circles will be shaded in the given row in the following turn, while if it’s pointing upwards, neither of them will be."
+      },
+      {
+        "label": "Rule 3",
+        "text": "If an arrow is shaded, its effect is the opposite of the default effect described above. In the case of horizontal arrows, this means that the circle ‘behind’ the arrow will become shaded."
+      }
+    ],
+    "figures": [
+      "./assets/abstract/question-026.png"
+    ],
+    "source": "Administrators-2023-Ultimate-Eu-Test-Book.pdf"
+  },
+  {
+    "id": "abstract-q-27",
+    "part": "Abstract Reasoning",
+    "number": 27,
+    "prompt": "Which figure completes the series below?",
+    "options": {
+      "A": "Figure A",
+      "B": "Figure B",
+      "C": "Figure C",
+      "D": "Figure D",
+      "E": "Figure E"
+    },
+    "answer": "D",
+    "rationale": "Rule 1: The top lane scrolls to the right, while the bottom one scrolls to the left. See also Rule 3.\nRule 2: Shapes change their shading if they disappear on one side and reappear on the other.\nRule 3: If a circle appears in the middle, the lanes switch scrolling direction from the next turn.",
+    "rules": [
+      {
+        "label": "Rule 1",
+        "text": "The top lane scrolls to the right, while the bottom one scrolls to the left. See also Rule 3."
+      },
+      {
+        "label": "Rule 2",
+        "text": "Shapes change their shading if they disappear on one side and reappear on the other."
+      },
+      {
+        "label": "Rule 3",
+        "text": "If a circle appears in the middle, the lanes switch scrolling direction from the next turn."
+      }
+    ],
+    "figures": [
+      "./assets/abstract/question-027.png"
+    ],
+    "source": "Administrators-2023-Ultimate-Eu-Test-Book.pdf"
+  },
+  {
+    "id": "abstract-q-28",
+    "part": "Abstract Reasoning",
+    "number": 28,
+    "prompt": "Which figure completes the series below?",
+    "options": {
+      "A": "Figure A",
+      "B": "Figure B",
+      "C": "Figure C",
+      "D": "Figure D",
+      "E": "Figure E"
+    },
+    "answer": "E",
+    "rationale": "Rule 1: The top left pie chart rotates 45 degrees in a clockwise direction in each turn, while the bottom left is showing the position of the top one from the previous turn. The pie charts on the right do the same but the rotations happen in an anticlockwise direction.\nRule 2: Each time a pie chart points upwards, a circle appears which then stays there for the rest of the series.\nRule 3: The number of shaded circles equals the number of pie charts pointing downwards in the current turn.",
+    "rules": [
+      {
+        "label": "Rule 1",
+        "text": "The top left pie chart rotates 45 degrees in a clockwise direction in each turn, while the bottom left is showing the position of the top one from the previous turn. The pie charts on the right do the same but the rotations happen in an anticlockwise direction."
+      },
+      {
+        "label": "Rule 2",
+        "text": "Each time a pie chart points upwards, a circle appears which then stays there for the rest of the series."
+      },
+      {
+        "label": "Rule 3",
+        "text": "The number of shaded circles equals the number of pie charts pointing downwards in the current turn."
+      }
+    ],
+    "figures": [
+      "./assets/abstract/question-028.png"
+    ],
+    "source": "Administrators-2023-Ultimate-Eu-Test-Book.pdf"
+  },
+  {
+    "id": "abstract-q-29",
+    "part": "Abstract Reasoning",
+    "number": 29,
+    "prompt": "Which figure completes the series below?",
+    "options": {
+      "A": "Figure A",
+      "B": "Figure B",
+      "C": "Figure C",
+      "D": "Figure D",
+      "E": "Figure E"
+    },
+    "answer": "A",
+    "rationale": "Rule 1: The shading switches between being on the left arm – in the middle – on the right arm of the structure.\nRule 2: Each time the big central oval is shaded, the whole construction rotates 90 degrees in a clockwise direction.\nRule 3: In each turn, a small circle appears in the circle that was previously shaded.",
+    "rules": [
+      {
+        "label": "Rule 1",
+        "text": "The shading switches between being on the left arm – in the middle – on the right arm of the structure."
+      },
+      {
+        "label": "Rule 2",
+        "text": "Each time the big central oval is shaded, the whole construction rotates 90 degrees in a clockwise direction."
+      },
+      {
+        "label": "Rule 3",
+        "text": "In each turn, a small circle appears in the circle that was previously shaded."
+      }
+    ],
+    "figures": [
+      "./assets/abstract/question-029.png"
+    ],
+    "source": "Administrators-2023-Ultimate-Eu-Test-Book.pdf"
+  },
+  {
+    "id": "abstract-q-30",
+    "part": "Abstract Reasoning",
+    "number": 30,
+    "prompt": "Which figure completes the series below?",
+    "options": {
+      "A": "Figure A",
+      "B": "Figure B",
+      "C": "Figure C",
+      "D": "Figure D",
+      "E": "Figure E"
+    },
+    "answer": "C",
+    "rationale": "Rule 1: The small shape in the top right corner starts as a triangle, then gains a single side for two turns, then loses one on the third. This pattern then repeats.\nRule 2: For as long as the top left shape is gaining sides, a new section is also added to the circle.\nRule 3: The circle is shaded during the turns in which the top left shape is gaining sides.",
+    "rules": [
+      {
+        "label": "Rule 1",
+        "text": "The small shape in the top right corner starts as a triangle, then gains a single side for two turns, then loses one on the third. This pattern then repeats."
+      },
+      {
+        "label": "Rule 2",
+        "text": "For as long as the top left shape is gaining sides, a new section is also added to the circle."
+      },
+      {
+        "label": "Rule 3",
+        "text": "The circle is shaded during the turns in which the top left shape is gaining sides."
+      }
+    ],
+    "figures": [
+      "./assets/abstract/question-030.png"
+    ],
+    "source": "Administrators-2023-Ultimate-Eu-Test-Book.pdf"
+  },
+  {
+    "id": "abstract-q-31",
+    "part": "Abstract Reasoning",
+    "number": 31,
+    "prompt": "Which figure completes the series below?",
+    "options": {
+      "A": "Figure A",
+      "B": "Figure B",
+      "C": "Figure C",
+      "D": "Figure D",
+      "E": "Figure E"
+    },
+    "answer": "D",
+    "rationale": "Rule 1: An increasing number of circles appear within hearts. Once a heart has three circles, a new one appears.\nRule 2: Every second added circle (circles are added as following: Left – Bottom – Right) in a given turn will be shaded.\nRule 3: A heart with more shaded than unshaded circles stand upside down.",
+    "rules": [
+      {
+        "label": "Rule 1",
+        "text": "An increasing number of circles appear within hearts. Once a heart has three circles, a new one appears."
+      },
+      {
+        "label": "Rule 2",
+        "text": "Every second added circle (circles are added as following: Left – Bottom – Right) in a given turn will be shaded."
+      },
+      {
+        "label": "Rule 3",
+        "text": "A heart with more shaded than unshaded circles stand upside down."
+      }
+    ],
+    "figures": [
+      "./assets/abstract/question-031.png"
+    ],
+    "source": "Administrators-2023-Ultimate-Eu-Test-Book.pdf"
+  },
+  {
+    "id": "abstract-q-32",
+    "part": "Abstract Reasoning",
+    "number": 32,
+    "prompt": "Which figure completes the series below?",
+    "options": {
+      "A": "Figure A",
+      "B": "Figure B",
+      "C": "Figure C",
+      "D": "Figure D",
+      "E": "Figure E"
+    },
+    "answer": "A",
+    "rationale": "Rule 1: An increasing number of circles are added to the bottom each turn. The circles next to the arrow show how many circles will be shaded the following turn.\nRule 2: If a circle next to the arrow is shaded, it does not have a ‘shading effect’ on the circles in the bottom.\nRule 3: If the total number of circles next to the arrow is even, a large triangle is added to the image.",
+    "rules": [
+      {
+        "label": "Rule 1",
+        "text": "An increasing number of circles are added to the bottom each turn. The circles next to the arrow show how many circles will be shaded the following turn."
+      },
+      {
+        "label": "Rule 2",
+        "text": "If a circle next to the arrow is shaded, it does not have a ‘shading effect’ on the circles in the bottom."
+      },
+      {
+        "label": "Rule 3",
+        "text": "If the total number of circles next to the arrow is even, a large triangle is added to the image."
+      }
+    ],
+    "figures": [
+      "./assets/abstract/question-032.png"
+    ],
+    "source": "Administrators-2023-Ultimate-Eu-Test-Book.pdf"
+  },
+  {
+    "id": "abstract-q-33",
+    "part": "Abstract Reasoning",
+    "number": 33,
+    "prompt": "Which figure completes the series below?",
+    "options": {
+      "A": "Figure A",
+      "B": "Figure B",
+      "C": "Figure C",
+      "D": "Figure D",
+      "E": "Figure E"
+    },
+    "answer": "C",
+    "rationale": "Rule 1: The inner square is rotating 45 degrees in an anticlockwise direction while the outer one is doing the same in a clockwise direction.\nRule 2: In each turn, the number of circles increases by one.\nRule 3: In even turns, there is an even number of shaded circles, while in odd turns there is an odd number of shaded circles.",
+    "rules": [
+      {
+        "label": "Rule 1",
+        "text": "The inner square is rotating 45 degrees in an anticlockwise direction while the outer one is doing the same in a clockwise direction."
+      },
+      {
+        "label": "Rule 2",
+        "text": "In each turn, the number of circles increases by one."
+      },
+      {
+        "label": "Rule 3",
+        "text": "In even turns, there is an even number of shaded circles, while in odd turns there is an odd number of shaded circles."
+      }
+    ],
+    "figures": [
+      "./assets/abstract/question-033.png"
+    ],
+    "source": "Administrators-2023-Ultimate-Eu-Test-Book.pdf"
+  },
+  {
+    "id": "abstract-q-34",
+    "part": "Abstract Reasoning",
+    "number": 34,
+    "prompt": "Which figure completes the series below?",
+    "options": {
+      "A": "Figure A",
+      "B": "Figure B",
+      "C": "Figure C",
+      "D": "Figure D",
+      "E": "Figure E"
+    },
+    "answer": "E",
+    "rationale": "Rule 1: The snake grows by two segments in each turn and the total number of circles in it also grows by two in each turn. There will always be an odd number of total circles as the circle in the first segment is alone.\nRule 2: First, an odd number of circles are shaded, then an even number. This pattern then repeats.\nRule 3: The snake segments alternate between being shaded and unshaded.",
+    "rules": [
+      {
+        "label": "Rule 1",
+        "text": "The snake grows by two segments in each turn and the total number of circles in it also grows by two in each turn. There will always be an odd number of total circles as the circle in the first segment is alone."
+      },
+      {
+        "label": "Rule 2",
+        "text": "First, an odd number of circles are shaded, then an even number. This pattern then repeats."
+      },
+      {
+        "label": "Rule 3",
+        "text": "The snake segments alternate between being shaded and unshaded."
+      }
+    ],
+    "figures": [
+      "./assets/abstract/question-034.png"
+    ],
+    "source": "Administrators-2023-Ultimate-Eu-Test-Book.pdf"
+  },
+  {
+    "id": "abstract-q-35",
+    "part": "Abstract Reasoning",
+    "number": 35,
+    "prompt": "Which figure completes the series below?",
+    "options": {
+      "A": "Figure A",
+      "B": "Figure B",
+      "C": "Figure C",
+      "D": "Figure D",
+      "E": "Figure E"
+    },
+    "answer": "B",
+    "rationale": "Rule 1: The large central shape assumes the form of the shape in the left then top then right position from the previous turn.\nRule 2: The small shape that will become the large shape in the following turn is shaded.\nRule 3: The big shape is shaded every second time it appears as the same shape.",
+    "rules": [
+      {
+        "label": "Rule 1",
+        "text": "The large central shape assumes the form of the shape in the left then top then right position from the previous turn."
+      },
+      {
+        "label": "Rule 2",
+        "text": "The small shape that will become the large shape in the following turn is shaded."
+      },
+      {
+        "label": "Rule 3",
+        "text": "The big shape is shaded every second time it appears as the same shape."
+      }
+    ],
+    "figures": [
+      "./assets/abstract/question-035.png"
+    ],
+    "source": "Administrators-2023-Ultimate-Eu-Test-Book.pdf"
+  },
+  {
+    "id": "abstract-q-36",
+    "part": "Abstract Reasoning",
+    "number": 36,
+    "prompt": "Which figure completes the series below?",
+    "options": {
+      "A": "Figure A",
+      "B": "Figure B",
+      "C": "Figure C",
+      "D": "Figure D",
+      "E": "Figure E"
+    },
+    "answer": "D",
+    "rationale": "Rule 1: The arrows on the left mirror the previous turn’s arrows on the right, while the arrows on the right rotate 45 degrees in a clockwise direction every turn.\nRule 2: Arrows pointing upwards or downwards are shaded.\nRule 3: A triangle appears if only one arrow is shaded.",
+    "rules": [
+      {
+        "label": "Rule 1",
+        "text": "The arrows on the left mirror the previous turn’s arrows on the right, while the arrows on the right rotate 45 degrees in a clockwise direction every turn."
+      },
+      {
+        "label": "Rule 2",
+        "text": "Arrows pointing upwards or downwards are shaded."
+      },
+      {
+        "label": "Rule 3",
+        "text": "A triangle appears if only one arrow is shaded."
+      }
+    ],
+    "figures": [
+      "./assets/abstract/question-036.png"
+    ],
+    "source": "Administrators-2023-Ultimate-Eu-Test-Book.pdf"
+  },
+  {
+    "id": "abstract-q-37",
+    "part": "Abstract Reasoning",
+    "number": 37,
+    "prompt": "Which figure completes the series below?",
+    "options": {
+      "A": "Figure A",
+      "B": "Figure B",
+      "C": "Figure C",
+      "D": "Figure D",
+      "E": "Figure E"
+    },
+    "answer": "A",
+    "rationale": "Rule 1: Shaded shapes will rotate 45 degrees in an anticlockwise direction in the following turn, while unshaded shapes will rotate 45 degrees in a clockwise direction. There is no rule governing the shading of the shapes or which shape is removed.\nRule 2: First, two shapes are added, then one gets taken away. This pattern then repeats.\nRule 3: A star appears every time there is an even number of shapes in the image.",
+    "rules": [
+      {
+        "label": "Rule 1",
+        "text": "Shaded shapes will rotate 45 degrees in an anticlockwise direction in the following turn, while unshaded shapes will rotate 45 degrees in a clockwise direction. There is no rule governing the shading of the shapes or which shape is removed."
+      },
+      {
+        "label": "Rule 2",
+        "text": "First, two shapes are added, then one gets taken away. This pattern then repeats."
+      },
+      {
+        "label": "Rule 3",
+        "text": "A star appears every time there is an even number of shapes in the image."
+      }
+    ],
+    "figures": [
+      "./assets/abstract/question-037.png"
+    ],
+    "source": "Administrators-2023-Ultimate-Eu-Test-Book.pdf"
+  },
+  {
+    "id": "abstract-q-38",
+    "part": "Abstract Reasoning",
+    "number": 38,
+    "prompt": "Which figure completes the series below?",
+    "options": {
+      "A": "Figure A",
+      "B": "Figure B",
+      "C": "Figure C",
+      "D": "Figure D",
+      "E": "Figure E"
+    },
+    "answer": "C",
+    "rationale": "Rule 1: The structure rotates 90 degrees in a clockwise direction in each turn while circles fall on the spikes (as shown by the single circle atop the construction).\nRule 2: A given spike loses its circle when facing downwards.\nRule 3: Circles that fell off the spikes are collected at the bottom of the figure and will have the shading of the spike they fell off of.",
+    "rules": [
+      {
+        "label": "Rule 1",
+        "text": "The structure rotates 90 degrees in a clockwise direction in each turn while circles fall on the spikes (as shown by the single circle atop the construction)."
+      },
+      {
+        "label": "Rule 2",
+        "text": "A given spike loses its circle when facing downwards."
+      },
+      {
+        "label": "Rule 3",
+        "text": "Circles that fell off the spikes are collected at the bottom of the figure and will have the shading of the spike they fell off of."
+      }
+    ],
+    "figures": [
+      "./assets/abstract/question-038.png"
+    ],
+    "source": "Administrators-2023-Ultimate-Eu-Test-Book.pdf"
+  },
+  {
+    "id": "abstract-q-39",
+    "part": "Abstract Reasoning",
+    "number": 39,
+    "prompt": "Which figure completes the series below?",
+    "options": {
+      "A": "Figure A",
+      "B": "Figure B",
+      "C": "Figure C",
+      "D": "Figure D",
+      "E": "Figure E"
+    },
+    "answer": "E",
+    "rationale": "Rule 1: The three shapes scroll vertically downwards one at a time.\nRule 2: Shapes switch their shading each time they reappear at the top.\nRule 3: The arrows show whether a shape will gain a side (pointing to the right), lose one (pointing to the left) or stay the same (no arrows) in the following turn. The number of arrows indicates how many sides the shape will gain.",
+    "rules": [
+      {
+        "label": "Rule 1",
+        "text": "The three shapes scroll vertically downwards one at a time."
+      },
+      {
+        "label": "Rule 2",
+        "text": "Shapes switch their shading each time they reappear at the top."
+      },
+      {
+        "label": "Rule 3",
+        "text": "The arrows show whether a shape will gain a side (pointing to the right), lose one (pointing to the left) or stay the same (no arrows) in the following turn. The number of arrows indicates how many sides the shape will gain."
+      }
+    ],
+    "figures": [
+      "./assets/abstract/question-039.png"
+    ],
+    "source": "Administrators-2023-Ultimate-Eu-Test-Book.pdf"
+  },
+  {
+    "id": "abstract-q-40",
+    "part": "Abstract Reasoning",
+    "number": 40,
+    "prompt": "Which figure completes the series below?",
+    "options": {
+      "A": "Figure A",
+      "B": "Figure B",
+      "C": "Figure C",
+      "D": "Figure D",
+      "E": "Figure E"
+    },
+    "answer": "B",
+    "rationale": "Rule 1: Based on how many circles were shaded in a given turn, the central shape is rotating that many times 45 degrees in the following turn.\nRule 2: During even-numbered turns, there is an odd number of unshaded triangles within the shape, while during odd-numbered turns, there is an even number.\nRule 3: The total number of shaded and unshaded triangles within the shape changes in the sequence 2, 3, 4, 5, 4, 3, etc.",
+    "rules": [
+      {
+        "label": "Rule 1",
+        "text": "Based on how many circles were shaded in a given turn, the central shape is rotating that many times 45 degrees in the following turn."
+      },
+      {
+        "label": "Rule 2",
+        "text": "During even-numbered turns, there is an odd number of unshaded triangles within the shape, while during odd-numbered turns, there is an even number."
+      },
+      {
+        "label": "Rule 3",
+        "text": "The total number of shaded and unshaded triangles within the shape changes in the sequence 2, 3, 4, 5, 4, 3, etc."
+      }
+    ],
+    "figures": [
+      "./assets/abstract/question-040.png"
+    ],
+    "source": "Administrators-2023-Ultimate-Eu-Test-Book.pdf"
+  },
+  {
+    "id": "abstract-q-41",
+    "part": "Abstract Reasoning",
+    "number": 41,
+    "prompt": "Which figure completes the series below?",
+    "options": {
+      "A": "Figure A",
+      "B": "Figure B",
+      "C": "Figure C",
+      "D": "Figure D",
+      "E": "Figure E"
+    },
+    "answer": "D",
+    "rationale": "Rule 1: One clock hand and clock face alternate between black on white and white on black each time.\nRule 2: The hand of the alternating colour clock moves backwards by 2 hours (60°) each time.\nRule 3: When the hand is black and the clock face is white, the clock moves as far as possible within the figure in the direction indicated by the arrow on the hand. When the hand is white and the clock face is black, the clock moves as far as possible within the figure in the opposite direction to that indicated by the arrow on the hand. It always moves in a straight line in that direction from its current position.\nRule 4: The grey clock with the dashed outline mirrors the alternating colour clock face, with the mirroring alternating between mirroring in the vertical plane and mirroring in the horizontal plane. When overlap occurs, the grey clock is positioned behind the alternating colour clock.",
+    "rules": [
+      {
+        "label": "Rule 1",
+        "text": "One clock hand and clock face alternate between black on white and white on black each time."
+      },
+      {
+        "label": "Rule 2",
+        "text": "The hand of the alternating colour clock moves backwards by 2 hours (60°) each time."
+      },
+      {
+        "label": "Rule 3",
+        "text": "When the hand is black and the clock face is white, the clock moves as far as possible within the figure in the direction indicated by the arrow on the hand. When the hand is white and the clock face is black, the clock moves as far as possible within the figure in the opposite direction to that indicated by the arrow on the hand. It always moves in a straight line in that direction from its current position."
+      },
+      {
+        "label": "Rule 4",
+        "text": "The grey clock with the dashed outline mirrors the alternating colour clock face, with the mirroring alternating between mirroring in the vertical plane and mirroring in the horizontal plane. When overlap occurs, the grey clock is positioned behind the alternating colour clock."
+      }
+    ],
+    "figures": [
+      "./assets/abstract/question-041.png"
+    ],
+    "source": "Administrators-2023-Ultimate-Eu-Test-Book.pdf"
+  },
+  {
+    "id": "abstract-q-42",
+    "part": "Abstract Reasoning",
+    "number": 42,
+    "prompt": "Which figure completes the series below?",
+    "options": {
+      "A": "Figure A",
+      "B": "Figure B",
+      "C": "Figure C",
+      "D": "Figure D",
+      "E": "Figure E"
+    },
+    "answer": "A",
+    "rationale": "Rule 1: The number of sides on the black shape increases by 1 every time.\nRule 2: The number of sides on the white shape decreases by 2 every other time, beginning with staying the same the first time.\nRule 3: The black shape moves in the following pattern within the figure, which is then repeated: top left corner, bottom right corner, bottom left corner.\nRule 4: The white shape moves in the following pattern within the figure, which is then repeated: bottom right corner, top left corner, bottom left corner, top right corner. When the white shape and the black shape occupy the same space, the white shape is visible in front of the black shape.",
+    "rules": [
+      {
+        "label": "Rule 1",
+        "text": "The number of sides on the black shape increases by 1 every time."
+      },
+      {
+        "label": "Rule 2",
+        "text": "The number of sides on the white shape decreases by 2 every other time, beginning with staying the same the first time."
+      },
+      {
+        "label": "Rule 3",
+        "text": "The black shape moves in the following pattern within the figure, which is then repeated: top left corner, bottom right corner, bottom left corner."
+      },
+      {
+        "label": "Rule 4",
+        "text": "The white shape moves in the following pattern within the figure, which is then repeated: bottom right corner, top left corner, bottom left corner, top right corner. When the white shape and the black shape occupy the same space, the white shape is visible in front of the black shape."
+      }
+    ],
+    "figures": [
+      "./assets/abstract/question-042.png"
+    ],
+    "source": "Administrators-2023-Ultimate-Eu-Test-Book.pdf"
+  },
+  {
+    "id": "abstract-q-43",
+    "part": "Abstract Reasoning",
+    "number": 43,
+    "prompt": "Which figure completes the series below?",
+    "options": {
+      "A": "Figure A",
+      "B": "Figure B",
+      "C": "Figure C",
+      "D": "Figure D",
+      "E": "Figure E"
+    },
+    "answer": "B",
+    "rationale": "Rule 1: The overall number of squares increases by 2 each time.\nRule 2: The overall number of triangles increases by 3 then decreases by 1. This pattern is then repeated.\nRule 3: The number of black squares is 1 fewer than the overall number of triangles in the previous figure.\nRule 4: The number of white triangles in a figure is the same as the number of black squares in the same figure.",
+    "rules": [
+      {
+        "label": "Rule 1",
+        "text": "The overall number of squares increases by 2 each time."
+      },
+      {
+        "label": "Rule 2",
+        "text": "The overall number of triangles increases by 3 then decreases by 1. This pattern is then repeated."
+      },
+      {
+        "label": "Rule 3",
+        "text": "The number of black squares is 1 fewer than the overall number of triangles in the previous figure."
+      },
+      {
+        "label": "Rule 4",
+        "text": "The number of white triangles in a figure is the same as the number of black squares in the same figure."
+      }
+    ],
+    "figures": [
+      "./assets/abstract/question-043.png"
+    ],
+    "source": "Administrators-2023-Ultimate-Eu-Test-Book.pdf"
+  },
+  {
+    "id": "abstract-q-44",
+    "part": "Abstract Reasoning",
+    "number": 44,
+    "prompt": "Which figure completes the series below?",
+    "options": {
+      "A": "Figure A",
+      "B": "Figure B",
+      "C": "Figure C",
+      "D": "Figure D",
+      "E": "Figure E"
+    },
+    "answer": "E",
+    "rationale": "Rule 1: The white triangle is reflected in a manner which alternates between the vertical plane and the horizontal plane.\nRule 2: The number of black circles increases by 1 every time.\nRule 3: The black circles are positioned at the same side as the triangle, starting from the edge of the figure. When there is an even number of circles, they are split equally above and below the triangle. When there is an odd number of circles, the extra circle is positioned near the shortest edge of the triangle rather than near the sharpest point.\nRule 4: The arrow points to the edge that the next arrow will start from.",
+    "rules": [
+      {
+        "label": "Rule 1",
+        "text": "The white triangle is reflected in a manner which alternates between the vertical plane and the horizontal plane."
+      },
+      {
+        "label": "Rule 2",
+        "text": "The number of black circles increases by 1 every time."
+      },
+      {
+        "label": "Rule 3",
+        "text": "The black circles are positioned at the same side as the triangle, starting from the edge of the figure. When there is an even number of circles, they are split equally above and below the triangle. When there is an odd number of circles, the extra circle is positioned near the shortest edge of the triangle rather than near the sharpest point."
+      },
+      {
+        "label": "Rule 4",
+        "text": "The arrow points to the edge that the next arrow will start from."
+      }
+    ],
+    "figures": [
+      "./assets/abstract/question-044.png"
+    ],
+    "source": "Administrators-2023-Ultimate-Eu-Test-Book.pdf"
+  },
+  {
+    "id": "abstract-q-45",
+    "part": "Abstract Reasoning",
+    "number": 45,
+    "prompt": "Which figure completes the series below?",
+    "options": {
+      "A": "Figure A",
+      "B": "Figure B",
+      "C": "Figure C",
+      "D": "Figure D",
+      "E": "Figure E"
+    },
+    "answer": "D",
+    "rationale": "Rule 1: The black compass point moves round clockwise by 135° each time.\nRule 2: The grey point moves round anti-clockwise by 90° each time. When it occupies the same space as the black point, the grey point is completely obscured by the black one.\nRule 3: The grey pie chart slice in the bottom left reflects the angle in the previous figure, going clockwise, from the black compass point to the grey compass point. In the first figure shown, the pie chart slice reflects where the black and grey compass points would have been in the previous figure, based on Rules 1 and 2. Please note that as the black and grey compass points shared the same point on the compass in the third figure, there is an angle of 0° between them for that figure, so consequently the pie chart slice does not appear in the fourth figure in the sequence.\nRule 4: The shaded circle appears at the centre of the compass whenever the angle of the grey pie chart slice is greater than 180°.",
+    "rules": [
+      {
+        "label": "Rule 1",
+        "text": "The black compass point moves round clockwise by 135° each time."
+      },
+      {
+        "label": "Rule 2",
+        "text": "The grey point moves round anti-clockwise by 90° each time. When it occupies the same space as the black point, the grey point is completely obscured by the black one."
+      },
+      {
+        "label": "Rule 3",
+        "text": "The grey pie chart slice in the bottom left reflects the angle in the previous figure, going clockwise, from the black compass point to the grey compass point. In the first figure shown, the pie chart slice reflects where the black and grey compass points would have been in the previous figure, based on Rules 1 and 2. Please note that as the black and grey compass points shared the same point on the compass in the third figure, there is an angle of 0° between them for that figure, so consequently the pie chart slice does not appear in the fourth figure in the sequence."
+      },
+      {
+        "label": "Rule 4",
+        "text": "The shaded circle appears at the centre of the compass whenever the angle of the grey pie chart slice is greater than 180°."
+      }
+    ],
+    "figures": [
+      "./assets/abstract/question-045.png"
+    ],
+    "source": "Administrators-2023-Ultimate-Eu-Test-Book.pdf"
+  },
+  {
+    "id": "abstract-q-46",
+    "part": "Abstract Reasoning",
+    "number": 46,
+    "prompt": "Which figure completes the series below?",
+    "options": {
+      "A": "Figure A",
+      "B": "Figure B",
+      "C": "Figure C",
+      "D": "Figure D",
+      "E": "Figure E"
+    },
+    "answer": "C",
+    "rationale": "Rule 1: The black star moves 1 space horizontally each time. When it hits the edge of the grid it goes back in the opposite direction, following the same rule.\nRule 2: The white star moves 2 spaces to the left every time. When it reaches the edge of the grid, it continues moving left by 2 spaces from the opposite edge of the grid.\nRule 3: The black circle moves 2 spaces horizontally and 1 space vertically each time. When it hits the edge of the grid it goes back in the opposite direction, still following this same rule.\nRule 4: A white triangle appears to the right of every row and underneath every column every time there are two symbols in that row or column.",
+    "rules": [
+      {
+        "label": "Rule 1",
+        "text": "The black star moves 1 space horizontally each time. When it hits the edge of the grid it goes back in the opposite direction, following the same rule."
+      },
+      {
+        "label": "Rule 2",
+        "text": "The white star moves 2 spaces to the left every time. When it reaches the edge of the grid, it continues moving left by 2 spaces from the opposite edge of the grid."
+      },
+      {
+        "label": "Rule 3",
+        "text": "The black circle moves 2 spaces horizontally and 1 space vertically each time. When it hits the edge of the grid it goes back in the opposite direction, still following this same rule."
+      },
+      {
+        "label": "Rule 4",
+        "text": "A white triangle appears to the right of every row and underneath every column every time there are two symbols in that row or column."
+      }
+    ],
+    "figures": [
+      "./assets/abstract/question-046.png"
+    ],
+    "source": "Administrators-2023-Ultimate-Eu-Test-Book.pdf"
+  },
+  {
+    "id": "abstract-q-47",
+    "part": "Abstract Reasoning",
+    "number": 47,
+    "prompt": "Which figure completes the series below?",
+    "options": {
+      "A": "Figure A",
+      "B": "Figure B",
+      "C": "Figure C",
+      "D": "Figure D",
+      "E": "Figure E"
+    },
+    "answer": "E",
+    "rationale": "Rule 1: There are always three arrow heads, one on a single-headed arrow and two on a double-headed arrow. Whilst the left-to-right position of the arrows is arbitrary, the head of the single-headed arrow alternates between pointing up and pointing down.\nRule 2: If an arrow points to a black circle, that circle is changed into a white circle until pointed at again.\nRule 3: If an arrow points to a white circle, that circle vanishes until the space is pointed at again.\nRule 4: If an arrow points to a space, a black circle appears until that location is pointed at again.",
+    "rules": [
+      {
+        "label": "Rule 1",
+        "text": "There are always three arrow heads, one on a single-headed arrow and two on a double-headed arrow. Whilst the left-to-right position of the arrows is arbitrary, the head of the single-headed arrow alternates between pointing up and pointing down."
+      },
+      {
+        "label": "Rule 2",
+        "text": "If an arrow points to a black circle, that circle is changed into a white circle until pointed at again."
+      },
+      {
+        "label": "Rule 3",
+        "text": "If an arrow points to a white circle, that circle vanishes until the space is pointed at again."
+      },
+      {
+        "label": "Rule 4",
+        "text": "If an arrow points to a space, a black circle appears until that location is pointed at again."
+      }
+    ],
+    "figures": [
+      "./assets/abstract/question-047.png"
+    ],
+    "source": "Administrators-2023-Ultimate-Eu-Test-Book.pdf"
+  },
+  {
+    "id": "abstract-q-48",
+    "part": "Abstract Reasoning",
+    "number": 48,
+    "prompt": "Which figure completes the series below?",
+    "options": {
+      "A": "Figure A",
+      "B": "Figure B",
+      "C": "Figure C",
+      "D": "Figure D",
+      "E": "Figure E"
+    },
+    "answer": "C",
+    "rationale": "Rule 1: The solid black line rotates through 45° clockwise each time, joining either the opposite corners or the middle of the opposite edges of the figure.\nRule 2: The line comprising alternating long and short dashes rotates through 45° clockwise every other turn. Like the solid line, it joins either the opposite corners or the middle of the opposite edges of the figure. This line is not visible if it is in the same position as the solid line.\nRule 3: The dotted line of dashes of equal length rotates through 90° every time. It always joins the opposite corners of the figure. This line is not visible if it shares a position with either of the other lines.\nRule 4: When only two lines are visible in a figure, one or two additional circles are added in order to take the total number up to the first even number that is higher than the number of circles present in the last figure. When all three lines are visible, one or two additional circles are added in order to take the total number up to the first odd number that is higher than the total number of circles present in the last figure. The positioning of the circles is purely arbitrary.",
+    "rules": [
+      {
+        "label": "Rule 1",
+        "text": "The solid black line rotates through 45° clockwise each time, joining either the opposite corners or the middle of the opposite edges of the figure."
+      },
+      {
+        "label": "Rule 2",
+        "text": "The line comprising alternating long and short dashes rotates through 45° clockwise every other turn. Like the solid line, it joins either the opposite corners or the middle of the opposite edges of the figure. This line is not visible if it is in the same position as the solid line."
+      },
+      {
+        "label": "Rule 3",
+        "text": "The dotted line of dashes of equal length rotates through 90° every time. It always joins the opposite corners of the figure. This line is not visible if it shares a position with either of the other lines."
+      },
+      {
+        "label": "Rule 4",
+        "text": "When only two lines are visible in a figure, one or two additional circles are added in order to take the total number up to the first even number that is higher than the number of circles present in the last figure. When all three lines are visible, one or two additional circles are added in order to take the total number up to the first odd number that is higher than the total number of circles present in the last figure. The positioning of the circles is purely arbitrary."
+      }
+    ],
+    "figures": [
+      "./assets/abstract/question-048.png"
+    ],
+    "source": "Administrators-2023-Ultimate-Eu-Test-Book.pdf"
+  },
+  {
+    "id": "abstract-q-49",
+    "part": "Abstract Reasoning",
+    "number": 49,
+    "prompt": "Which figure completes the series below?",
+    "options": {
+      "A": "Figure A",
+      "B": "Figure B",
+      "C": "Figure C",
+      "D": "Figure D",
+      "E": "Figure E"
+    },
+    "answer": "C",
+    "rationale": "Rule 1: The circles move left to right in the top panel.\nRule 2: The circles move top to bottom in the rest of the panels.\nRule 3: The circles move in the shaded vertical panels on odd turns and in the unshaded vertical panels on even ones.",
+    "rules": [
+      {
+        "label": "Rule 1",
+        "text": "The circles move left to right in the top panel."
+      },
+      {
+        "label": "Rule 2",
+        "text": "The circles move top to bottom in the rest of the panels."
+      },
+      {
+        "label": "Rule 3",
+        "text": "The circles move in the shaded vertical panels on odd turns and in the unshaded vertical panels on even ones."
+      }
+    ],
+    "figures": [
+      "./assets/abstract/question-049.png"
+    ],
+    "source": "Administrators-2023-Ultimate-Eu-Test-Book.pdf"
+  },
+  {
+    "id": "abstract-q-50",
+    "part": "Abstract Reasoning",
+    "number": 50,
+    "prompt": "Which figure completes the series below?",
+    "options": {
+      "A": "Figure A",
+      "B": "Figure B",
+      "C": "Figure C",
+      "D": "Figure D",
+      "E": "Figure E"
+    },
+    "answer": "B",
+    "rationale": "Rule 1: The white triangle rotates through 90° anticlockwise every time.\nRule 2: The black square always appears in the space that is just outside where the shortest edge of the white triangle was in the previous figure.\nRule 3: The grey circle always appears in the space to which the narrow point of the triangle was pointing two figures earlier. When the grey circle shares any space with the black square, the grey circle is positioned in front of the black square.\nRule 4: The black cross alternates between being absent and present.",
+    "rules": [
+      {
+        "label": "Rule 1",
+        "text": "The white triangle rotates through 90° anticlockwise every time."
+      },
+      {
+        "label": "Rule 2",
+        "text": "The black square always appears in the space that is just outside where the shortest edge of the white triangle was in the previous figure."
+      },
+      {
+        "label": "Rule 3",
+        "text": "The grey circle always appears in the space to which the narrow point of the triangle was pointing two figures earlier. When the grey circle shares any space with the black square, the grey circle is positioned in front of the black square."
+      },
+      {
+        "label": "Rule 4",
+        "text": "The black cross alternates between being absent and present."
+      }
+    ],
+    "figures": [
+      "./assets/abstract/question-050.png"
+    ],
+    "source": "Administrators-2023-Ultimate-Eu-Test-Book.pdf"
+  },
+  {
+    "id": "abstract-q-51",
+    "part": "Abstract Reasoning",
+    "number": 51,
+    "prompt": "Which figure completes the series below?",
+    "options": {
+      "A": "Figure A",
+      "B": "Figure B",
+      "C": "Figure C",
+      "D": "Figure D",
+      "E": "Figure E"
+    },
+    "answer": "D",
+    "rationale": "Rule 1: The cloud colour alternates between black and white.\nRule 2: White clouds produce an odd number of raindrops, whilst black clouds produce an even number of raindrops.\nRule 3: The rain falls on a diagonal from left to right for two figures then on a diagonal from right to left for two figures. This sequence then repeats.\nRule 4: The shaded circle next to the raindrops is present whenever there are 6 or more raindrops.",
+    "rules": [
+      {
+        "label": "Rule 1",
+        "text": "The cloud colour alternates between black and white."
+      },
+      {
+        "label": "Rule 2",
+        "text": "White clouds produce an odd number of raindrops, whilst black clouds produce an even number of raindrops."
+      },
+      {
+        "label": "Rule 3",
+        "text": "The rain falls on a diagonal from left to right for two figures then on a diagonal from right to left for two figures. This sequence then repeats."
+      },
+      {
+        "label": "Rule 4",
+        "text": "The shaded circle next to the raindrops is present whenever there are 6 or more raindrops."
+      }
+    ],
+    "figures": [
+      "./assets/abstract/question-051.png"
+    ],
+    "source": "Administrators-2023-Ultimate-Eu-Test-Book.pdf"
+  },
+  {
+    "id": "abstract-q-52",
+    "part": "Abstract Reasoning",
+    "number": 52,
+    "prompt": "Which figure completes the series below?",
+    "options": {
+      "A": "Figure A",
+      "B": "Figure B",
+      "C": "Figure C",
+      "D": "Figure D",
+      "E": "Figure E"
+    },
+    "answer": "B",
+    "rationale": "Rule 1: The number of white circles is increased by 2 or 1 each time in an alternating sequence, starting with 2.\nRule 2: The number of black circles decreases by 1 less than the previous time every time, starting with 5, then 4, then 3, then 2, then 1.\nRule 3: The total number of sides on the three white shapes is equal to the combined number of white and black circles.\nRule 4: Reading from top to bottom, the three white shapes are always presented in order of their number of sides, with the lowest number at the top and the highest at the bottom. Shapes with an equal number of sides are presented consecutively in the downwards sequence rather than being positioned at the same height as each other.",
+    "rules": [
+      {
+        "label": "Rule 1",
+        "text": "The number of white circles is increased by 2 or 1 each time in an alternating sequence, starting with 2."
+      },
+      {
+        "label": "Rule 2",
+        "text": "The number of black circles decreases by 1 less than the previous time every time, starting with 5, then 4, then 3, then 2, then 1."
+      },
+      {
+        "label": "Rule 3",
+        "text": "The total number of sides on the three white shapes is equal to the combined number of white and black circles."
+      },
+      {
+        "label": "Rule 4",
+        "text": "Reading from top to bottom, the three white shapes are always presented in order of their number of sides, with the lowest number at the top and the highest at the bottom. Shapes with an equal number of sides are presented consecutively in the downwards sequence rather than being positioned at the same height as each other."
+      }
+    ],
+    "figures": [
+      "./assets/abstract/question-052.png"
+    ],
+    "source": "Administrators-2023-Ultimate-Eu-Test-Book.pdf"
+  },
+  {
+    "id": "abstract-q-53",
+    "part": "Abstract Reasoning",
+    "number": 53,
+    "prompt": "Which figure completes the series below?",
+    "options": {
+      "A": "Figure A",
+      "B": "Figure B",
+      "C": "Figure C",
+      "D": "Figure D",
+      "E": "Figure E"
+    },
+    "answer": "A",
+    "rationale": "Rule 1: The circle with a cross in it that is located in the top left corner rotates by 45° every time.\nRule 2: The circle with a cross in it that is located in the bottom left corner of the figure rotates by 45° every other time, starting with the first time.\nRule 3: The circle with a cross in it that is located in the bottom right corner of the figure rotates by 45° every other time, starting with the second time.\nRule 4: The black circle appears in the top right corner whenever all 3 circles with a cross are oriented the same way.",
+    "rules": [
+      {
+        "label": "Rule 1",
+        "text": "The circle with a cross in it that is located in the top left corner rotates by 45° every time."
+      },
+      {
+        "label": "Rule 2",
+        "text": "The circle with a cross in it that is located in the bottom left corner of the figure rotates by 45° every other time, starting with the first time."
+      },
+      {
+        "label": "Rule 3",
+        "text": "The circle with a cross in it that is located in the bottom right corner of the figure rotates by 45° every other time, starting with the second time."
+      },
+      {
+        "label": "Rule 4",
+        "text": "The black circle appears in the top right corner whenever all 3 circles with a cross are oriented the same way."
+      }
+    ],
+    "figures": [
+      "./assets/abstract/question-053.png"
+    ],
+    "source": "Administrators-2023-Ultimate-Eu-Test-Book.pdf"
+  },
+  {
+    "id": "abstract-q-54",
+    "part": "Abstract Reasoning",
+    "number": 54,
+    "prompt": "Which figure completes the series below?",
+    "options": {
+      "A": "Figure A",
+      "B": "Figure B",
+      "C": "Figure C",
+      "D": "Figure D",
+      "E": "Figure E"
+    },
+    "answer": "C",
+    "rationale": "Rule 1: The black triangle moves one place at a time on a diagonal line down and to the right. When it reaches the bottom of the grid, it starts at the top of the next set of upward-pointing triangles to the right and follows the same type of diagonal movement as before.\nRule 2: The grey triangle pointing upwards moves by one place in a straight line from right to left. When it reaches the end of the grid, it starts again on the same line from the right hand side.\nRule 3: The grey triangle pointing downwards starts by moving by one place at a time in a diagonal up and to the left. When it reaches the top edge of the figure, it follows the path it would take if it was a snooker ball bouncing off the cushion of the table, and describes a diagonal down and to the left. Following the same logic, when it reaches the bottom of the figure it should next follow a diagonal that goes up and to the left.\nRule 4: The small white circle moves one triangle to the right every time, whether that triangle is pointing upwards or downwards. When it is positioned over a black or grey triangle, the circle remains visible over the top of it.",
+    "rules": [
+      {
+        "label": "Rule 1",
+        "text": "The black triangle moves one place at a time on a diagonal line down and to the right. When it reaches the bottom of the grid, it starts at the top of the next set of upward-pointing triangles to the right and follows the same type of diagonal movement as before."
+      },
+      {
+        "label": "Rule 2",
+        "text": "The grey triangle pointing upwards moves by one place in a straight line from right to left. When it reaches the end of the grid, it starts again on the same line from the right hand side."
+      },
+      {
+        "label": "Rule 3",
+        "text": "The grey triangle pointing downwards starts by moving by one place at a time in a diagonal up and to the left. When it reaches the top edge of the figure, it follows the path it would take if it was a snooker ball bouncing off the cushion of the table, and describes a diagonal down and to the left. Following the same logic, when it reaches the bottom of the figure it should next follow a diagonal that goes up and to the left."
+      },
+      {
+        "label": "Rule 4",
+        "text": "The small white circle moves one triangle to the right every time, whether that triangle is pointing upwards or downwards. When it is positioned over a black or grey triangle, the circle remains visible over the top of it."
+      }
+    ],
+    "figures": [
+      "./assets/abstract/question-054.png"
+    ],
+    "source": "Administrators-2023-Ultimate-Eu-Test-Book.pdf"
+  },
+  {
+    "id": "abstract-q-55",
+    "part": "Abstract Reasoning",
+    "number": 55,
+    "prompt": "Which figure completes the series below?",
+    "options": {
+      "A": "Figure A",
+      "B": "Figure B",
+      "C": "Figure C",
+      "D": "Figure D",
+      "E": "Figure E"
+    },
+    "answer": "D",
+    "rationale": "Rule 1: Although they start at different points in the sequence, the top two shapes change colour in the order black, grey, white. This sequence then repeats. The bottom shape remains black at all times.\nRule 2: The shape at the top left has one fewer side each time.\nRule 3: The shape at the top right loses one side then gains two sides. This pattern then repeats.\nRule 4: The shape at the bottom has the same number of sides as the difference between the number of sides of the other two shapes. The orientation of the shape does not matter.",
+    "rules": [
+      {
+        "label": "Rule 1",
+        "text": "Although they start at different points in the sequence, the top two shapes change colour in the order black, grey, white. This sequence then repeats. The bottom shape remains black at all times."
+      },
+      {
+        "label": "Rule 2",
+        "text": "The shape at the top left has one fewer side each time."
+      },
+      {
+        "label": "Rule 3",
+        "text": "The shape at the top right loses one side then gains two sides. This pattern then repeats."
+      },
+      {
+        "label": "Rule 4",
+        "text": "The shape at the bottom has the same number of sides as the difference between the number of sides of the other two shapes. The orientation of the shape does not matter."
+      }
+    ],
+    "figures": [
+      "./assets/abstract/question-055.png"
+    ],
+    "source": "Administrators-2023-Ultimate-Eu-Test-Book.pdf"
+  },
+  {
+    "id": "abstract-q-56",
+    "part": "Abstract Reasoning",
+    "number": 56,
+    "prompt": "Which figure completes the series below?",
+    "options": {
+      "A": "Figure A",
+      "B": "Figure B",
+      "C": "Figure C",
+      "D": "Figure D",
+      "E": "Figure E"
+    },
+    "answer": "E",
+    "rationale": "Rule 1: The segmented circle alternates between being large and being small.\nRule 2: The segmented circle rotates by 120° anticlockwise each time.\nRule 3: The segmented circle moves around the edge of the figure in an anti-clockwise direction, alternately taking up position at the corners and the mid-point of the edges. When the circle is large, it occupies the corners of the figure, when it is small it is half-way along the edge.\nRule 4: Whenever the shaded part of the segmented circle points down, a white star appears at the opposite edge or corner to the face.",
+    "rules": [
+      {
+        "label": "Rule 1",
+        "text": "The segmented circle alternates between being large and being small."
+      },
+      {
+        "label": "Rule 2",
+        "text": "The segmented circle rotates by 120° anticlockwise each time."
+      },
+      {
+        "label": "Rule 3",
+        "text": "The segmented circle moves around the edge of the figure in an anti-clockwise direction, alternately taking up position at the corners and the mid-point of the edges. When the circle is large, it occupies the corners of the figure, when it is small it is half-way along the edge."
+      },
+      {
+        "label": "Rule 4",
+        "text": "Whenever the shaded part of the segmented circle points down, a white star appears at the opposite edge or corner to the face."
+      }
+    ],
+    "figures": [
+      "./assets/abstract/question-056.png"
+    ],
+    "source": "Administrators-2023-Ultimate-Eu-Test-Book.pdf"
+  },
+  {
+    "id": "abstract-q-57",
+    "part": "Abstract Reasoning",
+    "number": 57,
+    "prompt": "Which figure completes the series below?",
+    "options": {
+      "A": "Figure A",
+      "B": "Figure B",
+      "C": "Figure C",
+      "D": "Figure D",
+      "E": "Figure E"
+    },
+    "answer": "B",
+    "rationale": "Rule 1: The number of points on the star determines the number of shapes in the next figure, including the star itself. There is no fixed sequence regarding which star will be in the next figure.\nRule 2: If there are an odd number of shapes (including the star), the non-star shapes are triangles. If there is an even number of shapes, the nonstar shapes are squares.\nRule 3: Half of the shapes are black and half are white. If there are an odd number of shapes, the “extra” shape is always white.\nRule 4: The star alternates between being white for two figures and black for two figures.",
+    "rules": [
+      {
+        "label": "Rule 1",
+        "text": "The number of points on the star determines the number of shapes in the next figure, including the star itself. There is no fixed sequence regarding which star will be in the next figure."
+      },
+      {
+        "label": "Rule 2",
+        "text": "If there are an odd number of shapes (including the star), the non-star shapes are triangles. If there is an even number of shapes, the nonstar shapes are squares."
+      },
+      {
+        "label": "Rule 3",
+        "text": "Half of the shapes are black and half are white. If there are an odd number of shapes, the “extra” shape is always white."
+      },
+      {
+        "label": "Rule 4",
+        "text": "The star alternates between being white for two figures and black for two figures."
+      }
+    ],
+    "figures": [
+      "./assets/abstract/question-057.png"
+    ],
+    "source": "Administrators-2023-Ultimate-Eu-Test-Book.pdf"
+  },
+  {
+    "id": "abstract-q-58",
+    "part": "Abstract Reasoning",
+    "number": 58,
+    "prompt": "Which figure completes the series below?",
+    "options": {
+      "A": "Figure A",
+      "B": "Figure B",
+      "C": "Figure C",
+      "D": "Figure D",
+      "E": "Figure E"
+    },
+    "answer": "E",
+    "rationale": "Rule 1: The arrow heads alternate between pointing left and right and pointing up and down. The position of the arrow heads is at the top right and bottom left for two figures, then at the top left and bottom right for two figures. After four figures, the sequence repeats.\nRule 2: The arrows on the left half of the figure have the effect of changing the fill of the shape they point to between a downward right diagonal stripe and a downward left diagonal stripe. The change itself takes place in the next figure in the sequence.\nRule 3: The arrows on the right half of the figure have the effect of changing the shape they point to. Triangles change into squares, squares change into hexagons and hexagons change into triangles. The change itself takes place in the next figure in the sequence.\nRule 4: The shapes on the right hand side of the figure all alternate between black and white each time.",
+    "rules": [
+      {
+        "label": "Rule 1",
+        "text": "The arrow heads alternate between pointing left and right and pointing up and down. The position of the arrow heads is at the top right and bottom left for two figures, then at the top left and bottom right for two figures. After four figures, the sequence repeats."
+      },
+      {
+        "label": "Rule 2",
+        "text": "The arrows on the left half of the figure have the effect of changing the fill of the shape they point to between a downward right diagonal stripe and a downward left diagonal stripe. The change itself takes place in the next figure in the sequence."
+      },
+      {
+        "label": "Rule 3",
+        "text": "The arrows on the right half of the figure have the effect of changing the shape they point to. Triangles change into squares, squares change into hexagons and hexagons change into triangles. The change itself takes place in the next figure in the sequence."
+      },
+      {
+        "label": "Rule 4",
+        "text": "The shapes on the right hand side of the figure all alternate between black and white each time."
+      }
+    ],
+    "figures": [
+      "./assets/abstract/question-058.png"
+    ],
+    "source": "Administrators-2023-Ultimate-Eu-Test-Book.pdf"
+  },
+  {
+    "id": "abstract-q-59",
+    "part": "Abstract Reasoning",
+    "number": 59,
+    "prompt": "Which figure completes the series below?",
+    "options": {
+      "A": "Figure A",
+      "B": "Figure B",
+      "C": "Figure C",
+      "D": "Figure D",
+      "E": "Figure E"
+    },
+    "answer": "E",
+    "rationale": "Rule 1: The small and medium circles take an increasing number of steps around the large one.\nRule 2: The small circle takes a single anti-clockwise step around the medium circle in each turn.\nRule 3: The large circle changes shading each time the medium circle is in the 12 o’clock position.\nRule 4: The medium circle changes shading in every second turn.\nRule 5: The small circle changes shading in every turn.",
+    "rules": [
+      {
+        "label": "Rule 1",
+        "text": "The small and medium circles take an increasing number of steps around the large one."
+      },
+      {
+        "label": "Rule 2",
+        "text": "The small circle takes a single anti-clockwise step around the medium circle in each turn."
+      },
+      {
+        "label": "Rule 3",
+        "text": "The large circle changes shading each time the medium circle is in the 12 o’clock position."
+      },
+      {
+        "label": "Rule 4",
+        "text": "The medium circle changes shading in every second turn."
+      },
+      {
+        "label": "Rule 5",
+        "text": "The small circle changes shading in every turn."
+      }
+    ],
+    "figures": [
+      "./assets/abstract/question-059.png"
+    ],
+    "source": "Administrators-2023-Ultimate-Eu-Test-Book.pdf"
+  },
+  {
+    "id": "abstract-q-60",
+    "part": "Abstract Reasoning",
+    "number": 60,
+    "prompt": "Which figure completes the series below?",
+    "options": {
+      "A": "Figure A",
+      "B": "Figure B",
+      "C": "Figure C",
+      "D": "Figure D",
+      "E": "Figure E"
+    },
+    "answer": "C",
+    "rationale": "Rule 1: The two triangles rotate by 45° anti-clockwise each time.\nRule 3: Looking at them from where their bases are joined (i.e. treating them like the left and right ears of a rabbit), the two triangles are both white, then white and black, then both black, then black and white. This sequence then repeats.\nRule 4: The black circle’s position alternates between being at the corner of the figure that is closest to where the two triangles are pointing and being in the corner that is diagonally opposite to where the triangles are pointing.",
+    "rules": [
+      {
+        "label": "Rule 1",
+        "text": "The two triangles rotate by 45° anti-clockwise each time."
+      },
+      {
+        "label": "Rule 3",
+        "text": "Looking at them from where their bases are joined (i.e. treating them like the left and right ears of a rabbit), the two triangles are both white, then white and black, then both black, then black and white. This sequence then repeats."
+      },
+      {
+        "label": "Rule 4",
+        "text": "The black circle’s position alternates between being at the corner of the figure that is closest to where the two triangles are pointing and being in the corner that is diagonally opposite to where the triangles are pointing."
+      }
+    ],
+    "figures": [
+      "./assets/abstract/question-060.png"
+    ],
+    "source": "Administrators-2023-Ultimate-Eu-Test-Book.pdf"
+  },
+  {
+    "id": "abstract-q-61",
+    "part": "Abstract Reasoning",
+    "number": 61,
+    "prompt": "Which figure completes the series below?",
+    "options": {
+      "A": "Figure A",
+      "B": "Figure B",
+      "C": "Figure C",
+      "D": "Figure D",
+      "E": "Figure E"
+    },
+    "answer": "C",
+    "rationale": "Rule 1: The square alternates between jumping diagonally between opposite corners and taking two clockwise steps.\nRule 2: The circle and the square swap their shading in every other step.\nRule 3: The group of dots follows the square, indicating the square’s position in the previous step.",
+    "rules": [
+      {
+        "label": "Rule 1",
+        "text": "The square alternates between jumping diagonally between opposite corners and taking two clockwise steps."
+      },
+      {
+        "label": "Rule 2",
+        "text": "The circle and the square swap their shading in every other step."
+      },
+      {
+        "label": "Rule 3",
+        "text": "The group of dots follows the square, indicating the square’s position in the previous step."
+      }
+    ],
+    "figures": [
+      "./assets/abstract/question-061.png"
+    ],
+    "source": "Administrators-2023-Ultimate-Eu-Test-Book.pdf"
+  },
+  {
+    "id": "abstract-q-62",
+    "part": "Abstract Reasoning",
+    "number": 62,
+    "prompt": "Which figure completes the series below?",
+    "options": {
+      "A": "Figure A",
+      "B": "Figure B",
+      "C": "Figure C",
+      "D": "Figure D",
+      "E": "Figure E"
+    },
+    "answer": "D",
+    "rationale": "Rule 1: The circles at the top left corner migrate from the left to the right corner one by one in every other step. The migration starts between the first and second steps.\nRule 2: The circles at the bottom right corner migrate from the right to the left corner one by one in every other step. The migration already started before the start of the series, and continues from between the second and third steps.\nRule 3: Circle clusters are shaded when there is an odd number of circles and unshaded when an even number.\nRule 4: The triangle alternates between pointing up and pointing down.",
+    "rules": [
+      {
+        "label": "Rule 1",
+        "text": "The circles at the top left corner migrate from the left to the right corner one by one in every other step. The migration starts between the first and second steps."
+      },
+      {
+        "label": "Rule 2",
+        "text": "The circles at the bottom right corner migrate from the right to the left corner one by one in every other step. The migration already started before the start of the series, and continues from between the second and third steps."
+      },
+      {
+        "label": "Rule 3",
+        "text": "Circle clusters are shaded when there is an odd number of circles and unshaded when an even number."
+      },
+      {
+        "label": "Rule 4",
+        "text": "The triangle alternates between pointing up and pointing down."
+      }
+    ],
+    "figures": [
+      "./assets/abstract/question-062.png"
+    ],
+    "source": "Administrators-2023-Ultimate-Eu-Test-Book.pdf"
+  },
+  {
+    "id": "abstract-q-63",
+    "part": "Abstract Reasoning",
+    "number": 63,
+    "prompt": "Which figure completes the series below?",
+    "options": {
+      "A": "Figure A",
+      "B": "Figure B",
+      "C": "Figure C",
+      "D": "Figure D",
+      "E": "Figure E"
+    },
+    "answer": "A",
+    "rationale": "Rule 1: The shading within the triangle moves from top to bottom, alternating between the left and right side between steps. When the shading reaches the bottom level, it resets to the top level in the next step (as on the right-hand side between the first and second steps).\nRule 2: The two circles show where the shading will be the following turn.\nRule 3: The circles’ shadings are the opposite of the triangle segment they are next to in a given turn.",
+    "rules": [
+      {
+        "label": "Rule 1",
+        "text": "The shading within the triangle moves from top to bottom, alternating between the left and right side between steps. When the shading reaches the bottom level, it resets to the top level in the next step (as on the right-hand side between the first and second steps)."
+      },
+      {
+        "label": "Rule 2",
+        "text": "The two circles show where the shading will be the following turn."
+      },
+      {
+        "label": "Rule 3",
+        "text": "The circles’ shadings are the opposite of the triangle segment they are next to in a given turn."
+      }
+    ],
+    "figures": [
+      "./assets/abstract/question-063.png"
+    ],
+    "source": "Administrators-2023-Ultimate-Eu-Test-Book.pdf"
+  },
+  {
+    "id": "abstract-q-64",
+    "part": "Abstract Reasoning",
+    "number": 64,
+    "prompt": "Which figure completes the series below?",
+    "options": {
+      "A": "Figure A",
+      "B": "Figure B",
+      "C": "Figure C",
+      "D": "Figure D",
+      "E": "Figure E"
+    },
+    "answer": "E",
+    "rationale": "Rule 1: The circle takes a clockwise step each turn.\nRule 2: The square the circle lands in will either move away from or towards the middle (based on its current position) the next turn.\nRule 3: The circle is unshaded when it is in squares that are in the middle.",
+    "rules": [
+      {
+        "label": "Rule 1",
+        "text": "The circle takes a clockwise step each turn."
+      },
+      {
+        "label": "Rule 2",
+        "text": "The square the circle lands in will either move away from or towards the middle (based on its current position) the next turn."
+      },
+      {
+        "label": "Rule 3",
+        "text": "The circle is unshaded when it is in squares that are in the middle."
+      }
+    ],
+    "figures": [
+      "./assets/abstract/question-064.png"
+    ],
+    "source": "Administrators-2023-Ultimate-Eu-Test-Book.pdf"
+  },
+  {
+    "id": "abstract-q-65",
+    "part": "Abstract Reasoning",
+    "number": 65,
+    "prompt": "Which figure completes the series below?",
+    "options": {
+      "A": "Figure A",
+      "B": "Figure B",
+      "C": "Figure C",
+      "D": "Figure D",
+      "E": "Figure E"
+    },
+    "answer": "A",
+    "rationale": "Rule 1: The square with the connector lines to neighbouring squares moves from left to right in each step. When it reaches the right edge of the figure, it moves onto the next row down.\nRule 2: The squares which were connected to the moving square in the previous step become shaded in the next step.\nRule 3: The 9-square grid is framed in every other step.",
+    "rules": [
+      {
+        "label": "Rule 1",
+        "text": "The square with the connector lines to neighbouring squares moves from left to right in each step. When it reaches the right edge of the figure, it moves onto the next row down."
+      },
+      {
+        "label": "Rule 2",
+        "text": "The squares which were connected to the moving square in the previous step become shaded in the next step."
+      },
+      {
+        "label": "Rule 3",
+        "text": "The 9-square grid is framed in every other step."
+      }
+    ],
+    "figures": [
+      "./assets/abstract/question-065.png"
+    ],
+    "source": "Administrators-2023-Ultimate-Eu-Test-Book.pdf"
+  },
+  {
+    "id": "abstract-q-66",
+    "part": "Abstract Reasoning",
+    "number": 66,
+    "prompt": "Which figure completes the series below?",
+    "options": {
+      "A": "Figure A",
+      "B": "Figure B",
+      "C": "Figure C",
+      "D": "Figure D",
+      "E": "Figure E"
+    },
+    "answer": "E",
+    "rationale": "Rule 1: The set of rectangles rotates 90 degrees clockwise in each step.\nRule 2: Every second time that either a single horizontal or vertical rectangle lies on top of the 2 lower layers of rectangles, it is shaded.",
+    "rules": [
+      {
+        "label": "Rule 1",
+        "text": "The set of rectangles rotates 90 degrees clockwise in each step."
+      },
+      {
+        "label": "Rule 2",
+        "text": "Every second time that either a single horizontal or vertical rectangle lies on top of the 2 lower layers of rectangles, it is shaded."
+      }
+    ],
+    "figures": [
+      "./assets/abstract/question-066.png"
+    ],
+    "source": "Administrators-2023-Ultimate-Eu-Test-Book.pdf"
+  },
+  {
+    "id": "abstract-q-67",
+    "part": "Abstract Reasoning",
+    "number": 67,
+    "prompt": "Which figure completes the series below?",
+    "options": {
+      "A": "Figure A",
+      "B": "Figure B",
+      "C": "Figure C",
+      "D": "Figure D",
+      "E": "Figure E"
+    },
+    "answer": "B",
+    "rationale": "Rule 1: In each step, one or two shapes move either to the middle or to the edge. Movement starts with the two shapes on the left, and then proceeds in a clockwise direction in a 2-1-2-1 sequence (two shapes move, then one shape moves…).\nRule 2: One shape in each figure is connected with lines to the two shapes in the opposite half (top or bottom) of the figure. This connection travels clockwise from one shape to the next, starting from the shape in the top right corner.\nRule 3: Shapes that are not aligned horizontally with their pairs (i.e. if the two rectangles or circles are not in the same horizontal line) are shaded, otherwise they are not.",
+    "rules": [
+      {
+        "label": "Rule 1",
+        "text": "In each step, one or two shapes move either to the middle or to the edge. Movement starts with the two shapes on the left, and then proceeds in a clockwise direction in a 2-1-2-1 sequence (two shapes move, then one shape moves…)."
+      },
+      {
+        "label": "Rule 2",
+        "text": "One shape in each figure is connected with lines to the two shapes in the opposite half (top or bottom) of the figure. This connection travels clockwise from one shape to the next, starting from the shape in the top right corner."
+      },
+      {
+        "label": "Rule 3",
+        "text": "Shapes that are not aligned horizontally with their pairs (i.e. if the two rectangles or circles are not in the same horizontal line) are shaded, otherwise they are not."
+      }
+    ],
+    "figures": [
+      "./assets/abstract/question-067.png"
+    ],
+    "source": "Administrators-2023-Ultimate-Eu-Test-Book.pdf"
+  },
+  {
+    "id": "abstract-q-68",
+    "part": "Abstract Reasoning",
+    "number": 68,
+    "prompt": "Which figure completes the series below?",
+    "options": {
+      "A": "Figure A",
+      "B": "Figure B",
+      "C": "Figure C",
+      "D": "Figure D",
+      "E": "Figure E"
+    },
+    "answer": "E",
+    "rationale": "Rule 1: The shading of the larger circles takes a step clockwise each turn, moving from circle to circle to reach the next segment in the sequence.\nRule 2: The small circles within the circles take a clockwise step each turn.\nRule 3: The small circles are alternately either shaded or unshaded, based on whether the large circle they are in has the large shading or not.",
+    "rules": [
+      {
+        "label": "Rule 1",
+        "text": "The shading of the larger circles takes a step clockwise each turn, moving from circle to circle to reach the next segment in the sequence."
+      },
+      {
+        "label": "Rule 2",
+        "text": "The small circles within the circles take a clockwise step each turn."
+      },
+      {
+        "label": "Rule 3",
+        "text": "The small circles are alternately either shaded or unshaded, based on whether the large circle they are in has the large shading or not."
+      }
+    ],
+    "figures": [
+      "./assets/abstract/question-068.png"
+    ],
+    "source": "Administrators-2023-Ultimate-Eu-Test-Book.pdf"
+  },
+  {
+    "id": "abstract-q-69",
+    "part": "Abstract Reasoning",
+    "number": 69,
+    "prompt": "Which figure completes the series below?",
+    "options": {
+      "A": "Figure A",
+      "B": "Figure B",
+      "C": "Figure C",
+      "D": "Figure D",
+      "E": "Figure E"
+    },
+    "answer": "B",
+    "rationale": "Rule 1: Small circles move clockwise as a group (not one by one) in each step from one segment of the large shapes to another.\nRule 2: As the small circles move to and through the segments of the top right shape, they increase by 1 in each step.\nRule 3: As the small circles move to the bottom shape, their number resets to 1.\nRule 4: As the small circles move to and through the segments of the top left shape, they change their shading.",
+    "rules": [
+      {
+        "label": "Rule 1",
+        "text": "Small circles move clockwise as a group (not one by one) in each step from one segment of the large shapes to another."
+      },
+      {
+        "label": "Rule 2",
+        "text": "As the small circles move to and through the segments of the top right shape, they increase by 1 in each step."
+      },
+      {
+        "label": "Rule 3",
+        "text": "As the small circles move to the bottom shape, their number resets to 1."
+      },
+      {
+        "label": "Rule 4",
+        "text": "As the small circles move to and through the segments of the top left shape, they change their shading."
+      }
+    ],
+    "figures": [
+      "./assets/abstract/question-069.png"
+    ],
+    "source": "Administrators-2023-Ultimate-Eu-Test-Book.pdf"
+  },
+  {
+    "id": "abstract-q-70",
+    "part": "Abstract Reasoning",
+    "number": 70,
+    "prompt": "Which figure completes the series below?",
+    "options": {
+      "A": "Figure A",
+      "B": "Figure B",
+      "C": "Figure C",
+      "D": "Figure D",
+      "E": "Figure E"
+    },
+    "answer": "B",
+    "rationale": "Rule 1: Circles hanging from the top move from top to bottom, stopping at the bottom for a step before starting to move upwards again.\nRule 2: The shading of the circles moves from left to right. Once it reaches the rightmost position, it reappears on the left side.\nRule 3: When a circle is shaded, it will move two positions (up or down) in the following step.",
+    "rules": [
+      {
+        "label": "Rule 1",
+        "text": "Circles hanging from the top move from top to bottom, stopping at the bottom for a step before starting to move upwards again."
+      },
+      {
+        "label": "Rule 2",
+        "text": "The shading of the circles moves from left to right. Once it reaches the rightmost position, it reappears on the left side."
+      },
+      {
+        "label": "Rule 3",
+        "text": "When a circle is shaded, it will move two positions (up or down) in the following step."
+      }
+    ],
+    "figures": [
+      "./assets/abstract/question-070.png"
+    ],
+    "source": "Administrators-2023-Ultimate-Eu-Test-Book.pdf"
+  },
+  {
+    "id": "abstract-q-71",
+    "part": "Abstract Reasoning",
+    "number": 71,
+    "prompt": "Which figure completes the series below?",
+    "options": {
+      "A": "Figure A",
+      "B": "Figure B",
+      "C": "Figure C",
+      "D": "Figure D",
+      "E": "Figure E"
+    },
+    "answer": "C",
+    "rationale": "Rule 1: The setup of shapes alternates between 3 columns with 2 dividing lines and 2 columns with 3 dividing lines.\nRule 2: The shading of the columns moves one space from left to right from each 3-column shape to the next 3-column shape, and one space from left to right from each 2-column shape to the next 2-column shape.\nRule 3: The circles also move from left to right along the top and bottom points of the dividing lines. When they reach the rightmost point, they reset to the leftmost position.",
+    "rules": [
+      {
+        "label": "Rule 1",
+        "text": "The setup of shapes alternates between 3 columns with 2 dividing lines and 2 columns with 3 dividing lines."
+      },
+      {
+        "label": "Rule 2",
+        "text": "The shading of the columns moves one space from left to right from each 3-column shape to the next 3-column shape, and one space from left to right from each 2-column shape to the next 2-column shape."
+      },
+      {
+        "label": "Rule 3",
+        "text": "The circles also move from left to right along the top and bottom points of the dividing lines. When they reach the rightmost point, they reset to the leftmost position."
+      }
+    ],
+    "figures": [
+      "./assets/abstract/question-071.png"
+    ],
+    "source": "Administrators-2023-Ultimate-Eu-Test-Book.pdf"
+  },
+  {
+    "id": "abstract-q-72",
+    "part": "Abstract Reasoning",
+    "number": 72,
+    "prompt": "Which figure completes the series below?",
+    "options": {
+      "A": "Figure A",
+      "B": "Figure B",
+      "C": "Figure C",
+      "D": "Figure D",
+      "E": "Figure E"
+    },
+    "answer": "E",
+    "rationale": "Rule 1: The setup of shapes alternates between 3/4/3 and 4/3/4 rows of squares.\nRule 2: The shading in each row moves left to right but only when the given row is visible.",
+    "rules": [
+      {
+        "label": "Rule 1",
+        "text": "The setup of shapes alternates between 3/4/3 and 4/3/4 rows of squares."
+      },
+      {
+        "label": "Rule 2",
+        "text": "The shading in each row moves left to right but only when the given row is visible."
+      }
+    ],
+    "figures": [
+      "./assets/abstract/question-072.png"
+    ],
+    "source": "Administrators-2023-Ultimate-Eu-Test-Book.pdf"
+  },
+  {
+    "id": "abstract-q-73",
+    "part": "Abstract Reasoning",
+    "number": 73,
+    "prompt": "Which figure completes the series below?",
+    "options": {
+      "A": "Figure A",
+      "B": "Figure B",
+      "C": "Figure C",
+      "D": "Figure D",
+      "E": "Figure E"
+    },
+    "answer": "B",
+    "rationale": "Rule 1: Going anticlockwise, a circle in each step has an increasing number of connections to subsequent circles in an anticlockwise direction. This resets to 1 connection after reaching 4.\nRule 2: The number of shaded circles increases by one and the shading moves in an anticlockwise direction in each step. When the number of shaded circles reaches 5, it resets to 1.\nRule 3: The connections alternate between reaching the middle or only the edge of the circles.",
+    "rules": [
+      {
+        "label": "Rule 1",
+        "text": "Going anticlockwise, a circle in each step has an increasing number of connections to subsequent circles in an anticlockwise direction. This resets to 1 connection after reaching 4."
+      },
+      {
+        "label": "Rule 2",
+        "text": "The number of shaded circles increases by one and the shading moves in an anticlockwise direction in each step. When the number of shaded circles reaches 5, it resets to 1."
+      },
+      {
+        "label": "Rule 3",
+        "text": "The connections alternate between reaching the middle or only the edge of the circles."
+      }
+    ],
+    "figures": [
+      "./assets/abstract/question-073.png"
+    ],
+    "source": "Administrators-2023-Ultimate-Eu-Test-Book.pdf"
+  },
+  {
+    "id": "abstract-q-74",
+    "part": "Abstract Reasoning",
+    "number": 74,
+    "prompt": "Which figure completes the series below?",
+    "options": {
+      "A": "Figure A",
+      "B": "Figure B",
+      "C": "Figure C",
+      "D": "Figure D",
+      "E": "Figure E"
+    },
+    "answer": "A",
+    "rationale": "Rule 1: In each square, the number of circles increases by 1 in each step, resetting to 1 after it has reached a maximum of 4.\nRule 2: Starting from 2 in the first figure, the number of shaded circles increases by 1 in each step from left to right, resetting to 1 after reaching a maximum of 4.\nRule 3: The number of shaded circles in a given step dictates how many anticlockwise steps the shading of the rectangle will take between the current and next steps.",
+    "rules": [
+      {
+        "label": "Rule 1",
+        "text": "In each square, the number of circles increases by 1 in each step, resetting to 1 after it has reached a maximum of 4."
+      },
+      {
+        "label": "Rule 2",
+        "text": "Starting from 2 in the first figure, the number of shaded circles increases by 1 in each step from left to right, resetting to 1 after reaching a maximum of 4."
+      },
+      {
+        "label": "Rule 3",
+        "text": "The number of shaded circles in a given step dictates how many anticlockwise steps the shading of the rectangle will take between the current and next steps."
+      }
+    ],
+    "figures": [
+      "./assets/abstract/question-074.png"
+    ],
+    "source": "Administrators-2023-Ultimate-Eu-Test-Book.pdf"
+  },
+  {
+    "id": "abstract-q-75",
+    "part": "Abstract Reasoning",
+    "number": 75,
+    "prompt": "Which figure completes the series below?",
+    "options": {
+      "A": "Figure A",
+      "B": "Figure B",
+      "C": "Figure C",
+      "D": "Figure D",
+      "E": "Figure E"
+    },
+    "answer": "D",
+    "rationale": "Rule 1: Each small circle can have the following states, in the following order: unshaded, shaded, shaded with an intersecting line. When a circle reaches the third state, it remains in that state until affected another rule.\nRule 2: The shading of the large half circles moves from top left to bottom left and top right to bottom right.\nRule 3: When a large half circle becomes shaded, the small circle in that sector resets to its starting (unshaded) state.",
+    "rules": [
+      {
+        "label": "Rule 1",
+        "text": "Each small circle can have the following states, in the following order: unshaded, shaded, shaded with an intersecting line. When a circle reaches the third state, it remains in that state until affected another rule."
+      },
+      {
+        "label": "Rule 2",
+        "text": "The shading of the large half circles moves from top left to bottom left and top right to bottom right."
+      },
+      {
+        "label": "Rule 3",
+        "text": "When a large half circle becomes shaded, the small circle in that sector resets to its starting (unshaded) state."
+      }
+    ],
+    "figures": [
+      "./assets/abstract/question-075.png"
+    ],
+    "source": "Administrators-2023-Ultimate-Eu-Test-Book.pdf"
+  },
+  {
+    "id": "abstract-q-76",
+    "part": "Abstract Reasoning",
+    "number": 76,
+    "prompt": "Which figure completes the series below?",
+    "options": {
+      "A": "Figure A",
+      "B": "Figure B",
+      "C": "Figure C",
+      "D": "Figure D",
+      "E": "Figure E"
+    },
+    "answer": "D",
+    "rationale": "Rule 1: The shading of the squares moves from left to right and from top to bottom in both columns. When the shading reaches the bottom, it resets to the top left position and continues from there.\nRule 2: Shaded squares move away from the column in the following step.\nRule 3: Squares that moved away from the column in a given step move back to their original position in the next step.",
+    "rules": [
+      {
+        "label": "Rule 1",
+        "text": "The shading of the squares moves from left to right and from top to bottom in both columns. When the shading reaches the bottom, it resets to the top left position and continues from there."
+      },
+      {
+        "label": "Rule 2",
+        "text": "Shaded squares move away from the column in the following step."
+      },
+      {
+        "label": "Rule 3",
+        "text": "Squares that moved away from the column in a given step move back to their original position in the next step."
+      }
+    ],
+    "figures": [
+      "./assets/abstract/question-076.png"
+    ],
+    "source": "Administrators-2023-Ultimate-Eu-Test-Book.pdf"
+  },
+  {
+    "id": "abstract-q-77",
+    "part": "Abstract Reasoning",
+    "number": 77,
+    "prompt": "Which figure completes the series below?",
+    "options": {
+      "A": "Figure A",
+      "B": "Figure B",
+      "C": "Figure C",
+      "D": "Figure D",
+      "E": "Figure E"
+    },
+    "answer": "C",
+    "rationale": "Rule 1: The shaded circle takes a diagonal step towards the bottom right, then a vertical step downwards, then a diagonal step towards the top right, then a vertical one upwards, and then this pattern repeats. Diagonal steps are indicated by diagonal lines pointing to where the circle was in the previous step. When the circle reaches the right edge of the figure, the left-right direction of movement switches to right-left (although this is not visible in the series).\nRule 2: The unshaded circle takes a diagonal step towards the top right, then a vertical step upwards, then a diagonal step towards the bottom right, then a vertical one downwards, and then this pattern repeats. Diagonal steps are indicated by diagonal lines pointing to where the circle was in the previous step. When the circle reaches the right edge of the figure, the left-right direction of movement switches to right-left (although this is not visible in the series).",
+    "rules": [
+      {
+        "label": "Rule 1",
+        "text": "The shaded circle takes a diagonal step towards the bottom right, then a vertical step downwards, then a diagonal step towards the top right, then a vertical one upwards, and then this pattern repeats. Diagonal steps are indicated by diagonal lines pointing to where the circle was in the previous step. When the circle reaches the right edge of the figure, the left-right direction of movement switches to right-left (although this is not visible in the series)."
+      },
+      {
+        "label": "Rule 2",
+        "text": "The unshaded circle takes a diagonal step towards the top right, then a vertical step upwards, then a diagonal step towards the bottom right, then a vertical one downwards, and then this pattern repeats. Diagonal steps are indicated by diagonal lines pointing to where the circle was in the previous step. When the circle reaches the right edge of the figure, the left-right direction of movement switches to right-left (although this is not visible in the series)."
+      }
+    ],
+    "figures": [
+      "./assets/abstract/question-077.png"
+    ],
+    "source": "Administrators-2023-Ultimate-Eu-Test-Book.pdf"
+  },
+  {
+    "id": "abstract-q-78",
+    "part": "Abstract Reasoning",
+    "number": 78,
+    "prompt": "Which figure completes the series below?",
+    "options": {
+      "A": "Figure A",
+      "B": "Figure B",
+      "C": "Figure C",
+      "D": "Figure D",
+      "E": "Figure E"
+    },
+    "answer": "C",
+    "rationale": "Rule 1: In even-numbered steps (e.g. 2,4), a circle on the vertical arm changes position, going from left to right or right to left, alternating between the top and bottom circles. In odd-numbered steps (e.g. 3,5), a circle on the horizontal arm changes position, going from top to bottom or bottom to top, alternating between the left and right circles.\nRule 2: The circles are shaded when they are in opposite positions on the same ‘arm’, i.e. when one is on the right, the other on the left, or when one is pointing to the bottom and the other to the top. Another way to think about it is to say that the circles follow the shading pattern of none shaded, outer two shaded, all shaded, inner two shaded, and so on.",
+    "rules": [
+      {
+        "label": "Rule 1",
+        "text": "In even-numbered steps (e.g. 2,4), a circle on the vertical arm changes position, going from left to right or right to left, alternating between the top and bottom circles. In odd-numbered steps (e.g. 3,5), a circle on the horizontal arm changes position, going from top to bottom or bottom to top, alternating between the left and right circles."
+      },
+      {
+        "label": "Rule 2",
+        "text": "The circles are shaded when they are in opposite positions on the same ‘arm’, i.e. when one is on the right, the other on the left, or when one is pointing to the bottom and the other to the top. Another way to think about it is to say that the circles follow the shading pattern of none shaded, outer two shaded, all shaded, inner two shaded, and so on."
+      }
+    ],
+    "figures": [
+      "./assets/abstract/question-078.png"
+    ],
+    "source": "Administrators-2023-Ultimate-Eu-Test-Book.pdf"
+  },
+  {
+    "id": "abstract-q-79",
+    "part": "Abstract Reasoning",
+    "number": 79,
+    "prompt": "Which figure completes the series below?",
+    "options": {
+      "A": "Figure A",
+      "B": "Figure B",
+      "C": "Figure C",
+      "D": "Figure D",
+      "E": "Figure E"
+    },
+    "answer": "E",
+    "rationale": "Rule 1: The square that is three-quarters shaded moves 1-2-1 positions clockwise between steps.\nRule 2: The square that is one-quarter shaded moves 2-1-2 positions clockwise between steps.\nRule 3: The shaded circle in the middle moves 1-2-1 positions anticlockwise between steps.",
+    "rules": [
+      {
+        "label": "Rule 1",
+        "text": "The square that is three-quarters shaded moves 1-2-1 positions clockwise between steps."
+      },
+      {
+        "label": "Rule 2",
+        "text": "The square that is one-quarter shaded moves 2-1-2 positions clockwise between steps."
+      },
+      {
+        "label": "Rule 3",
+        "text": "The shaded circle in the middle moves 1-2-1 positions anticlockwise between steps."
+      }
+    ],
+    "figures": [
+      "./assets/abstract/question-079.png"
+    ],
+    "source": "Administrators-2023-Ultimate-Eu-Test-Book.pdf"
+  },
+  {
+    "id": "abstract-q-80",
+    "part": "Abstract Reasoning",
+    "number": 80,
+    "prompt": "Which figure completes the series below?",
+    "options": {
+      "A": "Figure A",
+      "B": "Figure B",
+      "C": "Figure C",
+      "D": "Figure D",
+      "E": "Figure E"
+    },
+    "answer": "C",
+    "rationale": "Rule 1: The lines originating from the top of the figure lengthen until they reach the bottom, and then start to shorten again. The number of steps a line takes is equal to the number of circles on it and the line only changes length in the step after a circle has landed on it.\nRule 2: The unshaded circle jumps one step from left to right while the shaded circle jumps two steps from left to right. When circles reach the right edge of the figure, they reappear on the left side and the movement continues.",
+    "rules": [
+      {
+        "label": "Rule 1",
+        "text": "The lines originating from the top of the figure lengthen until they reach the bottom, and then start to shorten again. The number of steps a line takes is equal to the number of circles on it and the line only changes length in the step after a circle has landed on it."
+      },
+      {
+        "label": "Rule 2",
+        "text": "The unshaded circle jumps one step from left to right while the shaded circle jumps two steps from left to right. When circles reach the right edge of the figure, they reappear on the left side and the movement continues."
+      }
+    ],
+    "figures": [
+      "./assets/abstract/question-080.png"
+    ],
+    "source": "Administrators-2023-Ultimate-Eu-Test-Book.pdf"
+  },
+  {
+    "id": "abstract-q-81",
+    "part": "Abstract Reasoning",
+    "number": 81,
+    "prompt": "Which figure completes the series below?",
+    "options": {
+      "A": "Figure A",
+      "B": "Figure B",
+      "C": "Figure C",
+      "D": "Figure D",
+      "E": "Figure E"
+    },
+    "answer": "D",
+    "rationale": "Rule 1: The unshaded circle takes left-to-right and then diagonal steps across the left/right points of the right angles.\nRule 2: The shaded circle takes diagonal and then left-to-right steps across the top/bottom points of the right angles.\nRule 3: When an unshaded circle lands on a right angle, it is mirrored vertically in the next step.\nRule 4: When a shaded circle lands on a right angle, it is mirrored horizontally in the next step.",
+    "rules": [
+      {
+        "label": "Rule 1",
+        "text": "The unshaded circle takes left-to-right and then diagonal steps across the left/right points of the right angles."
+      },
+      {
+        "label": "Rule 2",
+        "text": "The shaded circle takes diagonal and then left-to-right steps across the top/bottom points of the right angles."
+      },
+      {
+        "label": "Rule 3",
+        "text": "When an unshaded circle lands on a right angle, it is mirrored vertically in the next step."
+      },
+      {
+        "label": "Rule 4",
+        "text": "When a shaded circle lands on a right angle, it is mirrored horizontally in the next step."
+      }
+    ],
+    "figures": [
+      "./assets/abstract/question-081.png"
+    ],
+    "source": "Administrators-2023-Ultimate-Eu-Test-Book.pdf"
+  },
+  {
+    "id": "abstract-q-82",
+    "part": "Abstract Reasoning",
+    "number": 82,
+    "prompt": "Which figure completes the series below?",
+    "options": {
+      "A": "Figure A",
+      "B": "Figure B",
+      "C": "Figure C",
+      "D": "Figure D",
+      "E": "Figure E"
+    },
+    "answer": "A",
+    "rationale": "Rule 1: Circles (both shaded and unshaded) move from top to bottom, reappearing at the top after they have reached the bottom.\nRule 2: The squares switch shading in every step.\nRule 3: When a circle ‘jumps’ through a square, it assumes the shading of the square in the next step. If it already had the same shading as the square, nothing changes.",
+    "rules": [
+      {
+        "label": "Rule 1",
+        "text": "Circles (both shaded and unshaded) move from top to bottom, reappearing at the top after they have reached the bottom."
+      },
+      {
+        "label": "Rule 2",
+        "text": "The squares switch shading in every step."
+      },
+      {
+        "label": "Rule 3",
+        "text": "When a circle ‘jumps’ through a square, it assumes the shading of the square in the next step. If it already had the same shading as the square, nothing changes."
+      }
+    ],
+    "figures": [
+      "./assets/abstract/question-082.png"
+    ],
+    "source": "Administrators-2023-Ultimate-Eu-Test-Book.pdf"
+  },
+  {
+    "id": "abstract-q-83",
+    "part": "Abstract Reasoning",
+    "number": 83,
+    "prompt": "Which figure completes the series below?",
+    "options": {
+      "A": "Figure A",
+      "B": "Figure B",
+      "C": "Figure C",
+      "D": "Figure D",
+      "E": "Figure E"
+    },
+    "answer": "B",
+    "rationale": "Rule 1: The shapes containing the circles flip vertically one by one, going from left to right.\nRule 2: Once a shape has flipped, the circles contained in it start ‘falling’ out of it and into the next shape, one by one, starting with the bottom one first.\nRule 3: Falling circles change shading.",
+    "rules": [
+      {
+        "label": "Rule 1",
+        "text": "The shapes containing the circles flip vertically one by one, going from left to right."
+      },
+      {
+        "label": "Rule 2",
+        "text": "Once a shape has flipped, the circles contained in it start ‘falling’ out of it and into the next shape, one by one, starting with the bottom one first."
+      },
+      {
+        "label": "Rule 3",
+        "text": "Falling circles change shading."
+      }
+    ],
+    "figures": [
+      "./assets/abstract/question-083.png"
+    ],
+    "source": "Administrators-2023-Ultimate-Eu-Test-Book.pdf"
+  },
+  {
+    "id": "abstract-q-84",
+    "part": "Abstract Reasoning",
+    "number": 84,
+    "prompt": "Which figure completes the series below?",
+    "options": {
+      "A": "Figure A",
+      "B": "Figure B",
+      "C": "Figure C",
+      "D": "Figure D",
+      "E": "Figure E"
+    },
+    "answer": "E",
+    "rationale": "Rule 1: The line with the circle on the outside is rotated 90 degrees anticlockwise and then mirrored horizontally, then the pattern repeats.\nRule 2: The rectangular shape is mirrored vertically between each step.\nRule 3: The shaded circles at the points of the rectangle move clockwise in a 1-2-1 steps pattern.",
+    "rules": [
+      {
+        "label": "Rule 1",
+        "text": "The line with the circle on the outside is rotated 90 degrees anticlockwise and then mirrored horizontally, then the pattern repeats."
+      },
+      {
+        "label": "Rule 2",
+        "text": "The rectangular shape is mirrored vertically between each step."
+      },
+      {
+        "label": "Rule 3",
+        "text": "The shaded circles at the points of the rectangle move clockwise in a 1-2-1 steps pattern."
+      }
+    ],
+    "figures": [
+      "./assets/abstract/question-084.png"
+    ],
+    "source": "Administrators-2023-Ultimate-Eu-Test-Book.pdf"
+  },
+  {
+    "id": "abstract-q-85",
+    "part": "Abstract Reasoning",
+    "number": 85,
+    "prompt": "Which figure completes the series below?",
+    "options": {
+      "A": "Figure A",
+      "B": "Figure B",
+      "C": "Figure C",
+      "D": "Figure D",
+      "E": "Figure E"
+    },
+    "answer": "A",
+    "rationale": "Rule 1: The entire shape rotates 90 degrees clockwise in each step.\nRule 2: The shading takes a clockwise step across the three sections.\nRule 3: The shaded and unshaded circles swap positions in each step.",
+    "rules": [
+      {
+        "label": "Rule 1",
+        "text": "The entire shape rotates 90 degrees clockwise in each step."
+      },
+      {
+        "label": "Rule 2",
+        "text": "The shading takes a clockwise step across the three sections."
+      },
+      {
+        "label": "Rule 3",
+        "text": "The shaded and unshaded circles swap positions in each step."
+      }
+    ],
+    "figures": [
+      "./assets/abstract/question-085.png"
+    ],
+    "source": "Administrators-2023-Ultimate-Eu-Test-Book.pdf"
+  },
+  {
+    "id": "abstract-q-86",
+    "part": "Abstract Reasoning",
+    "number": 86,
+    "prompt": "Which figure completes the series below?",
+    "options": {
+      "A": "Figure A",
+      "B": "Figure B",
+      "C": "Figure C",
+      "D": "Figure D",
+      "E": "Figure E"
+    },
+    "answer": "D",
+    "rationale": "Rule 1: The arrows move from left to right between steps. Once they reach the rightmost position, they reappear on the left-hand side.\nRule 2: The arrows follow a down-up-up-pointing pattern.\nRule 3: Each shading takes one step in each row, from left to centre to right. When they reach the end of the row they move to the left position of the next row (top or bottom).",
+    "rules": [
+      {
+        "label": "Rule 1",
+        "text": "The arrows move from left to right between steps. Once they reach the rightmost position, they reappear on the left-hand side."
+      },
+      {
+        "label": "Rule 2",
+        "text": "The arrows follow a down-up-up-pointing pattern."
+      },
+      {
+        "label": "Rule 3",
+        "text": "Each shading takes one step in each row, from left to centre to right. When they reach the end of the row they move to the left position of the next row (top or bottom)."
+      }
+    ],
+    "figures": [
+      "./assets/abstract/question-086.png"
+    ],
+    "source": "Administrators-2023-Ultimate-Eu-Test-Book.pdf"
+  },
+  {
+    "id": "abstract-q-87",
+    "part": "Abstract Reasoning",
+    "number": 87,
+    "prompt": "Which figure completes the series below?",
+    "options": {
+      "A": "Figure A",
+      "B": "Figure B",
+      "C": "Figure C",
+      "D": "Figure D",
+      "E": "Figure E"
+    },
+    "answer": "C",
+    "rationale": "Rule 1: The shaded square moves from left to right along the row of squares in a 2-1-2 steps pattern, switching between rows when it reaches the right edge of the figure.\nRule 2: The circle is shaded while in the top row, unshaded while in the bottom row.\nRule 3: The circle moves around the rows, by two steps at a time from left to right when its starting position is in the bottom row, and by one step at a time from right to left when its starting position is in the top row.",
+    "rules": [
+      {
+        "label": "Rule 1",
+        "text": "The shaded square moves from left to right along the row of squares in a 2-1-2 steps pattern, switching between rows when it reaches the right edge of the figure."
+      },
+      {
+        "label": "Rule 2",
+        "text": "The circle is shaded while in the top row, unshaded while in the bottom row."
+      },
+      {
+        "label": "Rule 3",
+        "text": "The circle moves around the rows, by two steps at a time from left to right when its starting position is in the bottom row, and by one step at a time from right to left when its starting position is in the top row."
+      }
+    ],
+    "figures": [
+      "./assets/abstract/question-087.png"
+    ],
+    "source": "Administrators-2023-Ultimate-Eu-Test-Book.pdf"
+  },
+  {
+    "id": "abstract-q-88",
+    "part": "Abstract Reasoning",
+    "number": 88,
+    "prompt": "Which figure completes the series below?",
+    "options": {
+      "A": "Figure A",
+      "B": "Figure B",
+      "C": "Figure C",
+      "D": "Figure D",
+      "E": "Figure E"
+    },
+    "answer": "E",
+    "rationale": "Rule 1: The shaded triangle within the small square moves two positions and then one position clockwise between steps.\nRule 2: The circle in the small square moves clockwise around the four triangles.\nRule 3: A circle appears in a segment of the large square in each step going clockwise.\nRule 4: If the shading and the small circle appear in the same segment in a given step, the circle added to the large square will be shaded.",
+    "rules": [
+      {
+        "label": "Rule 1",
+        "text": "The shaded triangle within the small square moves two positions and then one position clockwise between steps."
+      },
+      {
+        "label": "Rule 2",
+        "text": "The circle in the small square moves clockwise around the four triangles."
+      },
+      {
+        "label": "Rule 3",
+        "text": "A circle appears in a segment of the large square in each step going clockwise."
+      },
+      {
+        "label": "Rule 4",
+        "text": "If the shading and the small circle appear in the same segment in a given step, the circle added to the large square will be shaded."
+      }
+    ],
+    "figures": [
+      "./assets/abstract/question-088.png"
+    ],
+    "source": "Administrators-2023-Ultimate-Eu-Test-Book.pdf"
+  },
+  {
+    "id": "abstract-q-89",
+    "part": "Abstract Reasoning",
+    "number": 89,
+    "prompt": "Which figure completes the series below?",
+    "options": {
+      "A": "Figure A",
+      "B": "Figure B",
+      "C": "Figure C",
+      "D": "Figure D",
+      "E": "Figure E"
+    },
+    "answer": "C",
+    "rationale": "Rule 1: In successive steps, the blank circles become minus (–) circles, the − circles become plus (+) circles and the + circles become blank.\nRule 2: When blank circles become − circles, they move to the middle; when − circles become + circles they move to the corners, and stay in the corners when reset to blank, moving to the middle again when they become − circles.",
+    "rules": [
+      {
+        "label": "Rule 1",
+        "text": "In successive steps, the blank circles become minus (–) circles, the − circles become plus (+) circles and the + circles become blank."
+      },
+      {
+        "label": "Rule 2",
+        "text": "When blank circles become − circles, they move to the middle; when − circles become + circles they move to the corners, and stay in the corners when reset to blank, moving to the middle again when they become − circles."
+      }
+    ],
+    "figures": [
+      "./assets/abstract/question-089.png"
+    ],
+    "source": "Administrators-2023-Ultimate-Eu-Test-Book.pdf"
+  },
+  {
+    "id": "abstract-q-90",
+    "part": "Abstract Reasoning",
+    "number": 90,
+    "prompt": "Which figure completes the series below?",
+    "options": {
+      "A": "Figure A",
+      "B": "Figure B",
+      "C": "Figure C",
+      "D": "Figure D",
+      "E": "Figure E"
+    },
+    "answer": "E",
+    "rationale": "Rule 1: In each step, a new circle is added, alternating between the left and the right columns. When a new circle is added in one of the columns, it pushes all previously added circles on that side down one row.\nRule 2: Each circle starts on the outside and then takes one step towards the centre, and then the cycle repeats.\nRule 3: The shading of the rectangle moves from left to right and top to bottom in a 1-2-1 pattern. When it reaches the bottom right corner, it continues from the top.\nRule 4: Circles become shaded when they are co-located with the shaded rectangle.",
+    "rules": [
+      {
+        "label": "Rule 1",
+        "text": "In each step, a new circle is added, alternating between the left and the right columns. When a new circle is added in one of the columns, it pushes all previously added circles on that side down one row."
+      },
+      {
+        "label": "Rule 2",
+        "text": "Each circle starts on the outside and then takes one step towards the centre, and then the cycle repeats."
+      },
+      {
+        "label": "Rule 3",
+        "text": "The shading of the rectangle moves from left to right and top to bottom in a 1-2-1 pattern. When it reaches the bottom right corner, it continues from the top."
+      },
+      {
+        "label": "Rule 4",
+        "text": "Circles become shaded when they are co-located with the shaded rectangle."
+      }
+    ],
+    "figures": [
+      "./assets/abstract/question-090.png"
+    ],
+    "source": "Administrators-2023-Ultimate-Eu-Test-Book.pdf"
+  },
+  {
+    "id": "abstract-q-91",
+    "part": "Abstract Reasoning",
+    "number": 91,
+    "prompt": "Which figure completes the series below?",
+    "options": {
+      "A": "Figure A",
+      "B": "Figure B",
+      "C": "Figure C",
+      "D": "Figure D",
+      "E": "Figure E"
+    },
+    "answer": "D",
+    "rationale": "Rule 1: The circle groups move according to the following pattern: (1) the circles at the top take a step from left to right; (2) the circle at the connecting vertical line drops to the bottom; (3) the circles at the bottom take a step from right to left; (4) the circle at the connecting vertical line ascends to the top. This cycle then repeats.\nRule 2: Circles that either dropped or ascended change their shading and stay that way.\nRule 3: The shading of the large circles changes (separately) in every other turn, i.e. the left circle changes shading in the second, fourth and sixth figure, while the right circle changes shading in the 3rd and 5th figures.",
+    "rules": [
+      {
+        "label": "Rule 1",
+        "text": "The circle groups move according to the following pattern: (1) the circles at the top take a step from left to right; (2) the circle at the connecting vertical line drops to the bottom; (3) the circles at the bottom take a step from right to left; (4) the circle at the connecting vertical line ascends to the top. This cycle then repeats."
+      },
+      {
+        "label": "Rule 2",
+        "text": "Circles that either dropped or ascended change their shading and stay that way."
+      },
+      {
+        "label": "Rule 3",
+        "text": "The shading of the large circles changes (separately) in every other turn, i.e. the left circle changes shading in the second, fourth and sixth figure, while the right circle changes shading in the 3rd and 5th figures."
+      }
+    ],
+    "figures": [
+      "./assets/abstract/question-091.png"
+    ],
+    "source": "Administrators-2023-Ultimate-Eu-Test-Book.pdf"
+  },
+  {
+    "id": "abstract-q-92",
+    "part": "Abstract Reasoning",
+    "number": 92,
+    "prompt": "Which figure completes the series below?",
+    "options": {
+      "A": "Figure A",
+      "B": "Figure B",
+      "C": "Figure C",
+      "D": "Figure D",
+      "E": "Figure E"
+    },
+    "answer": "C",
+    "rationale": "Rule 1: The two shaded circles move one position clockwise in each step.\nRule 2: The short double lines at right angles to the main connecting lines flip direction when there are two shaded circles at either end of the main line they connect to.\nRule 3: Shaded / unshaded, shaded / shaded, unshaded / unshaded circles are connected (with a line in bold), then it repeats. An additional connecting line appears in each figure, connecting the shaded to the unshaded circle first, then shaded to shaded, and finally unshaded to unshaded, and then the cycle repeats.",
+    "rules": [
+      {
+        "label": "Rule 1",
+        "text": "The two shaded circles move one position clockwise in each step."
+      },
+      {
+        "label": "Rule 2",
+        "text": "The short double lines at right angles to the main connecting lines flip direction when there are two shaded circles at either end of the main line they connect to."
+      },
+      {
+        "label": "Rule 3",
+        "text": "Shaded / unshaded, shaded / shaded, unshaded / unshaded circles are connected (with a line in bold), then it repeats. An additional connecting line appears in each figure, connecting the shaded to the unshaded circle first, then shaded to shaded, and finally unshaded to unshaded, and then the cycle repeats."
+      }
+    ],
+    "figures": [
+      "./assets/abstract/question-092.png"
+    ],
+    "source": "Administrators-2023-Ultimate-Eu-Test-Book.pdf"
+  },
+  {
+    "id": "abstract-q-93",
+    "part": "Abstract Reasoning",
+    "number": 93,
+    "prompt": "Which figure completes the series below?",
+    "options": {
+      "A": "Figure A",
+      "B": "Figure B",
+      "C": "Figure C",
+      "D": "Figure D",
+      "E": "Figure E"
+    },
+    "answer": "E",
+    "rationale": "Rule 1: The shaded triangles in both the bottom and top rows alternatingly take a left to right step.\nRule 2: Those triangles in the top row that are pointed at by the shaded triangles in the bottom row rotate 90 degrees anticlockwise in the next step.",
+    "rules": [
+      {
+        "label": "Rule 1",
+        "text": "The shaded triangles in both the bottom and top rows alternatingly take a left to right step."
+      },
+      {
+        "label": "Rule 2",
+        "text": "Those triangles in the top row that are pointed at by the shaded triangles in the bottom row rotate 90 degrees anticlockwise in the next step."
+      }
+    ],
+    "figures": [
+      "./assets/abstract/question-093.png"
+    ],
+    "source": "Administrators-2023-Ultimate-Eu-Test-Book.pdf"
+  },
+  {
+    "id": "abstract-q-94",
+    "part": "Abstract Reasoning",
+    "number": 94,
+    "prompt": "Which figure completes the series below?",
+    "options": {
+      "A": "Figure A",
+      "B": "Figure B",
+      "C": "Figure C",
+      "D": "Figure D",
+      "E": "Figure E"
+    },
+    "answer": "E",
+    "rationale": "Rule 1: The arms on the top side of the horizontal line change orientation one by one from left to right, and then right to left.\nRule 2: The arms on the bottom side of the horizontal line change orientation one by one from right to left, and then left to right.\nRule 3: Arms that are mirrored horizontally have circles on their endpoints.",
+    "rules": [
+      {
+        "label": "Rule 1",
+        "text": "The arms on the top side of the horizontal line change orientation one by one from left to right, and then right to left."
+      },
+      {
+        "label": "Rule 2",
+        "text": "The arms on the bottom side of the horizontal line change orientation one by one from right to left, and then left to right."
+      },
+      {
+        "label": "Rule 3",
+        "text": "Arms that are mirrored horizontally have circles on their endpoints."
+      }
+    ],
+    "figures": [
+      "./assets/abstract/question-094.png"
+    ],
+    "source": "Administrators-2023-Ultimate-Eu-Test-Book.pdf"
+  },
+  {
+    "id": "abstract-q-95",
+    "part": "Abstract Reasoning",
+    "number": 95,
+    "prompt": "Which figure completes the series below?",
+    "options": {
+      "A": "Figure A",
+      "B": "Figure B",
+      "C": "Figure C",
+      "D": "Figure D",
+      "E": "Figure E"
+    },
+    "answer": "A",
+    "rationale": "Rule 1: The inside shaded circle on the left travels from top to bottom. When it reaches the bottom, it resets to the top position.\nRule 2: The inside shaded circle on the right travels from bottom to top. When it reaches the top, it resets to the bottom position.\nRule 3: Outer circles next to shaded inner ones will become shaded themselves the following turn.\nRule 4: The direction of the arms changes whenever the two inside circles next to each other are both either shaded or unshaded.",
+    "rules": [
+      {
+        "label": "Rule 1",
+        "text": "The inside shaded circle on the left travels from top to bottom. When it reaches the bottom, it resets to the top position."
+      },
+      {
+        "label": "Rule 2",
+        "text": "The inside shaded circle on the right travels from bottom to top. When it reaches the top, it resets to the bottom position."
+      },
+      {
+        "label": "Rule 3",
+        "text": "Outer circles next to shaded inner ones will become shaded themselves the following turn."
+      },
+      {
+        "label": "Rule 4",
+        "text": "The direction of the arms changes whenever the two inside circles next to each other are both either shaded or unshaded."
+      }
+    ],
+    "figures": [
+      "./assets/abstract/question-095.png"
+    ],
+    "source": "Administrators-2023-Ultimate-Eu-Test-Book.pdf"
+  },
+  {
+    "id": "abstract-q-96",
+    "part": "Abstract Reasoning",
+    "number": 96,
+    "prompt": "Which figure completes the series below?",
+    "options": {
+      "A": "Figure A",
+      "B": "Figure B",
+      "C": "Figure C",
+      "D": "Figure D",
+      "E": "Figure E"
+    },
+    "answer": "B",
+    "rationale": "Rule 1: The groups of circles within the sectors of the large circle move clockwise from sector to sector.\nRule 2: The two shaded circles in the corners of the figure alternate in taking single steps clockwise.\nRule 3: One circle from each inner circle group that falls in the same position as either of the shaded outer circles becomes shaded in the next step. If a circle from the group is already shaded, an additional one becomes shaded (if there are additional circles in the group).",
+    "rules": [
+      {
+        "label": "Rule 1",
+        "text": "The groups of circles within the sectors of the large circle move clockwise from sector to sector."
+      },
+      {
+        "label": "Rule 2",
+        "text": "The two shaded circles in the corners of the figure alternate in taking single steps clockwise."
+      },
+      {
+        "label": "Rule 3",
+        "text": "One circle from each inner circle group that falls in the same position as either of the shaded outer circles becomes shaded in the next step. If a circle from the group is already shaded, an additional one becomes shaded (if there are additional circles in the group)."
+      }
+    ],
+    "figures": [
+      "./assets/abstract/question-096.png"
+    ],
+    "source": "Administrators-2023-Ultimate-Eu-Test-Book.pdf"
+  },
+  {
+    "id": "abstract-q-97",
+    "part": "Abstract Reasoning",
+    "number": 97,
+    "prompt": "Which figure completes the series below?",
+    "options": {
+      "A": "Figure A",
+      "B": "Figure B",
+      "C": "Figure C",
+      "D": "Figure D",
+      "E": "Figure E"
+    },
+    "answer": "D",
+    "rationale": "Rule 1: Going clockwise, one triangle is rotated by 180 degrees in each step.\nRule 2: The shading travels along the triangles in a clockwise direction, starting from the top.\nRule 3: When the shading lands on a triangle, the triangle is rotated 90 degrees clockwise; then, in the subsequent step, it is rotated 90 degrees clockwise again.",
+    "rules": [
+      {
+        "label": "Rule 1",
+        "text": "Going clockwise, one triangle is rotated by 180 degrees in each step."
+      },
+      {
+        "label": "Rule 2",
+        "text": "The shading travels along the triangles in a clockwise direction, starting from the top."
+      },
+      {
+        "label": "Rule 3",
+        "text": "When the shading lands on a triangle, the triangle is rotated 90 degrees clockwise; then, in the subsequent step, it is rotated 90 degrees clockwise again."
+      }
+    ],
+    "figures": [
+      "./assets/abstract/question-097.png"
+    ],
+    "source": "Administrators-2023-Ultimate-Eu-Test-Book.pdf"
+  },
+  {
+    "id": "abstract-q-98",
+    "part": "Abstract Reasoning",
+    "number": 98,
+    "prompt": "Which figure completes the series below?",
+    "options": {
+      "A": "Figure A",
+      "B": "Figure B",
+      "C": "Figure C",
+      "D": "Figure D",
+      "E": "Figure E"
+    },
+    "answer": "A",
+    "rationale": "Rule 1: A single circle from the top left moves to the bottom left, then top right, then bottom right. Then another circle starts its journey along the same path.\nRule 2: When a circle lands in the bottom left corner, a circle in the bottom right corner becomes shaded for the rest of the series.\nRule 3: When a circle lands in the top right corner, a circle in the top left corner (if available) becomes shaded for the rest of the series.",
+    "rules": [
+      {
+        "label": "Rule 1",
+        "text": "A single circle from the top left moves to the bottom left, then top right, then bottom right. Then another circle starts its journey along the same path."
+      },
+      {
+        "label": "Rule 2",
+        "text": "When a circle lands in the bottom left corner, a circle in the bottom right corner becomes shaded for the rest of the series."
+      },
+      {
+        "label": "Rule 3",
+        "text": "When a circle lands in the top right corner, a circle in the top left corner (if available) becomes shaded for the rest of the series."
+      }
+    ],
+    "figures": [
+      "./assets/abstract/question-098.png"
+    ],
+    "source": "Administrators-2023-Ultimate-Eu-Test-Book.pdf"
+  },
+  {
+    "id": "abstract-q-99",
+    "part": "Abstract Reasoning",
+    "number": 99,
+    "prompt": "Which figure completes the series below?",
+    "options": {
+      "A": "Figure A",
+      "B": "Figure B",
+      "C": "Figure C",
+      "D": "Figure D",
+      "E": "Figure E"
+    },
+    "answer": "A",
+    "rationale": "Rule 1: The shaded quarters of both the large and small squares take alternating clockwise steps. This means that the shading in either square only moves every other step.\nRule 2: The small square alternates between being in front of or behind the large square.",
+    "rules": [
+      {
+        "label": "Rule 1",
+        "text": "The shaded quarters of both the large and small squares take alternating clockwise steps. This means that the shading in either square only moves every other step."
+      },
+      {
+        "label": "Rule 2",
+        "text": "The small square alternates between being in front of or behind the large square."
+      }
+    ],
+    "figures": [
+      "./assets/abstract/question-099.png"
+    ],
+    "source": "Administrators-2023-Ultimate-Eu-Test-Book.pdf"
+  },
+  {
+    "id": "abstract-q-100",
+    "part": "Abstract Reasoning",
+    "number": 100,
+    "prompt": "Which figure completes the series below?",
+    "options": {
+      "A": "Figure A",
+      "B": "Figure B",
+      "C": "Figure C",
+      "D": "Figure D",
+      "E": "Figure E"
+    },
+    "answer": "C",
+    "rationale": "Rule 1: All circles alternate between being shaded and unshaded. Those ‘hanging’ from the top have a left-right alternation while those connected to the side have a bottom-top alternation.\nRule 2: In each step, two circles are added to the figure. In even steps, they are added to the bottom group on the side and to the left group on the top; in odd steps, they are added to the top group on the side and the right group on the top.\nRule 3: The lines connecting the circles alternate between being visible and invisible.",
+    "rules": [
+      {
+        "label": "Rule 1",
+        "text": "All circles alternate between being shaded and unshaded. Those ‘hanging’ from the top have a left-right alternation while those connected to the side have a bottom-top alternation."
+      },
+      {
+        "label": "Rule 2",
+        "text": "In each step, two circles are added to the figure. In even steps, they are added to the bottom group on the side and to the left group on the top; in odd steps, they are added to the top group on the side and the right group on the top."
+      },
+      {
+        "label": "Rule 3",
+        "text": "The lines connecting the circles alternate between being visible and invisible."
+      }
+    ],
+    "figures": [
+      "./assets/abstract/question-100.png"
+    ],
+    "source": "Administrators-2023-Ultimate-Eu-Test-Book.pdf"
+  }
+];
