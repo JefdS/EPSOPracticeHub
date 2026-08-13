@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <meta name="theme-color" content="#2458a8" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+    <meta name="apple-mobile-web-app-title" content="EPSO Practice" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="description" content="Offline EPSO verbal, numerical, abstract reasoning, and EU knowledge practice tests." />
+    <title>EPSO Practice Hub</title>
+    <link rel="manifest" href="./manifest.webmanifest" />
+    <link rel="apple-touch-icon" href="./assets/icons/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="192x192" href="./assets/icons/icon-192.png" />
+    <link rel="stylesheet" href="./styles.css?v=15" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="hero">
+        <div class="home-hero-brand">
+          <span class="exam-brand-mark" aria-hidden="true">EU</span>
+          <div>
+            <h1>EPSO PRACTICE HUB</h1>
+          </div>
+        </div>
+        <div class="hero-actions" id="top-actions"></div>
+      </header>
+
+      <main id="app"></main>
+    </div>
+
+    <script src="./data/questions-data.js"></script>
+    <script src="./data/numerical-questions-data.js?v=15"></script>
+    <script src="./data/abstract-questions-data.js?v=5"></script>
+    <script src="./app.js?v=15"></script>
+  </body>
+</html>
