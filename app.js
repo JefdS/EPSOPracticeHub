@@ -1,7 +1,10 @@
 const app = document.querySelector("#app");
 const topActions = document.querySelector("#top-actions");
-const QUESTION_SECONDS = 120;
+const persistentHeader = document.querySelector(".hero");
+const DEFAULT_QUESTION_SECONDS = 120;
 const QUESTION_EDIT_STORAGE_KEY = "epso-question-bank-edits-v1";
+const CUSTOM_QUESTION_DB_NAME = "epso-practice-custom-content-v1";
+const CUSTOM_QUESTION_STORE = "questions";
 const HOME_TRAINER_ORDER = ["verbal", "numerical", "abstract", "eu"];
 
 const TRAINERS = {
@@ -52,10 +55,26 @@ let questionBanks = {};
 let activeTest = null;
 let timerInterval = null;
 
+observePersistentHeader();
+
 app.addEventListener("click", handleQuestionBankAction);
 app.addEventListener("submit", handleQuestionBankSubmit);
 
 init();
+
+function observePersistentHeader() {
+  if (!persistentHeader) return;
+  const updateHeaderHeight = () => {
+    document.documentElement.style.setProperty("--persistent-header-height", `${persistentHeader.offsetHeight}px`);
+  };
+
+  updateHeaderHeight();
+  if ("ResizeObserver" in window) {
+    new ResizeObserver(updateHeaderHeight).observe(persistentHeader);
+  } else {
+    window.addEventListener("resize", updateHeaderHeight);
+  }
+}
 
 if ("serviceWorker" in navigator && location.protocol !== "file:") {
   window.addEventListener("load", () => {
@@ -68,6 +87,8 @@ if ("serviceWorker" in navigator && location.protocol !== "file:") {
 async function init() {
   try {
     questionBanks = loadQuestionBanks();
+    mergeCustomQuestions(questionBanks, await loadCustomQuestions());
+    applyStoredQuestionEdits(questionBanks);
     renderHome();
   } catch (error) {
     app.innerHTML = `<section class="panel"><h2>Data loading failed</h2><p>${escapeHtml(
@@ -86,7 +107,6 @@ function loadQuestionBanks() {
     throw new Error("Question bank not available. Make sure data/questions-data.js is present.");
   }
 
-  applyStoredQuestionEdits(banks);
   return banks;
 }
 
@@ -124,17 +144,31 @@ function renderTrainerSection(trainer) {
           <p class="lede trainer-lede">${escapeHtml(trainer.description)}</p>
         </div>
       </div>
-      <div class="question-count-control">
-        <label for="${trainer.id}-question-count">${countLabel}</label>
-        <input
-          type="number"
-          id="${trainer.id}-question-count"
-          min="1"
-          max="20"
-          step="1"
-          value="${trainer.defaultQuestionCount}"
-          inputmode="numeric"
-        />
+      <div class="test-settings-controls">
+        <div class="question-count-control">
+          <label for="${trainer.id}-question-count">${countLabel}</label>
+          <input
+            type="number"
+            id="${trainer.id}-question-count"
+            min="1"
+            max="20"
+            step="1"
+            value="${trainer.defaultQuestionCount}"
+            inputmode="numeric"
+          />
+        </div>
+        <div class="question-count-control">
+          <label for="${trainer.id}-seconds-per-question">Seconds per question:</label>
+          <input
+            type="number"
+            id="${trainer.id}-seconds-per-question"
+            min="0"
+            max="300"
+            step="1"
+            value="${DEFAULT_QUESTION_SECONDS}"
+            inputmode="numeric"
+          />
+        </div>
       </div>
       <div class="hero-actions trainer-actions">
         ${buttonMarkup("Create fully random test", `${trainer.id}-random`)}
@@ -158,6 +192,7 @@ function renderTrainerSection(trainer) {
 
 function bindTrainerButtons(trainerId) {
   const countInput = app.querySelector(`#${trainerId}-question-count`);
+  const secondsInput = app.querySelector(`#${trainerId}-seconds-per-question`);
   countInput?.addEventListener("input", () => {
     const value = Number.parseInt(countInput.value, 10);
     if (!Number.isFinite(value)) return;
@@ -167,11 +202,20 @@ function bindTrainerButtons(trainerId) {
   countInput?.addEventListener("change", () => {
     countInput.value = String(getRequestedQuestionCount(trainerId));
   });
+  secondsInput?.addEventListener("input", () => {
+    const value = Number.parseInt(secondsInput.value, 10);
+    if (!Number.isFinite(value)) return;
+    if (value > 300) secondsInput.value = "300";
+    if (value < 0) secondsInput.value = "0";
+  });
+  secondsInput?.addEventListener("change", () => {
+    secondsInput.value = String(getRequestedQuestionSeconds(trainerId));
+  });
   app.querySelector(`#${trainerId}-random`)?.addEventListener("click", () =>
-    startTest(trainerId, "random", getRequestedQuestionCount(trainerId)),
+    startTest(trainerId, "random", getRequestedQuestionCount(trainerId), getRequestedQuestionSeconds(trainerId)),
   );
   app.querySelector(`#${trainerId}-new`)?.addEventListener("click", () =>
-    startTest(trainerId, "new", getRequestedQuestionCount(trainerId)),
+    startTest(trainerId, "new", getRequestedQuestionCount(trainerId), getRequestedQuestionSeconds(trainerId)),
   );
   app.querySelector(`#${trainerId}-correct`)?.addEventListener("click", () => renderLog(trainerId, "correct"));
   app.querySelector(`#${trainerId}-wrong`)?.addEventListener("click", () => renderLog(trainerId, "wrong"));
@@ -187,6 +231,12 @@ function getRequestedQuestionCount(trainerId) {
   return Math.min(20, Math.max(1, Number.isFinite(requested) ? requested : fallback));
 }
 
+function getRequestedQuestionSeconds(trainerId) {
+  const input = app.querySelector(`#${trainerId}-seconds-per-question`);
+  const requested = Number.parseInt(input?.value, 10);
+  return Math.min(300, Math.max(0, Number.isFinite(requested) ? requested : DEFAULT_QUESTION_SECONDS));
+}
+
 function getQuestionBank(trainerId) {
   return Array.isArray(questionBanks[trainerId]) ? questionBanks[trainerId] : [];
 }
@@ -199,12 +249,21 @@ function getStorageKeys(trainerId) {
   };
 }
 
-function startTest(trainerId, mode, requestedCount = TRAINERS[trainerId].defaultQuestionCount) {
+function startTest(
+  trainerId,
+  mode,
+  requestedCount = TRAINERS[trainerId].defaultQuestionCount,
+  requestedSeconds = DEFAULT_QUESTION_SECONDS,
+) {
   document.body.classList.remove("home-active");
   const trainer = TRAINERS[trainerId];
   const questionBank = getQuestionBank(trainerId);
   const asked = new Set(getLogs(trainerId).asked);
   const requestedSize = Math.min(20, Math.max(1, Number.parseInt(requestedCount, 10) || trainer.defaultQuestionCount));
+  const secondsPerQuestion = Math.min(
+    300,
+    Math.max(0, Number.isFinite(Number(requestedSeconds)) ? Number(requestedSeconds) : DEFAULT_QUESTION_SECONDS),
+  );
   const questions =
     trainerId === "numerical"
       ? selectNumericalSets(questionBank, asked, mode, requestedSize)
@@ -216,8 +275,9 @@ function startTest(trainerId, mode, requestedCount = TRAINERS[trainerId].default
     questions,
     answers: {},
     currentIndex: 0,
-    totalTimeSeconds: questions.length * QUESTION_SECONDS,
-    timerEndsAt: Date.now() + questions.length * QUESTION_SECONDS * 1000,
+    secondsPerQuestion,
+    totalTimeSeconds: questions.length * secondsPerQuestion,
+    timerEndsAt: secondsPerQuestion === 0 ? null : Date.now() + questions.length * secondsPerQuestion * 1000,
     bookmarks: new Set(),
     highlights: {},
     highlighterEnabled: false,
@@ -356,8 +416,8 @@ function renderTest() {
         </button>
 
         <div class="question-timer" aria-live="polite">
-          <span class="timer-label">Total remaining time</span>
-          <strong id="question-timer">${formatTime(getRemainingTime())}</strong>
+          <span class="timer-label">${activeTest.timerEndsAt === null ? "Time limit" : "Total remaining time"}</span>
+          <strong id="question-timer">${activeTest.timerEndsAt === null ? "Untimed" : formatTime(getRemainingTime())}</strong>
         </div>
 
         <nav class="exam-tools" aria-label="Test tools">
@@ -512,6 +572,7 @@ function scrollCurrentProgressIntoView() {
 
 function startTimer() {
   stopTimer();
+  if (!activeTest || activeTest.timerEndsAt === null) return;
   const updateTimer = () => {
     if (!activeTest) return;
     const remaining = getRemainingTime();
@@ -536,7 +597,7 @@ function stopTimer() {
 }
 
 function getRemainingTime() {
-  if (!activeTest) return 0;
+  if (!activeTest || activeTest.timerEndsAt === null) return 0;
   return Math.max(0, Math.ceil((activeTest.timerEndsAt - Date.now()) / 1000));
 }
 
@@ -1027,6 +1088,7 @@ function renderResults(trainerId, results) {
     trainerId === "numerical"
       ? new Set(results.map((item) => item.question.setNumber)).size
       : results.length;
+  const nextTestSeconds = activeTest?.secondsPerQuestion ?? DEFAULT_QUESTION_SECONDS;
   const partScores = trainer.parts.map((part) => {
     const partResults = results.filter((item) => item.question.part === part);
     const score = partResults.filter((item) => item.correct).length;
@@ -1066,8 +1128,12 @@ function renderResults(trainerId, results) {
     <section class="panel answer-review"><h2>Answer review</h2><div class="log-list">${breakdown}</div></section>
   `;
 
-  app.querySelector("#new-random")?.addEventListener("click", () => startTest(trainerId, "random", nextTestSize));
-  app.querySelector("#new-unseen")?.addEventListener("click", () => startTest(trainerId, "new", nextTestSize));
+  app.querySelector("#new-random")?.addEventListener("click", () =>
+    startTest(trainerId, "random", nextTestSize, nextTestSeconds),
+  );
+  app.querySelector("#new-unseen")?.addEventListener("click", () =>
+    startTest(trainerId, "new", nextTestSize, nextTestSeconds),
+  );
   app.querySelector("#view-correct")?.addEventListener("click", () => renderLog(trainerId, "correct"));
   app.querySelector("#view-wrong")?.addEventListener("click", () => renderLog(trainerId, "wrong"));
   app.querySelector("#clear-log")?.addEventListener("click", () => clearLogs(trainerId));
@@ -1097,7 +1163,7 @@ function renderLog(trainerId, kind) {
     </section>`;
 }
 
-function renderQuestionBank(trainerId) {
+function renderQuestionBank(trainerId, focusQuestionId = "") {
   stopTimer();
   document.body.classList.remove("exam-active");
   document.body.classList.add("home-active");
@@ -1123,9 +1189,13 @@ function renderQuestionBank(trainerId) {
         </div>
         <strong>${questionBank.length} questions</strong>
       </div>
-      <nav class="question-bank-nav" aria-label="Question bank themes">
-        ${groups.map((group) => `<a href="#${group.id}">${escapeHtml(group.part)} <span>${group.questions.length}</span></a>`).join("")}
-      </nav>
+      <div class="question-bank-toolbar">
+        <nav class="question-bank-nav" aria-label="Question bank themes">
+          ${groups.map((group) => `<a href="#${group.id}">${escapeHtml(group.part)} <span>${group.questions.length}</span></a>`).join("")}
+        </nav>
+        <button type="button" class="btn question-bank-enter-button" data-question-bank-action="enter" data-trainer-id="${escapeHtml(trainerId)}">Enter question</button>
+      </div>
+      <div class="question-bank-create-slot" id="question-bank-create-slot"></div>
     </section>
     <div class="question-bank-groups">
       ${groups
@@ -1143,7 +1213,119 @@ function renderQuestionBank(trainerId) {
         )
         .join("")}
     </div>`;
-  window.scrollTo(0, 0);
+  if (focusQuestionId) {
+    requestAnimationFrame(() => {
+      const entry = [...app.querySelectorAll(".question-bank-entry")].find(
+        (item) => String(item.dataset.questionId) === String(focusQuestionId),
+      );
+      entry?.scrollIntoView({ behavior: "smooth", block: "center" });
+    });
+  } else {
+    window.scrollTo(0, 0);
+  }
+}
+
+function renderQuestionBankCreateForm(trainerId) {
+  const trainer = TRAINERS[trainerId];
+  const optionLetters = getTrainerOptionLetters(trainerId);
+  const isNumerical = trainerId === "numerical";
+  const isAbstract = trainerId === "abstract";
+  const partField =
+    trainer.parts.length > 1
+      ? `<label class="question-bank-field">
+          <span>Theme</span>
+          <select name="part" required>
+            ${trainer.parts.map((part) => `<option value="${escapeHtml(part)}">${escapeHtml(part)}</option>`).join("")}
+          </select>
+        </label>`
+      : `<input type="hidden" name="part" value="${escapeHtml(trainer.parts[0])}">`;
+  const numericalFields = isNumerical
+    ? `<label class="question-bank-field">
+        <span>Set number</span>
+        <input type="number" name="setNumber" min="1" step="1" value="${getNextNumericalSetNumber()}" required>
+      </label>
+      <label class="question-bank-field">
+        <span>Question within set</span>
+        <input type="number" name="setQuestionNumber" min="1" max="3" step="1" value="1" required>
+      </label>`
+    : "";
+  const questionField = `<label class="question-bank-field question-bank-prompt-field">
+      <span>${trainerId === "verbal" ? "Passage and question" : "Question"}</span>
+      <textarea name="prompt" rows="${trainerId === "verbal" ? 8 : 4}" required>${isAbstract ? "Which figure completes the series below?" : ""}</textarea>
+    </label>`;
+  const optionFields = isAbstract
+    ? `<p class="question-bank-form-note">The uploaded figure should contain the series and answer figures A to E. Select the correct figure below.</p>`
+    : `<fieldset class="question-bank-option-fields">
+        <legend>Answer options</legend>
+        ${optionLetters
+          .map(
+            (letter) => `<label class="question-bank-option-field">
+                <strong>${letter}.</strong>
+                <textarea name="option-${letter}" rows="2" required></textarea>
+              </label>`,
+          )
+          .join("")}
+      </fieldset>`;
+  const answerOptions = optionLetters
+    .map((letter) => `<option value="${letter}">${letter}${isAbstract ? "" : `. Option ${letter}`}</option>`)
+    .join("");
+  const explanationFields = isNumerical
+    ? `<label class="question-bank-field">
+        <span>Reasoning</span>
+        <textarea name="reasoning" rows="5" required></textarea>
+      </label>
+      <label class="question-bank-field">
+        <span>Calculation</span>
+        <textarea name="calculation" rows="6" required></textarea>
+      </label>
+      <label class="question-bank-field">
+        <span>Potential Shortcuts / Pitfalls</span>
+        <textarea name="shortcuts" rows="5"></textarea>
+      </label>`
+    : isAbstract
+      ? `<label class="question-bank-field">
+          <span>Rules</span>
+          <textarea name="rationale" rows="8" placeholder="Rule 1: ...&#10;Rule 2: ..." required></textarea>
+          <small>Start each rule with “Rule 1:”, “Rule 2:”, and so on.</small>
+        </label>`
+      : `<label class="question-bank-field">
+          <span>Rationale</span>
+          <textarea name="rationale" rows="8" required></textarea>
+        </label>`;
+  const uploadField =
+    isNumerical || isAbstract
+      ? `<label class="question-bank-field question-bank-file-field">
+          <span>Source image${isNumerical ? "s" : ""}</span>
+          <input type="file" name="figures" accept="image/*" ${isNumerical ? "multiple" : "required"}>
+          <small>${isNumerical ? "Upload one or more tables, charts, or figures used by this set." : "Upload the complete series and answer-options image."}</small>
+        </label>`
+      : "";
+
+  return `<section class="question-bank-create-card" aria-labelledby="question-bank-create-title">
+      <div class="question-bank-create-heading">
+        <div>
+          <p class="eyebrow">New ${escapeHtml(trainer.eyebrow)} question</p>
+          <h3 id="question-bank-create-title">Enter question</h3>
+        </div>
+        <button type="button" class="question-bank-edit-link" data-question-bank-action="cancel-create">Close</button>
+      </div>
+      <form class="question-bank-create-form" data-trainer-id="${escapeHtml(trainerId)}">
+        <div class="question-bank-meta-grid">${partField}${numericalFields}</div>
+        ${uploadField}
+        ${questionField}
+        ${optionFields}
+        <label class="question-bank-field question-bank-answer-field">
+          <span>Correct answer</span>
+          <select name="answer" required>${answerOptions}</select>
+        </label>
+        ${explanationFields}
+        <p class="question-bank-form-status" aria-live="polite"></p>
+        <div class="question-bank-edit-actions">
+          <button type="submit" class="btn">Add to question bank</button>
+          <button type="button" class="btn secondary" data-question-bank-action="cancel-create">Cancel</button>
+        </div>
+      </form>
+    </section>`;
 }
 
 function renderQuestionBankEntry(question, trainerId) {
@@ -1259,20 +1441,46 @@ function renderQuestionBankEditor(question, trainerId) {
 function handleQuestionBankAction(event) {
   const actionButton = event.target.closest("[data-question-bank-action]");
   if (!actionButton) return;
+  const action = actionButton.dataset.questionBankAction;
+
+  if (action === "enter") {
+    const trainerId = actionButton.dataset.trainerId;
+    const slot = app.querySelector("#question-bank-create-slot");
+    if (!slot || !TRAINERS[trainerId]) return;
+    slot.innerHTML = renderQuestionBankCreateForm(trainerId);
+    slot.scrollIntoView({ behavior: "smooth", block: "start" });
+    slot.querySelector("textarea, input, select")?.focus({ preventScroll: true });
+    return;
+  }
+
+  if (action === "cancel-create") {
+    const slot = actionButton.closest(".question-bank-create-slot");
+    if (slot) slot.innerHTML = "";
+    return;
+  }
+
   const entry = actionButton.closest(".question-bank-entry");
   if (!entry) return;
   const trainerId = entry.dataset.trainerId;
   const question = findQuestion(trainerId, entry.dataset.questionId);
   if (!question) return;
 
-  if (actionButton.dataset.questionBankAction === "edit") {
+  if (action === "edit") {
     entry.outerHTML = renderQuestionBankEditor(question, trainerId);
-  } else if (actionButton.dataset.questionBankAction === "cancel") {
+  } else if (action === "cancel") {
     entry.outerHTML = renderQuestionBankEntry(question, trainerId);
   }
 }
 
-function handleQuestionBankSubmit(event) {
+async function handleQuestionBankSubmit(event) {
+  const createForm = event.target.closest(".question-bank-create-form");
+  if (createForm) {
+    event.preventDefault();
+    if (!createForm.reportValidity()) return;
+    await createCustomQuestion(createForm);
+    return;
+  }
+
   const form = event.target.closest(".question-bank-edit-form");
   if (!form) return;
   event.preventDefault();
@@ -1308,6 +1516,109 @@ function handleQuestionBankSubmit(event) {
   entry.outerHTML = renderQuestionBankEntry(question, trainerId);
 }
 
+async function createCustomQuestion(form) {
+  const trainerId = form.dataset.trainerId;
+  const status = form.querySelector(".question-bank-form-status");
+  const submitButton = form.querySelector('button[type="submit"]');
+  submitButton.disabled = true;
+  status.textContent = "Saving question…";
+
+  try {
+    const optionLetters = getTrainerOptionLetters(trainerId);
+    const isNumerical = trainerId === "numerical";
+    const isAbstract = trainerId === "abstract";
+    const fileInput = form.elements.namedItem("figures");
+    const files = fileInput?.files ? [...fileInput.files] : [];
+    const figures = await Promise.all(files.map(readImageFile));
+    const options = isAbstract
+      ? Object.fromEntries(optionLetters.map((letter) => [letter, `Figure ${letter}`]))
+      : Object.fromEntries(
+          optionLetters.map((letter) => [letter, form.elements.namedItem(`option-${letter}`).value.trim()]),
+        );
+    const question = {
+      id: createCustomQuestionId(trainerId),
+      part: form.elements.namedItem("part").value,
+      number: getNextQuestionNumber(trainerId),
+      prompt: form.elements.namedItem("prompt").value.trim(),
+      options,
+      answer: form.elements.namedItem("answer").value,
+      source: "User-entered question",
+    };
+
+    if (figures.length) question.figures = figures;
+    if (isNumerical) {
+      question.setNumber = Number(form.elements.namedItem("setNumber").value);
+      question.setQuestionNumber = Number(form.elements.namedItem("setQuestionNumber").value);
+      const duplicatePosition = getQuestionBank("numerical").some(
+        (existingQuestion) =>
+          Number(existingQuestion.setNumber) === question.setNumber &&
+          Number(existingQuestion.setQuestionNumber) === question.setQuestionNumber,
+      );
+      if (duplicatePosition) {
+        throw new Error(`Set ${question.setNumber}, question ${question.setQuestionNumber} already exists.`);
+      }
+      question.reasoning = form.elements.namedItem("reasoning").value.trim();
+      question.calculation = form.elements.namedItem("calculation").value.trim();
+      question.shortcuts = form.elements.namedItem("shortcuts").value.trim();
+      question.rationale = composeStructuredRationale(question);
+    } else {
+      question.rationale = form.elements.namedItem("rationale").value.trim();
+      if (isAbstract) {
+        question.rules = parseRuleRationale(question.rationale);
+        if (!question.rules.length) throw new Error("Enter at least one rule beginning with “Rule 1:”.");
+      }
+    }
+
+    await storeCustomQuestion(trainerId, question);
+    getQuestionBank(trainerId).push(question);
+    renderQuestionBank(trainerId, question.id);
+  } catch (error) {
+    console.error("The custom question could not be saved.", error);
+    status.textContent = `The question could not be saved: ${error.message || error}`;
+    submitButton.disabled = false;
+  }
+}
+
+function getTrainerOptionLetters(trainerId) {
+  return ["A", "B", "C", "D", ...(trainerId === "numerical" || trainerId === "abstract" ? ["E"] : [])];
+}
+
+function getNextQuestionNumber(trainerId) {
+  return (
+    getQuestionBank(trainerId).reduce((highest, question) => {
+      const number = Number(question.number);
+      return Number.isFinite(number) ? Math.max(highest, number) : highest;
+    }, 0) + 1
+  );
+}
+
+function getNextNumericalSetNumber() {
+  return (
+    getQuestionBank("numerical").reduce((highest, question) => {
+      const number = Number(question.setNumber);
+      return Number.isFinite(number) ? Math.max(highest, number) : highest;
+    }, 0) + 1
+  );
+}
+
+function createCustomQuestionId(trainerId) {
+  const uniquePart =
+    typeof window.crypto?.randomUUID === "function"
+      ? window.crypto.randomUUID()
+      : `${Date.now()}-${Math.random().toString(16).slice(2)}`;
+  return `custom-${trainerId}-${uniquePart}`;
+}
+
+function readImageFile(file) {
+  if (!file.type.startsWith("image/")) return Promise.reject(new Error(`${file.name} is not an image.`));
+  return new Promise((resolve, reject) => {
+    const reader = new FileReader();
+    reader.addEventListener("load", () => resolve(String(reader.result)));
+    reader.addEventListener("error", () => reject(new Error(`${file.name} could not be read.`)));
+    reader.readAsDataURL(file);
+  });
+}
+
 function findQuestion(trainerId, questionId) {
   return getQuestionBank(trainerId).find((question) => String(question.id) === String(questionId));
 }
@@ -1329,6 +1640,67 @@ function parseRuleRationale(value) {
     label: `Rule ${Number(match[1])}`,
     text: match[2].replaceAll("\n", " ").replace(/\s+/g, " ").trim(),
   }));
+}
+
+function openCustomQuestionDatabase() {
+  return new Promise((resolve, reject) => {
+    if (!("indexedDB" in window)) {
+      reject(new Error("This browser does not support the storage required for custom questions."));
+      return;
+    }
+
+    const request = indexedDB.open(CUSTOM_QUESTION_DB_NAME, 1);
+    request.addEventListener("upgradeneeded", () => {
+      const database = request.result;
+      if (!database.objectStoreNames.contains(CUSTOM_QUESTION_STORE)) {
+        database.createObjectStore(CUSTOM_QUESTION_STORE, { keyPath: "key" });
+      }
+    });
+    request.addEventListener("success", () => resolve(request.result));
+    request.addEventListener("error", () => reject(request.error || new Error("Custom question storage could not be opened.")));
+  });
+}
+
+async function loadCustomQuestions() {
+  try {
+    const database = await openCustomQuestionDatabase();
+    const records = await new Promise((resolve, reject) => {
+      const request = database.transaction(CUSTOM_QUESTION_STORE, "readonly").objectStore(CUSTOM_QUESTION_STORE).getAll();
+      request.addEventListener("success", () => resolve(request.result || []));
+      request.addEventListener("error", () => reject(request.error || new Error("Custom questions could not be loaded.")));
+    });
+    database.close();
+    return records;
+  } catch (error) {
+    console.warn("Custom questions could not be loaded.", error);
+    return [];
+  }
+}
+
+function mergeCustomQuestions(banks, records) {
+  records.forEach((record) => {
+    if (!TRAINERS[record.trainerId] || !record.question || typeof record.question !== "object") return;
+    banks[record.trainerId] = Array.isArray(banks[record.trainerId]) ? banks[record.trainerId] : [];
+    if (!banks[record.trainerId].some((question) => String(question.id) === String(record.question.id))) {
+      banks[record.trainerId].push(record.question);
+    }
+  });
+}
+
+async function storeCustomQuestion(trainerId, question) {
+  const database = await openCustomQuestionDatabase();
+  await new Promise((resolve, reject) => {
+    const transaction = database.transaction(CUSTOM_QUESTION_STORE, "readwrite");
+    transaction.objectStore(CUSTOM_QUESTION_STORE).put({
+      key: `${trainerId}:${question.id}`,
+      trainerId,
+      question,
+    });
+    transaction.addEventListener("complete", resolve);
+    transaction.addEventListener("error", () => reject(transaction.error || new Error("The custom question could not be saved.")));
+    transaction.addEventListener("abort", () => reject(transaction.error || new Error("Saving the custom question was cancelled.")));
+  });
+  database.close();
 }
 
 function applyStoredQuestionEdits(banks) {
