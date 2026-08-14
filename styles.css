@@ -314,9 +314,12 @@ textarea:focus-visible {
 .score-card-link {
   position: relative;
   display: grid;
+  width: 100%;
   align-content: center;
   min-height: 78px;
+  appearance: none;
   color: var(--exam-ink);
+  font: inherit;
   text-align: left;
   cursor: pointer;
   transition: border-color 160ms ease, background 160ms ease, box-shadow 160ms ease, transform 160ms ease;
@@ -327,6 +330,11 @@ textarea:focus-visible {
   background: var(--exam-blue-soft);
   box-shadow: 0 8px 20px rgba(31, 51, 77, 0.1);
   transform: translateY(-1px);
+}
+
+.score-card-link:focus-visible {
+  outline: 3px solid rgba(43, 95, 178, 0.3);
+  outline-offset: 2px;
 }
 
 .score-card-title {

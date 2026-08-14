@@ -1,10 +1,10 @@
-const CACHE_VERSION = "epso-practice-v6";
+const CACHE_VERSION = "epso-practice-v7";
 const CORE_ASSETS = [
   "./",
   "./index.html",
   "./manifest.webmanifest",
-  "./styles.css?v=18",
-  "./app.js?v=18",
+  "./styles.css?v=19",
+  "./app.js?v=19",
   "./data/questions-data.js",
   "./data/numerical-questions-data.js?v=15",
   "./data/abstract-questions-data.js?v=5",

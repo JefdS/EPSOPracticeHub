@@ -173,8 +173,6 @@ function renderTrainerSection(trainer) {
       <div class="hero-actions trainer-actions">
         ${buttonMarkup("Create fully random test", `${trainer.id}-random`)}
         ${buttonMarkup("Create test with new questions", `${trainer.id}-new`, "secondary")}
-        ${buttonMarkup("Correct answers", `${trainer.id}-correct`, "secondary")}
-        ${buttonMarkup("Incorrect answers", `${trainer.id}-wrong`, "secondary")}
         ${buttonMarkup("Empty log", `${trainer.id}-clear`, "danger")}
       </div>
       <div class="results-grid">
@@ -182,8 +180,24 @@ function renderTrainerSection(trainer) {
           <span class="score-card-title">Question bank</span>
           <span class="score-card-value">${questionBank.length} extracted MCQs</span>
         </button>
-        <article class="score-card"><h3>Correct log</h3><p>${logs.correct.length} entries</p></article>
-        <article class="score-card"><h3>Incorrect log</h3><p>${logs.wrong.length} entries</p></article>
+        <button
+          type="button"
+          class="score-card score-card-link"
+          id="${trainer.id}-correct-log"
+          aria-label="View correctly answered questions, ${logs.correct.length} entries"
+        >
+          <span class="score-card-title">Correct log</span>
+          <span class="score-card-value">${logs.correct.length} entries</span>
+        </button>
+        <button
+          type="button"
+          class="score-card score-card-link"
+          id="${trainer.id}-wrong-log"
+          aria-label="View incorrectly answered questions, ${logs.wrong.length} entries"
+        >
+          <span class="score-card-title">Incorrect log</span>
+          <span class="score-card-value">${logs.wrong.length} entries</span>
+        </button>
         <article class="score-card"><h3>Seen questions</h3><p>${logs.asked.length} unique prompts</p></article>
       </div>
     </section>
@@ -217,8 +231,8 @@ function bindTrainerButtons(trainerId) {
   app.querySelector(`#${trainerId}-new`)?.addEventListener("click", () =>
     startTest(trainerId, "new", getRequestedQuestionCount(trainerId), getRequestedQuestionSeconds(trainerId)),
   );
-  app.querySelector(`#${trainerId}-correct`)?.addEventListener("click", () => renderLog(trainerId, "correct"));
-  app.querySelector(`#${trainerId}-wrong`)?.addEventListener("click", () => renderLog(trainerId, "wrong"));
+  app.querySelector(`#${trainerId}-correct-log`)?.addEventListener("click", () => renderLog(trainerId, "correct"));
+  app.querySelector(`#${trainerId}-wrong-log`)?.addEventListener("click", () => renderLog(trainerId, "wrong"));
   app.querySelector(`#${trainerId}-clear`)?.addEventListener("click", () => clearLogs(trainerId));
   app.querySelector(`#${trainerId}-question-bank`)?.addEventListener("click", () => renderQuestionBank(trainerId));
 }
