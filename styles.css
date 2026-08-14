@@ -68,7 +68,9 @@ textarea:focus-visible {
 }
 
 .trainer-stack {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 24px;
+  align-items: start;
 }
 
 .hero,
@@ -88,7 +90,7 @@ textarea:focus-visible {
   width: 100vw;
   min-height: 106px;
   margin: 0;
-  padding: calc(10px + env(safe-area-inset-top, 0px)) max(clamp(20px, 3vw, 48px), env(safe-area-inset-right, 0px)) 30px max(clamp(20px, 3vw, 48px), env(safe-area-inset-left, 0px));
+  padding: calc(20px + env(safe-area-inset-top, 0px)) max(clamp(20px, 3vw, 48px), env(safe-area-inset-right, 0px)) 20px max(clamp(20px, 3vw, 48px), env(safe-area-inset-left, 0px));
   border: 0;
   border-radius: 0;
   background: rgba(237, 241, 246, 0.96);
@@ -132,12 +134,18 @@ textarea:focus-visible {
   text-transform: uppercase;
 }
 
+.hero h1,
+.exam-brand strong {
+  font-family: "Avenir Next", Avenir, "Segoe UI", sans-serif;
+  font-weight: 800;
+  letter-spacing: -0.02em;
+}
+
 .hero h1 {
   margin: 0;
   max-width: 900px;
-  font-size: clamp(1.6rem, 3.2vw, 2.6rem);
+  font-size: clamp(1.44rem, 2.88vw, 2.34rem);
   line-height: 1.02;
-  letter-spacing: -0.035em;
 }
 
 .lede {
@@ -167,6 +175,8 @@ textarea:focus-visible {
 
 .trainer-panel {
   position: relative;
+  display: flex;
+  flex-direction: column;
   overflow: hidden;
 }
 
@@ -290,7 +300,7 @@ textarea:focus-visible {
 
 .results-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 10px;
   margin: 0;
 }
@@ -964,18 +974,11 @@ body.exam-active .hero {
 }
 
 .exam-brand-mark {
-  display: grid;
+  display: block;
   flex: 0 0 auto;
   width: 49px;
   height: 49px;
-  place-items: center;
-  color: #fff;
-  border-radius: 50% 50% 50% 12px;
-  background: var(--exam-blue);
-  font-family: Georgia, serif;
-  font-size: 1.15rem;
-  font-weight: 700;
-  letter-spacing: -0.08em;
+  object-fit: contain;
 }
 
 .exam-brand strong,
@@ -991,9 +994,7 @@ body.exam-active .hero {
 .exam-brand strong {
   overflow: hidden;
   color: var(--exam-ink);
-  font-size: clamp(1rem, 1.5vw, 1.25rem);
-  font-weight: 800;
-  letter-spacing: -0.02em;
+  font-size: clamp(0.9rem, 1.35vw, 1.125rem);
   text-overflow: ellipsis;
   white-space: nowrap;
 }
@@ -2024,7 +2025,15 @@ body.exam-active .hero {
   grid-column: span 1;
 }
 
+@media (max-width: 1000px) {
+  .trainer-stack {
+    grid-template-columns: 1fr;
+  }
+
+}
+
 @media (max-width: 900px) {
+
   .exam-header {
     grid-template-columns: minmax(0, 1fr) auto;
     gap: 10px;
@@ -2113,7 +2122,7 @@ body.exam-active .hero {
     width: 100vw;
     min-height: 80px;
     margin: 0;
-    padding: calc(8px + env(safe-area-inset-top, 0px)) max(20px, env(safe-area-inset-right, 0px)) 24px max(20px, env(safe-area-inset-left, 0px));
+    padding: calc(16px + env(safe-area-inset-top, 0px)) max(20px, env(safe-area-inset-right, 0px)) 16px max(20px, env(safe-area-inset-left, 0px));
     border-radius: 0;
   }
 
@@ -2160,10 +2169,6 @@ body.exam-active .hero {
 
   .results-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
-  }
-
-  .score-card-link {
-    grid-column: 1 / -1;
   }
 
   .question-bank-heading {
@@ -2230,7 +2235,7 @@ body.exam-active .hero {
   .exam-brand strong {
     max-width: 38vw;
     overflow: hidden;
-    font-size: 0.78rem;
+    font-size: 0.7rem;
     text-overflow: ellipsis;
     white-space: nowrap;
   }

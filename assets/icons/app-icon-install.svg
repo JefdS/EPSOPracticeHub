@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024" role="img" aria-labelledby="title description">
   <title id="title">EPSO Practice Hub</title>
   <desc id="description">A compass surrounding a stylized E with a forward arrow.</desc>
-  <rect x="20" y="20" width="984" height="984" rx="244" fill="#2458a8"/>
+  <rect width="1024" height="1024" fill="#2458a8"/>
   <circle cx="512" cy="512" r="304" fill="none" stroke="#ffffff" stroke-width="54"/>
   <path d="M512 132l34 76h-68zM892 512l-76 34v-68zM512 892l-34-76h68zM132 512l76-34v68z" fill="#ffffff"/>
   <path d="M590 322H408c-45 0-82 37-82 82v216c0 45 37 82 82 82h182v-70H420c-15 0-28-13-28-28v-57h178v-70H392v-57c0-15 13-28 28-28h170z" fill="#ffffff"/>

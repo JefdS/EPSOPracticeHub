@@ -1,16 +1,17 @@
-const CACHE_VERSION = "epso-practice-v7";
+const CACHE_VERSION = "epso-practice-v18";
 const CORE_ASSETS = [
   "./",
   "./index.html",
   "./manifest.webmanifest",
-  "./styles.css?v=19",
-  "./app.js?v=19",
+  "./styles.css?v=28",
+  "./app.js?v=25",
   "./data/questions-data.js",
   "./data/numerical-questions-data.js?v=15",
   "./data/abstract-questions-data.js?v=5",
   "./data/questions.json",
   "./data/numerical-questions.json",
   "./data/abstract-questions.json",
+  "./assets/icons/app-icon.svg",
   "./assets/icons/icon-192.png",
   "./assets/icons/icon-512.png",
   "./assets/icons/apple-touch-icon.png"

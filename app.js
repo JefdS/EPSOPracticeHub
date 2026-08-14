@@ -11,7 +11,7 @@ const TRAINERS = {
   eu: {
     id: "eu",
     eyebrow: "EU Knowledge",
-    title: "Practice random MCQs across all four parts",
+    title: "Practice random MCQs across all four themes of EU knowledge",
     description:
       "Choose between 1 and 20 questions. EU tests distribute them across the four parts, and your results and answer history are saved locally in this browser.",
     parts: [
@@ -171,8 +171,8 @@ function renderTrainerSection(trainer) {
         </div>
       </div>
       <div class="hero-actions trainer-actions">
-        ${buttonMarkup("Create fully random test", `${trainer.id}-random`)}
-        ${buttonMarkup("Create test with new questions", `${trainer.id}-new`, "secondary")}
+        ${buttonMarkup("Start random test", `${trainer.id}-random`)}
+        ${buttonMarkup("Start test with new questions", `${trainer.id}-new`, "secondary")}
         ${buttonMarkup("Empty log", `${trainer.id}-clear`, "danger")}
       </div>
       <div class="results-grid">
@@ -180,6 +180,7 @@ function renderTrainerSection(trainer) {
           <span class="score-card-title">Question bank</span>
           <span class="score-card-value">${questionBank.length} extracted MCQs</span>
         </button>
+        <article class="score-card"><h3>Seen questions</h3><p>${logs.asked.length} unique prompts</p></article>
         <button
           type="button"
           class="score-card score-card-link"
@@ -198,7 +199,6 @@ function renderTrainerSection(trainer) {
           <span class="score-card-title">Incorrect log</span>
           <span class="score-card-value">${logs.wrong.length} entries</span>
         </button>
-        <article class="score-card"><h3>Seen questions</h3><p>${logs.asked.length} unique prompts</p></article>
       </div>
     </section>
   `;
@@ -423,7 +423,7 @@ function renderTest() {
     <section class="exam-shell">
       <header class="exam-header">
         <button type="button" class="exam-brand" id="exam-home" aria-label="Return to home">
-          <span class="exam-brand-mark">EU</span>
+          <img class="exam-brand-mark" src="./assets/icons/app-icon.svg" alt="" aria-hidden="true" />
           <span class="exam-brand-copy">
             <strong>EPSO PRACTICE HUB</strong>
           </span>
@@ -1132,8 +1132,8 @@ function renderResults(trainerId, results) {
         ${partScores.map((item) => `<article class="score-card"><h3>${escapeHtml(item.part)}</h3><p>${item.score}/${item.total}</p></article>`).join("")}
       </div>
       <div class="result-actions">
-        ${buttonMarkup("Create fully random test", "new-random")}
-        ${buttonMarkup("Create test with new questions", "new-unseen")}
+        ${buttonMarkup("Start random test", "new-random")}
+        ${buttonMarkup("Start test with new questions", "new-unseen")}
         ${buttonMarkup("Correct answers", "view-correct", "secondary")}
         ${buttonMarkup("Incorrect answers", "view-wrong", "secondary")}
         ${buttonMarkup("Empty log", "clear-log", "danger")}
