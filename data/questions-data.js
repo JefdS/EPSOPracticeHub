@@ -4432,6 +4432,166 @@ window.__QUESTION_BANKS__ = {
       "answer": "B",
       "rationale": "A. False. Replanted areas still captured carbon from the atmosphere, just less effectively than areas that had been untouched.\nB. True. As the passage states, replanted trees are not as effective at absorbing carbon as untouched forests.\nC. Cannot say. The passage says untouched rainforests capture more carbon than secondary rainforests, but does not provide information on other types of forest.\nD. Cannot say. The passage does not give any information as to whether repeated cycles of replanting, as opposed to one replanting, affected the absorption of carbon.",
       "source": "Administrators-2023-Ultimate-Eu-Test-Book - Verbal Reasoning.pdf"
+    },
+    {
+      "id": "verbal-q-151",
+      "part": "Verbal Reasoning",
+      "number": 151,
+      "prompt": "Met de term \"invasieve soort\" wordt bedoeld dat een soort door menselijk handelen is geïntroduceerd in een milieu waar die soort van nature niet voorkwam. Een soort kan alleen invasief worden genoemd als deze zich in voldoende mate voortplant om zichzelf in stand te houden en zich ruim verspreidt in zijn nieuwe gebied. Invasieve soorten kunnen het ecologische evenwicht onder de inheemse soorten veranderen en de werking van het ecosysteem aantasten. De meeste ingevoerde soorten leiden echter niet tot wezenlijke ecologische veranderingen of milieuschade, omdat ze vaak worden ingevoerd in habitats die al sterk door de mens beïnvloed zijn en daarom niet als invasief worden beschouwd.",
+      "questionStem": "Welke van de volgende uitspraken is correct?",
+      "options": {
+        "A": "De meeste invasieve soorten planten zich niet in voldoende mate voort",
+        "B": "Invasieve soorten zijn per definitie ingevoerd door de mens",
+        "C": "De meeste invasieve soorten leiden tot een ernstige verstoring van de bestaande populaties",
+        "D": "De meeste ingevoerde soorten leiden niet tot een verandering van het ecologische evenwicht tussen de inheemse soorten"
+      },
+      "answer": "B",
+      "rationale": "Definitie: door menselijk handelen geïntroduceerd.",
+      "source": "Verbal Reasoning NL Question 1.png"
+    },
+    {
+      "id": "verbal-q-152",
+      "part": "Verbal Reasoning",
+      "number": 152,
+      "prompt": "Een chemisch bedrijf heeft toestemming gevraagd voor de eerste veldproeven met genetisch gemodificeerde aardappelen in het land. In wilde aardappelen zijn twee genen ontdekt die hen resistent maken voor aardappelmoeheid, de ziekte die de Ierse aardappeloogst deed mislukken en hongersnood veroorzaakte. Alleen door genetische modificatie kunnen die genen in nieuwe aardappelvariëteiten worden gebracht. Volgens het bedrijf zullen de genetisch gemodificeerde aardappelen dankzij hun resistentie voor aardappelmoeheid niet met schimmelbestrijders hoeven te worden besproeid en kan een miljoenenverlies door beschadigde oogsten worden voorkomen. Het bedrijf hoopt de genetisch gemodificeerde aardappelen binnen tien jaar op de markt te kunnen brengen. Volgens milieudeskundigen zullen de consumenten echter niet van genetisch gemodificeerde aardappelen willen weten, ook al kon hierdoor het gebruik van chemicaliën worden teruggedrongen.",
+      "questionStem": "Welke van de volgende uitspraken is correct?",
+      "options": {
+        "A": "Voornamelijk om aardappelmoeheid te voorkomen, worden aardappelvelden met schimmelbestrijders besproeid",
+        "B": "Consumenten eten liever aardappelen die met chemicaliën zijn besproeid dan genetisch gemodificeerde aardappelen",
+        "C": "Dit is de eerste maal dat een bedrijf toestemming heeft gevraagd om genetisch gemodificeerde aardappelen te telen",
+        "D": "Het grootste verzet tegen het telen van genetisch gemodificeerde aardappelen komt van milieudeskundigen"
+      },
+      "answer": "A",
+      "rationale": "Resistentie betekent dat schimmelbestrijding niet nodig is.",
+      "source": "Verbal Reasoning NL Question 2.png"
+    },
+    {
+      "id": "verbal-q-153",
+      "part": "Verbal Reasoning",
+      "number": 153,
+      "prompt": "De emoe is de grootste inheemse vogel van Australië en voorts qua lengte de tweede grootste vogel ter wereld na zijn verwant, de struisvogel. Emoes kunnen niet vliegen en kunnen twee meter groot worden. Zij kunnen over lange afstanden op een drafje lopen en kunnen op kortere afstanden een sprintsnelheid van ongeveer 50 km/uur halen. Dit loopvermogen is het resultaat van twee factoren. Ten eerste vormen de hooggespecialiseerde spieren van hun onderste ledematen een aanzienlijk aandeel van hun totale lichaamsmassa, net als de vliegspieren van vogels die kunnen vliegen. Ten tweede is de structuur van hun poten bijzonder geschikt om te lopen.",
+      "questionStem": "Welke van de volgende uitspraken is correct?",
+      "options": {
+        "A": "De emoe is de enige vogel ter wereld die twee meter groot kan worden",
+        "B": "De belangrijkste factor die bijdraagt aan het loopvermogen van de emoe, zijn de spieren van zijn onderste ledematen",
+        "C": "De spieren van de onderste ledematen van een emoe maken een groot percentage van zijn lichaamsgewicht uit",
+        "D": "Emoes kunnen over lange afstanden lopen met een snelheid van 50 km/uur"
+      },
+      "answer": "C",
+      "rationale": "Beenspieren vormen een aanzienlijk aandeel van de lichaamsmassa.",
+      "source": "Verbal Reasoning NL Question 3.png"
+    },
+    {
+      "id": "verbal-q-154",
+      "part": "Verbal Reasoning",
+      "number": 154,
+      "prompt": "Rendieren leven in het noordpoolgebied. De vrouwtjes wegen tussen 60 en 170 kg. Bij sommige rendiersoorten zijn de mannetjes maar een klein beetje groter, bij andere kunnen de mannetjes tot 300 kg wegen. Alle rendieren hebben een gewei met een fluweelachtige huid eromheen, die bast wordt genoemd. Het gewei van de vrouwelijke rendieren sterft in de zomer af, dat van de jonge mannetjes in de lente en dat van de oudere mannetjes in december. De zoolkussens van een rendier zijn groot en zacht, waardoor het grip heeft op zachte, vochtige grond. In de winter worden de zoolkussens kleiner en smaller en steekt de rand van de hoef uit. Die snijdt door het ijs en de sneeuw waardoor het rendier niet uitglijdt.",
+      "questionStem": "Welke van de volgende uitspraken is correct?",
+      "options": {
+        "A": "Vrouwelijke rendieren wegen doorgaans meer dan de mannelijke",
+        "B": "Een vrouwelijk rendier van zes jaar oud verliest haar gewei in de lente",
+        "C": "Een vrouwelijk rendier van drie jaar oud verliest haar gewei in de zomer",
+        "D": "Een rendier heeft zachte zoolkussens om extra grip te hebben tijdens de winter"
+      },
+      "answer": "C",
+      "rationale": "Gewei van vrouwelijke rendieren sterft in de zomer af.",
+      "source": "Verbal Reasoning NL Question 4.png"
+    },
+    {
+      "id": "verbal-q-155",
+      "part": "Verbal Reasoning",
+      "number": 155,
+      "prompt": "Een knuppelweg is een type weg dat in laagland of moerasgebied wordt aangelegd door boomstammen haaks op de richting van de weg te leggen en die met zand te bedekken. Een knuppelweg is weliswaar hobbelig, maar vormt nog steeds een verbetering ten opzichte van een zand of aardeweg. Knuppelwegen kunnen ook worden aangelegd als fundering voor een ander wegoppervlak. Indien de boomstammen in een vochtige, zure en anaerobe bodem worden gelegd, zoals turf, vergaan ze slechts zeer langzaam. In de VS bestaan er nog enkele wegen met een knuppelweg als fundering uit het begin van de twintigste eeuw. In 1943 werd een deel van de Alaska Highway met een knuppelweg als fundering en grind als wegoppervlak aangelegd. Aan het einde van de jaren negentig van de twintigste eeuw werd dit deel van de weg vervangen door een moderne weg.",
+      "questionStem": "Welke van de volgende uitspraken is correct?",
+      "options": {
+        "A": "Knuppelwegen werden vooral in de VS gebruikt",
+        "B": "Knuppelwegen zijn duurzamer in gebieden met zuurdere bodems",
+        "C": "Knuppelwegen worden doorgaans alleen tijdelijk aangelegd",
+        "D": "Oorspronkelijk werd een groot deel van de Alaska Highway als knuppelweg aangelegd"
+      },
+      "answer": "B",
+      "rationale": "Hout vergaat zeer langzaam in vochtige, zure, anaerobe bodem.",
+      "source": "Verbal Reasoning NL Question 5.png"
+    },
+    {
+      "id": "verbal-q-156",
+      "part": "Verbal Reasoning",
+      "number": 156,
+      "prompt": "DNA-onderzoek is een medische procedure om veranderingen of afwijkingen in genen en chromosomen op te sporen. DNA-tests worden doorgaans gebruikt om erfelijke ziekten, zoals hemofilie, op te sporen. Met een DNA-test kan een ziekte worden bevestigd of uitgesloten of kan worden bepaald hoe groot de kans is dat iemand een ziekte zal krijgen of doorgeven. Momenteel zijn er een paar honderd DNA-tests en er worden er meer ontwikkeld. Omdat testen zowel voor- als nadelen heeft, is deelname aan een DNA-test vrijwillig. Een adviseur kan mensen advies en informatie over de test geven, maar veel mensen twijfelen nog steeds aan het nut ervan. Ze denken dat DNA-tests alleen worden gebruikt om de erfelijkheid van dodelijke ziekten te bepalen en willen daarom liever niet weten of ze een bepaald gen hebben.",
+      "questionStem": "Welke van de volgende uitspraken is correct?",
+      "options": {
+        "A": "Een DNA-test wordt gebruikt bij gezonde mensen",
+        "B": "Een DNA-test kan worden gebruikt om te bepalen hoe groot de kans is dat iemand in de toekomst een bepaalde ziekte krijgt",
+        "C": "Een DNA-test is niet erg nuttig omdat deelname vrijwillig is",
+        "D": "Jaarlijks worden enkele honderden DNA-tests uitgevoerd"
+      },
+      "answer": "B",
+      "rationale": "DNA-test kan de kans bepalen dat iemand een ziekte zal krijgen.",
+      "source": "Verbal Reasoning NL Question 6.png"
+    },
+    {
+      "id": "verbal-q-157",
+      "part": "Verbal Reasoning",
+      "number": 157,
+      "prompt": "Op Antarctica, veruit het koudste continent op aarde, is de laagste temperatuur ooit gemeten. Negentig procent van het gletsjerijs van de wereld zit in de massieve ijskap van Antarctica. In het ruwe klimaat overleeft slechts een klein aantal landplanten, maar dankzij het rijke voedselbestand in de wateren rond Antarctica kunnen pinguïns en grote koloniën zeevogels er wel overleven. De Rus F.G. von Bellinghausen maakte deel uit van een groep ontdekkingsreizigers die in 1820 als eersten beweerden het continent te hebben gezien, maar pas in het begin van de twintigste eeuw begonnen expedities uit diverse landen het binnenland van Antarctica te onderzoeken. Dit leidde ertoe dat zeven naties grondgebieden op het continent opeisten, hoewel geen van hun onderdanen er ooit permanent had gewoond. In 1958 vestigden twaalf naties onderzoeksstations op het continent en verklaarden ze zich bereid tot samenwerking voor studiedoeleinden.",
+      "questionStem": "Welke van de volgende uitspraken is correct?",
+      "options": {
+        "A": "De eerste mens die Antarctica zag, was een Rus",
+        "B": "Het aantal landen dat grondgebieden op het continent opeiste, steeg van zeven in het begin van de twintigste eeuw tot twaalf in 1958",
+        "C": "Er is meer gletsjerijs op Antarctica dan in alle andere continenten tezamen",
+        "D": "Niemand heeft ooit permanent op Antarctica gewoond"
+      },
+      "answer": "C",
+      "rationale": "Antarctica bevat 90% van al het gletsjerijs.",
+      "source": "Verbal Reasoning NL Question 7.png"
+    },
+    {
+      "id": "verbal-q-158",
+      "part": "Verbal Reasoning",
+      "number": 158,
+      "prompt": "Moldavië is een streek in het noordoosten van Roemenië. Tot de eenmaking met Wallachië in 1859 was Moldavië een onafhankelijke staat. Thans vormt het een groot deel van de moderne staat Roemenië. Op verschillende tijdstippen in zijn geschiedenis omvatte Moldavië de streken Bessarabië en Bukovina. Vandaag vormt het grootste deel van Bessarabië de Republiek Moldavië, terwijl de rest van Bessarabië en het noordelijke deel van Bukovina deel uitmaken van Oekraïne.",
+      "questionStem": "Welke van de volgende uitspraken is correct?",
+      "options": {
+        "A": "Delen van wat vroeger Moldavië was, zijn over ten minste drie landen verdeeld",
+        "B": "De Republiek Moldavië maakte tot 1859 deel uit van Moldavië",
+        "C": "Moldavië bestrijkt hetzelfde gebied als de Republiek Moldavië",
+        "D": "Bessarabië en Bukovina zijn thans respectievelijk de Republiek Moldavië en Oekraïne"
+      },
+      "answer": "A",
+      "rationale": "Historisch Moldavië ligt tegenwoordig over Roemenië, Moldavië en Oekraïne.",
+      "source": "Verbal Reasoning NL Question 8.png"
+    },
+    {
+      "id": "verbal-q-159",
+      "part": "Verbal Reasoning",
+      "number": 159,
+      "prompt": "De quercus gambelii (gambel oak) is een kleine loofboom die doorgaans groeit op hoogten van 1700 tot 2400 meter boven de zeespiegel. Deze boom komt veel voor aan de voet van de bergen in het midden van het zuidwesten van de Verenigde Staten, waar per jaar gemiddeld tussen 30 en 60 centimeter regen valt. De quercus gambelii gedijt goed op heuvelruggen met dunne, rotsige en zure bodem, waar weinig andere plantensoorten voorkomen. Hij kan overleven in rijkere bodems, waar hij voor zijn voeding echter meer concurrentie van andere planten ondervindt. De quercus gambelii heeft zich aangepast aan natte lentes en hete, droge zomers, wat net de omstandigheden zijn waarin brand kan ontstaan. Maar zelfs wanneer een quercus gambelii ernstig verbrand is, kan hij snel herstellen vanuit zijn ondergrondse wortels. Ook in perioden van droogte overleeft hij goed.",
+      "questionStem": "Welke van de volgende uitspraken is correct?",
+      "options": {
+        "A": "De quercus gambelii gedijt goed op heuvelruggen waar geen andere planten overleven",
+        "B": "De quercus gambelii komt voor in heel de Verenigde Staten van Amerika",
+        "C": "De quercus gambelii gedijt beter in omgevingen met minder concurrentie van andere planten",
+        "D": "De quercus gambelii kan noch door bosbrand noch door droogte afsterven"
+      },
+      "answer": "C",
+      "rationale": "De boom ondervindt op rijkere bodems meer concurrentie.",
+      "source": "Verbal Reasoning NL Question 9.png"
+    },
+    {
+      "id": "verbal-q-160",
+      "part": "Verbal Reasoning",
+      "number": 160,
+      "prompt": "Een haiku is een niet-rijmende Japanse dichtvorm van 17 lettergrepen, die ofwel in één regel, ofwel in drie regels van respectievelijk vijf, zeven en vijf lettergrepen wordt gedrukt. Het gedicht bevat altijd een woord dat het seizoen beschrijft waarin het is gesitueerd. Een haiku drukt zoveel mogelijk uit in zo weinig mogelijk woorden. Het genre raakte in zwang in de zeventiende eeuw, toen de dichter Basho het tot een hoogst verfijnde kunstvorm verhief. De haiku is nog altijd de populairste vorm van Japanse dichtkunst.",
+      "questionStem": "Welke van de volgende uitspraken is correct?",
+      "options": {
+        "A": "Bij een haiku wordt de betekenis van het gedicht uitgedrukt door subtiel rijm",
+        "B": "Bij langere haiku's wordt dikwijls de structuur van vijf, zeven en vijf lettergrepen in verzen van zes, negen of twaalf regels herhaald",
+        "C": "Een haiku bestaat gewoonlijk uit drie woorden van respectievelijk vijf, zeven en vijf lettergrepen",
+        "D": "Een haiku verwijst altijd naar het seizoen waarin hij is gesitueerd"
+      },
+      "answer": "D",
+      "rationale": "Volgens de tekst bevat een haiku altijd een seizoenswoord.",
+      "source": "Verbal Reasoning NL Question 10.png"
     }
   ]
 };
