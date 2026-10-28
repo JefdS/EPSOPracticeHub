@@ -376,7 +376,9 @@ function renderTest() {
         "passage",
         question.prompt,
       )}</div>
-       <h1 class="exam-question-title">Which of the following statements is correct?</h1>`
+       <h1 class="exam-question-title">${escapeHtml(
+         question.questionStem || "Which of the following statements is correct?",
+       )}</h1>`
     : isNumerical
       ? `<h1 class="exam-question-title">
           <span class="question-number-prefix">Q${setQuestionNumber}.</span>
@@ -836,14 +838,17 @@ function renderCalculator() {
     ["0", "0", "number wide"], [".", "decimal", "number"], ["=", "equals", "operator equals"],
   ];
   return `
-    <div class="modal-backdrop" data-close-modal="true">
+    <div class="modal-backdrop calculator-backdrop" data-close-modal="true">
       <section class="floating-tool calculator-modal" role="dialog" aria-modal="true" aria-labelledby="calculator-title">
-        <header class="floating-header">
+        <header class="floating-header calculator-drag-handle" title="Drag to move calculator">
           <span>${icon("calculator")}</span>
           <h2 id="calculator-title">Calculator</h2>
           <button type="button" class="close-tool" id="close-overlay" aria-label="Close calculator">${icon("close")}</button>
         </header>
-        <div class="calculator-display" id="calculator-display">${escapeHtml(activeTest.calculator.display)}</div>
+        <div class="calculator-display" aria-live="polite">
+          <div class="calculator-expression" id="calculator-expression">${escapeHtml(activeTest.calculator.expression)}</div>
+          <div class="calculator-result" id="calculator-display">${escapeHtml(activeTest.calculator.display)}</div>
+        </div>
         <div class="calculator-grid">
           ${buttons
             .map(([label, action, className]) => `<button type="button" class="calc-key ${className}" data-calc-action="${action}">${label}</button>`)
@@ -977,17 +982,64 @@ function saveScratchpadState() {
 }
 
 function createCalculatorState() {
-  return { display: "0", storedValue: null, operator: null, waitingForOperand: false };
+  return { display: "0", expression: "", storedValue: null, operator: null, waitingForOperand: false };
 }
 
 function bindCalculatorEvents() {
+  bindCalculatorDrag();
   app.querySelectorAll("[data-calc-action]").forEach((key) => {
     key.addEventListener("click", () => {
       handleCalculatorAction(key.dataset.calcAction);
       const display = app.querySelector("#calculator-display");
+      const expression = app.querySelector("#calculator-expression");
       if (display) display.textContent = activeTest.calculator.display;
+      if (expression) expression.textContent = activeTest.calculator.expression;
     });
   });
+}
+
+function bindCalculatorDrag() {
+  const calculator = app.querySelector(".calculator-modal");
+  const handle = calculator?.querySelector(".calculator-drag-handle");
+  if (!calculator || !handle) return;
+
+  let pointerId = null;
+  let offsetX = 0;
+  let offsetY = 0;
+
+  handle.addEventListener("pointerdown", (event) => {
+    if (event.button !== 0 || event.target.closest("button")) return;
+    const rect = calculator.getBoundingClientRect();
+    pointerId = event.pointerId;
+    offsetX = event.clientX - rect.left;
+    offsetY = event.clientY - rect.top;
+    calculator.style.position = "fixed";
+    calculator.style.left = `${rect.left}px`;
+    calculator.style.top = `${rect.top}px`;
+    calculator.classList.add("is-dragging");
+    handle.setPointerCapture(pointerId);
+    event.preventDefault();
+  });
+
+  handle.addEventListener("pointermove", (event) => {
+    if (event.pointerId !== pointerId) return;
+    const maxLeft = Math.max(0, window.innerWidth - calculator.offsetWidth);
+    const maxTop = Math.max(0, window.innerHeight - calculator.offsetHeight);
+    const left = Math.min(maxLeft, Math.max(0, event.clientX - offsetX));
+    const top = Math.min(maxTop, Math.max(0, event.clientY - offsetY));
+    calculator.style.left = `${left}px`;
+    calculator.style.top = `${top}px`;
+  });
+
+  const finishDrag = (event) => {
+    if (event.pointerId !== pointerId) return;
+    if (handle.hasPointerCapture(pointerId)) handle.releasePointerCapture(pointerId);
+    pointerId = null;
+    calculator.classList.remove("is-dragging");
+  };
+
+  handle.addEventListener("pointerup", finishDrag);
+  handle.addEventListener("pointercancel", finishDrag);
 }
 
 function handleCalculatorAction(action) {
@@ -995,6 +1047,7 @@ function handleCalculatorAction(action) {
   if (/^\d$/.test(action)) {
     calculator.display = calculator.waitingForOperand || calculator.display === "0" ? action : `${calculator.display}${action}`;
     calculator.waitingForOperand = false;
+    updateCalculatorExpression(calculator);
     return;
   }
   if (action === "decimal") {
@@ -1002,6 +1055,7 @@ function handleCalculatorAction(action) {
       calculator.display = "0.";
       calculator.waitingForOperand = false;
     } else if (!calculator.display.includes(".")) calculator.display += ".";
+    updateCalculatorExpression(calculator);
     return;
   }
   if (action === "clear") {
@@ -1010,14 +1064,17 @@ function handleCalculatorAction(action) {
   }
   if (action === "sign") {
     calculator.display = String(Number(calculator.display) * -1);
+    updateCalculatorExpression(calculator);
     return;
   }
   if (action === "percent") {
     calculator.display = formatCalculation(Number(calculator.display) / 100);
+    updateCalculatorExpression(calculator);
     return;
   }
   if (action === "equals") {
     if (calculator.operator && calculator.storedValue !== null) {
+      calculator.expression = `${formatCalculation(calculator.storedValue)} ${calculatorOperatorSymbol(calculator.operator)} ${calculator.display}`;
       calculator.display = formatCalculation(calculate(calculator.storedValue, Number(calculator.display), calculator.operator));
       calculator.storedValue = null;
       calculator.operator = null;
@@ -1036,6 +1093,23 @@ function handleCalculatorAction(action) {
   } else calculator.storedValue = currentValue;
   calculator.operator = nextOperator;
   calculator.waitingForOperand = true;
+  updateCalculatorExpression(calculator);
+}
+
+function updateCalculatorExpression(calculator) {
+  if (calculator.operator && calculator.storedValue !== null) {
+    const left = formatCalculation(calculator.storedValue);
+    const operator = calculatorOperatorSymbol(calculator.operator);
+    calculator.expression = calculator.waitingForOperand
+      ? `${left} ${operator}`
+      : `${left} ${operator} ${calculator.display}`;
+    return;
+  }
+  calculator.expression = calculator.display === "0" ? "" : calculator.display;
+}
+
+function calculatorOperatorSymbol(operator) {
+  return { "+": "+", "-": "−", "*": "×", "/": "÷" }[operator] || operator;
 }
 
 function calculate(first, second, operator) {

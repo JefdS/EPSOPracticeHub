@@ -1841,6 +1841,10 @@ body.exam-active .hero {
   backdrop-filter: blur(2px);
 }
 
+.modal-backdrop.calculator-backdrop {
+  backdrop-filter: none;
+}
+
 .floating-tool {
   overflow: hidden;
   border: 1px solid #7d8999;
@@ -1973,15 +1977,46 @@ body.exam-active .hero {
   width: min(390px, calc(100vw - 36px));
 }
 
+.calculator-drag-handle {
+  cursor: grab;
+  touch-action: none;
+  user-select: none;
+}
+
+.calculator-modal.is-dragging {
+  animation: none;
+}
+
+.calculator-modal.is-dragging .calculator-drag-handle {
+  cursor: grabbing;
+}
+
 .calculator-display {
-  min-height: 112px;
-  padding: 34px 22px 18px;
+  display: flex;
+  min-height: 126px;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 20px 22px 18px;
   overflow: hidden;
   color: #fff;
   background: #182537;
-  font-size: 2.25rem;
   font-variant-numeric: tabular-nums;
   text-align: right;
+}
+
+.calculator-expression {
+  min-height: 1.4em;
+  margin-bottom: 8px;
+  overflow: hidden;
+  color: rgba(255, 255, 255, 0.62);
+  font-size: 0.92rem;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.calculator-result {
+  overflow: hidden;
+  font-size: 2.25rem;
   text-overflow: ellipsis;
   white-space: nowrap;
 }
