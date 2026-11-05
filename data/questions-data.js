@@ -2300,7 +2300,7 @@ window.__QUESTION_BANKS__ = {
         "D": "People who had average intelligence were found to have below average rates of these conditions"
       },
       "answer": "B",
-      "rationale": "A. Cannot say. The study only looked at people “at or above the 98th percentile of intelligence”, not all those who are “above average”.\nB. True. According to the passage, “those with a high intellectual capacity (hyper brain) possess overexcitabilities in various domains that may predispose them to certain psychological disorders”.\nC. Cannot say. The passage refers to highly intelligent people having higher rates of food allergies, but does not specifically mention nuts.\nD. Cannot say. The passage only provides specific rates for the highly intelligent. 94",
+      "rationale": "A. Cannot say. The study only looked at people “at or above the 98th percentile of intelligence”, not all those who are “above average”.\nB. True. According to the passage, “those with a high intellectual capacity (hyper brain) possess overexcitabilities in various domains that may predispose them to certain psychological disorders”.\nC. Cannot say. The passage refers to highly intelligent people having higher rates of food allergies, but does not specifically mention nuts.\nD. Cannot say. The passage only provides specific rates for the highly intelligent.",
       "source": "Administrators-2023-Ultimate-Eu-Test-Book - Verbal Reasoning.pdf"
     },
     {
@@ -2345,7 +2345,7 @@ window.__QUESTION_BANKS__ = {
         "D": "Soon more adults will be vaping than smoking cigarettes"
       },
       "answer": "B",
-      "rationale": "Cannot say. Although vaping is the single “most popular and effective way for smokers to quit” we are not told how many ways there are, or vaping’s importance as a proportion of these. Nor are we told the relative importance of people not starting to smoke in the first place. True. Although the indoor smoking ban only prevented smoking inside, the number of smokers and cigarettes smoked fell subsequent to it coming into effect. False. This can indeed be said, as the average D. number of cigarettes smoked per day by smokers has decreased over time. Although vaping is increasing rapidly and cigarette smoking falling, we are not told the percentage of adults vaping, or indeed if present trends will continue.",
+      "rationale": "A. Cannot say. Although vaping is the single “most popular and effective way for smokers to quit” we are not told how many ways there are, or vaping’s importance as a proportion of these. Nor are we told the relative importance of people not starting to smoke in the first place.\nB. True. Although the indoor smoking ban only prevented smoking inside, the number of smokers and cigarettes smoked fell subsequent to it coming into effect.\nC. False. This can indeed be said, as the average number of cigarettes smoked per day by smokers has decreased over time.\nD. Cannot say. Although vaping is increasing rapidly and cigarette smoking falling, we are not told the percentage of adults vaping, or indeed if present trends will continue.",
       "source": "Administrators-2023-Ultimate-Eu-Test-Book - Verbal Reasoning.pdf"
     },
     {
@@ -2390,7 +2390,7 @@ window.__QUESTION_BANKS__ = {
         "D": "The cost savings of an open plan layout were cancelled out by the adverse effect on communication"
       },
       "answer": "C",
-      "rationale": "A. False. Email traffic actually increased when offices switched to an open plan layout.\nB. Cannot say. The study looked at the comparative impact of open-plan and cubicle layouts on communication, not at the impact on productivity.\nC. True. The study found that in open plan offices, people were less likely to make face to face contact and found new ways to preserve their privacy. D.\nD. Cannot say. The passage does not discuss cost savings.",
+      "rationale": "A. False. Email traffic actually increased when offices switched to an open plan layout.\nB. Cannot say. The study looked at the comparative impact of open-plan and cubicle layouts on communication, not at the impact on productivity.\nC. True. The study found that in open plan offices, people were less likely to make face to face contact and found new ways to preserve their privacy.\nD. Cannot say. The passage does not discuss cost savings.",
       "source": "Administrators-2023-Ultimate-Eu-Test-Book - Verbal Reasoning.pdf"
     },
     {
@@ -2435,7 +2435,7 @@ window.__QUESTION_BANKS__ = {
         "D": "E-cigarettes actually contain more nicotine than traditional cigarettes"
       },
       "answer": "A",
-      "rationale": "A. True. According to the passage, e-cigarette use may in fact be leading to an increase in nicotine addiction.\nB. Cannot say. The passage says that the “prevalence of their use is rapidly growing in many countries”, but this could be limited to certain parts of the world. C.\nC. Cannot say. The passage does not discuss the social acceptability of e-cigarettes. D.\nD. Cannot say. The passage says that ecigarettes can result in users having “higher exposure to doses of nicotine compared to people who smoke traditional cigarettes”, but the reason given for this is that “ecigarettes are used in times and places where smoking is prohibited”. The comparative amounts of nicotine in traditional and ecigarettes is not mentioned.",
+      "rationale": "A. True. According to the passage, e-cigarette use may in fact be leading to an increase in nicotine addiction.\nB. Cannot say. The passage says that the “prevalence of their use is rapidly growing in many countries”, but this could be limited to certain parts of the world.\nC. Cannot say. The passage does not discuss the social acceptability of e-cigarettes.\nD. Cannot say. The passage says that ecigarettes can result in users having “higher exposure to doses of nicotine compared to people who smoke traditional cigarettes”, but the reason given for this is that “ecigarettes are used in times and places where smoking is prohibited”. The comparative amounts of nicotine in traditional and ecigarettes is not mentioned.",
       "source": "Administrators-2023-Ultimate-Eu-Test-Book - Verbal Reasoning.pdf"
     },
     {
@@ -2450,7 +2450,7 @@ window.__QUESTION_BANKS__ = {
         "D": "People are more likely to remain bystanders if they are worried about being affected themselves"
       },
       "answer": "A",
-      "rationale": "",
+      "rationale": "A. True. According to the passage, people are more likely to take action in a crisis when there are few or no other witnesses present.\nB. Cannot say. The passage does not say if the effect only occurs in certain societies.\nC. False. The more people are around, the less likely a person is to intervene in a situation, which means that it is inversely proportional.\nD. Cannot say. While this may seem a plausible statement, there is nothing in the passage to indicate its validity.",
       "source": "Administrators-2023-Ultimate-Eu-Test-Book - Verbal Reasoning.pdf"
     },
     {
@@ -2465,7 +2465,7 @@ window.__QUESTION_BANKS__ = {
         "D": "Unrealistic expectations are considered to be an essential reason why perfectionism has increased"
       },
       "answer": "D",
-      "rationale": "A. True. According to the passage, people are more likely to take action in a crisis when there are few or no other witnesses present.\nB. Cannot say. The passage does not say if the effect only occurs in certain societies.\nC. False. The more people are around, the less likely a person is to intervene in a situation, which means that it is inversely proportional.\nD. Cannot say. While this may seem a plausible statement, there is nothing in the passage to indicate its validity. Cannot say. While “young people in particular place higher demands on themselves”, nothing is said about the effects on older people. Cannot say. The passage states that millennials put themselves at risk of mental and physical illness, but it does not elaborate on their behaviour. Cannot say. The passage hints that images in the media might be an important factor but does not explicitly evaluate its impact. True. This is the main theme of the text.",
+      "rationale": "A. Cannot say. While “young people in particular place higher demands on themselves”, nothing is said about the effects on older people.\nB. Cannot say. The passage states that millennials put themselves at risk of mental and physical illness, but it does not elaborate on their behaviour.\nC. Cannot say. The passage hints that images in the media might be an important factor but does not explicitly evaluate its impact.\nD. True. This is the main theme of the text.",
       "source": "Administrators-2023-Ultimate-Eu-Test-Book - Verbal Reasoning.pdf"
     },
     {
@@ -2480,7 +2480,7 @@ window.__QUESTION_BANKS__ = {
         "D": "The increase in anxiety among college undergraduates was greater than among others of the same age"
       },
       "answer": "C",
-      "rationale": "A. False. Researchers “found a broad worsening of mental health indicators, particularly in the second half of the study period”.\nB. Cannot say. The authors indicate they believe this to be the case but do not state it as being for certain.\nC. True. While the passage certainly suggests that to be the case, nonetheless it does not say it for certain. 96 D.\nD. Cannot say. No comparable data is given for non-students in the same age group.",
+      "rationale": "A. False. Researchers “found a broad worsening of mental health indicators, particularly in the second half of the study period”.\nB. Cannot say. The authors indicate they believe this to be the case but do not state it as being for certain.\nC. True. While the passage certainly suggests that to be the case, nonetheless it does not say it for certain.\nD. Cannot say. No comparable data is given for non-students in the same age group.",
       "source": "Administrators-2023-Ultimate-Eu-Test-Book - Verbal Reasoning.pdf"
     },
     {
@@ -2495,7 +2495,7 @@ window.__QUESTION_BANKS__ = {
         "D": "Owning a dog is probably enough by itself to protect against cardiovascular disease"
       },
       "answer": "C",
-      "rationale": "A. Cannot say. According to the passage, they are the best pet, but there are other animals not considered pets that might be better. B.\nB. Cannot say. The passage only mentions dogs as increasing the sense of well-being, but it does not state that other animals do not also have this effect. C.\nC. True. According to the passage, what seemed to make dogs have the greatest positive impact on health is that they require their owners to be physically active. D.\nD. False. According to the passage, the researchers did not find that owning a dog by itself was enough to protect against cardiovascular disease.",
+      "rationale": "A. Cannot say. According to the passage, they are the best pet, but there are other animals not considered pets that might be better.\nB. Cannot say. The passage only mentions dogs as increasing the sense of well-being, but it does not state that other animals do not also have this effect.\nC. True. According to the passage, what seemed to make dogs have the greatest positive impact on health is that they require their owners to be physically active.\nD. False. According to the passage, the researchers did not find that owning a dog by itself was enough to protect against cardiovascular disease.",
       "source": "Administrators-2023-Ultimate-Eu-Test-Book - Verbal Reasoning.pdf"
     },
     {
@@ -2510,7 +2510,7 @@ window.__QUESTION_BANKS__ = {
         "D": "As the average number of confidants that people have has decreased, so have life spans"
       },
       "answer": "A",
-      "rationale": "A. True. The passage states that average Americans trust only 10 to 20 people, and that that number may be shrinking. B.\nB. False. According to the passage, a study put the average person’s friend group at about 121 people. 250 to 5,500 people refers to a person’s social network size. C.\nC. Cannot say. Although this was used in the study, that does not mean it is excellent, only that it was deemed suitable for the purposes of the study. D.\nD. Cannot say. The passage says there is a link between strong social relationships and living longer, but it does not say that life spans have decreased.",
+      "rationale": "A. True. The passage states that average Americans trust only 10 to 20 people, and that that number may be shrinking.\nB. False. According to the passage, a study put the average person’s friend group at about 121 people. 250 to 5,500 people refers to a person’s social network size.\nC. Cannot say. Although this was used in the study, that does not mean it is excellent, only that it was deemed suitable for the purposes of the study.\nD. Cannot say. The passage says there is a link between strong social relationships and living longer, but it does not say that life spans have decreased.",
       "source": "Administrators-2023-Ultimate-Eu-Test-Book - Verbal Reasoning.pdf"
     },
     {
@@ -2525,7 +2525,7 @@ window.__QUESTION_BANKS__ = {
         "D": "Chemicals and prescription drugs are to blame for today’s slower metabolisms"
       },
       "answer": "A",
-      "rationale": "A. True. The study found that several factors may make it harder to avoid gaining weight today than in the past such as exposure to chemicals, increased use of prescription drugs and changes in people’s microbiomes.\nB. Cannot say. The passage only says that not gaining weight is more difficult today than 20-30 years ago, not that losing weight is.\nC. Cannot say. A person of the same age having the same diet and amount of exercise in 2006 would have a BMI 2.3 points higher than in 1988. However we are not told if on average people in 2006 ate or exercised more or less D. than in 1988, and therefore what BMI was on average.\nD. Cannot say. The passage mentions these as possible factors, but only as a hypothesis.",
+      "rationale": "A. True. The study found that several factors may make it harder to avoid gaining weight today than in the past such as exposure to chemicals, increased use of prescription drugs and changes in people’s microbiomes.\nB. Cannot say. The passage only says that not gaining weight is more difficult today than 20-30 years ago, not that losing weight is.\nC. Cannot say. A person of the same age having the same diet and amount of exercise in 2006 would have a BMI 2.3 points higher than in 1988. However we are not told if on average people in 2006 ate or exercised more or less than in 1988, and therefore what BMI was on average.\nD. Cannot say. The passage mentions these as possible factors, but only as a hypothesis.",
       "source": "Administrators-2023-Ultimate-Eu-Test-Book - Verbal Reasoning.pdf"
     },
     {
@@ -2585,7 +2585,7 @@ window.__QUESTION_BANKS__ = {
         "D": "The study found the opinions of those with lower status do not matter"
       },
       "answer": "C",
-      "rationale": "A. Cannot say. Researchers found people showed “greater goal commitment” when they shared their goals with someone they believed had higher status. We are not told whether or not they got better advice. B.\nB. Cannot say. The passage does not elaborate on the rates of goal attainment by those who do not share them. C.\nC. True. According to the passage, people do not want perceived superiors to think less of them, which was their motivation for attaining a goal after they revealed it to someone with higher status. D.\nD. Cannot say. The passage says that the opinions of those with a lower status were not beneficial for pushing people to achieve a goal, but not whether the opinions of those with a lower status matter or not.",
+      "rationale": "A. Cannot say. Researchers found people showed “greater goal commitment” when they shared their goals with someone they believed had higher status. We are not told whether or not they got better advice.\nB. Cannot say. The passage does not elaborate on the rates of goal attainment by those who do not share them.\nC. True. According to the passage, people do not want perceived superiors to think less of them, which was their motivation for attaining a goal after they revealed it to someone with higher status.\nD. Cannot say. The passage says that the opinions of those with a lower status were not beneficial for pushing people to achieve a goal, but not whether the opinions of those with a lower status matter or not.",
       "source": "Administrators-2023-Ultimate-Eu-Test-Book - Verbal Reasoning.pdf"
     },
     {
@@ -2600,7 +2600,7 @@ window.__QUESTION_BANKS__ = {
         "D": "A person may think they are having a panic attack when something else is wrong"
       },
       "answer": "D",
-      "rationale": "",
+      "rationale": "A. False. According to the passage, panic attacks can come on for no apparent reason.\nB. Cannot say. The highest frequency the passage mentions is several panic attacks a week, but it does not say that they cannot happen more frequently.\nC. Cannot say. While saying some panic attacks have been reported to last up to an hour, it does not say that they cannot last longer.\nD. True. As the passage states, most of the symptoms of a panic attack can also be symptoms of other conditions or problems.",
       "source": "Administrators-2023-Ultimate-Eu-Test-Book - Verbal Reasoning.pdf"
     },
     {
@@ -2615,7 +2615,7 @@ window.__QUESTION_BANKS__ = {
         "D": "Ninety percent of medications are still sufficiently effective years after they expire"
       },
       "answer": "A",
-      "rationale": "A. False. According to the passage, panic attacks can come on for no apparent reason.\nB. Cannot say. The highest frequency the passage mentions is several panic attacks a week, but it does not say that they cannot happen more frequently.\nC. Cannot say. While saying some panic attacks have been reported to last up to an hour, it does not say that they cannot last longer.\nD. True. As the passage states, most of the symptoms of a panic attack can also be symptoms of other conditions or problems. True. The U.S. military found that 90 percent of expired medications were still sufficiently effective several years after their expiry date. Cannot say. While a medicine used within its shelf life “will work to its maximum potency and safety”, there is no indication whether it is the subsequent reduction of potency or of safety that is the more significant risk. False. The passage tells us that “most of them are not toxic when expired”, meaning that some of them are. Cannot say. While the U.S. military study found that to be the case for the over 100 medicines they tested, that does not mean it applies to ALL medicines.",
+      "rationale": "A. True. The U.S. military found that 90 percent of expired medications were still sufficiently effective several years after their expiry date.\nB. Cannot say. While a medicine used within its shelf life “will work to its maximum potency and safety”, there is no indication whether it is the subsequent reduction of potency or of safety that is the more significant risk.\nC. False. The passage tells us that “most of them are not toxic when expired”, meaning that some of them are.\nD. Cannot say. While the U.S. military study found that to be the case for the over 100 medicines they tested, that does not mean it applies to ALL medicines.",
       "source": "Administrators-2023-Ultimate-Eu-Test-Book - Verbal Reasoning.pdf"
     },
     {
@@ -2630,7 +2630,7 @@ window.__QUESTION_BANKS__ = {
         "D": "Optimism had a greater impact on life expectancy in women than in men"
       },
       "answer": "D",
-      "rationale": "A. Cannot say. The passage compares the chances of reaching 85 of the most optimistic and the least optimistic women, and those of the most optimistic and the least optimistic men. It does not make a comparison between men and women. B.\nB. Cannot say. While this may be the case, the passage does not declare one study to be more accurate than the other. C.\nC. False. The studies controlled for health conditions and behaviours so that these would not impact the results. D.\nD. True. The most optimistic women lived 14.9% longer than their peers, while men only lived 10.9% longer.",
+      "rationale": "A. Cannot say. The passage compares the chances of reaching 85 of the most optimistic and the least optimistic women, and those of the most optimistic and the least optimistic men. It does not make a comparison between men and women.\nB. Cannot say. While this may be the case, the passage does not declare one study to be more accurate than the other.\nC. False. The studies controlled for health conditions and behaviours so that these would not impact the results.\nD. True. The most optimistic women lived 14.9% longer than their peers, while men only lived 10.9% longer.",
       "source": "Administrators-2023-Ultimate-Eu-Test-Book - Verbal Reasoning.pdf"
     },
     {
@@ -2675,7 +2675,7 @@ window.__QUESTION_BANKS__ = {
         "D": "Anxious mothers had higher rates of children with Attention Deficit Disorder"
       },
       "answer": "C",
-      "rationale": "A. Cannot say. The passage tells us that 11 per- 98 cent of youngsters whose mothers suffered anxiety have ADHD symptoms, compared with 5 percent of all youngsters. However we are not told what proportion of ALL mothers suffer anxiety. It could be that most children with ADHD are actually born to mothers who do not suffer anxiety.\nB. Cannot say. Scientists believe this may be the case, but say they are not certain.\nC. True. The study found that the rate for ADHD among children was 11% for those with anxious mothers, and only 5% for those without.\nD. Cannot say. The passage specifically refers to Attention Deficit Hyperactivity Disorder, not Attention Deficit Disorder, which is not mentioned.",
+      "rationale": "A. Cannot say. The passage tells us that 11 percent of youngsters whose mothers suffered anxiety have ADHD symptoms, compared with 5 percent of all youngsters. However we are not told what proportion of ALL mothers suffer anxiety. It could be that most children with ADHD are actually born to mothers who do not suffer anxiety.\nB. Cannot say. Scientists believe this may be the case, but say they are not certain.\nC. True. The study found that the rate for ADHD among children was 11% for those with anxious mothers, and only 5% for those without.\nD. Cannot say. The passage specifically refers to Attention Deficit Hyperactivity Disorder, not Attention Deficit Disorder, which is not mentioned.",
       "source": "Administrators-2023-Ultimate-Eu-Test-Book - Verbal Reasoning.pdf"
     },
     {
@@ -2735,7 +2735,7 @@ window.__QUESTION_BANKS__ = {
         "D": "Scientists found that the hottest the Earth has ever been was 56 million years ago"
       },
       "answer": "B",
-      "rationale": "A. Cannot say. The passage tells us that the Earth’s elliptical orbit can cause warming, but does not refer to it as a factor in current global warming. B.\nB. True. Scientists have found that the Palaeocene-Eocene Thermal Maximum was caused by an eccentricity in the Earth’s orbit around the sun. C.\nC. False. The Earth’s orbit around the sun goes through cycles where it is more circular or more elliptical. D.\nD. Cannot say. During the past 100 million years, the Earth was at its hottest 56 million years ago, but it may have been hotter before that.",
+      "rationale": "A. Cannot say. The passage tells us that the Earth’s elliptical orbit can cause warming, but does not refer to it as a factor in current global warming.\nB. True. Scientists have found that the Palaeocene-Eocene Thermal Maximum was caused by an eccentricity in the Earth’s orbit around the sun.\nC. False. The Earth’s orbit around the sun goes through cycles where it is more circular or more elliptical.\nD. Cannot say. During the past 100 million years, the Earth was at its hottest 56 million years ago, but it may have been hotter before that.",
       "source": "Administrators-2023-Ultimate-Eu-Test-Book - Verbal Reasoning.pdf"
     },
     {
@@ -2750,7 +2750,7 @@ window.__QUESTION_BANKS__ = {
         "D": "Without the refreshment of its A-series, Samsung would not have seen the growth that it did"
       },
       "answer": "C",
-      "rationale": "A. Cannot say. The passage does not state whether Samsung doubled its market share or not, only that it ended the quarter with twice the market share of its nearest competitor.\nB. Cannot say. While we are told that Samsung offers smartphones that are indeed “comparable” there is no mention of what they cost to buy. C.\nC. True. While “the overall smartphone market in CEE remained flat” Samsung achieved a 40% market share, which was twice that of Huawei, its nearest competitor, meaning that it is the largest player in the market. D.\nD. Cannot say. While the passage tells us that the refreshed A-series was Samsung’s “star performer”, other factors such as the US trade embargo, marketing or pricing could also have produced such growth.",
+      "rationale": "A. Cannot say. The passage does not state whether Samsung doubled its market share or not, only that it ended the quarter with twice the market share of its nearest competitor.\nB. Cannot say. While we are told that Samsung offers smartphones that are indeed “comparable” there is no mention of what they cost to buy.\nC. True. While “the overall smartphone market in CEE remained flat” Samsung achieved a 40% market share, which was twice that of Huawei, its nearest competitor, meaning that it is the largest player in the market.\nD. Cannot say. While the passage tells us that the refreshed A-series was Samsung’s “star performer”, other factors such as the US trade embargo, marketing or pricing could also have produced such growth.",
       "source": "Administrators-2023-Ultimate-Eu-Test-Book - Verbal Reasoning.pdf"
     },
     {
@@ -2825,7 +2825,7 @@ window.__QUESTION_BANKS__ = {
         "D": "Increasing temperatures are why Europeans will buy more air conditioning systems"
       },
       "answer": "C",
-      "rationale": "A. Cannot say. The passage merely states that Europeans put greater emphasis on “less energy-intensive forms of cooling”. This could be for other reasons, such as cost.\nB. Cannot say. Japan has the highest rate mentioned in the text, but there could be other countries with higher adoption rates.\nC. True. Only 20% of European households have air conditioning, but increased global sales will be driven mostly by sales in developing countries.\nD. False. According to the passage, increased European air conditioning system sales will be driven by more people moving to cities. 100",
+      "rationale": "A. Cannot say. The passage merely states that Europeans put greater emphasis on “less energy-intensive forms of cooling”. This could be for other reasons, such as cost.\nB. Cannot say. Japan has the highest rate mentioned in the text, but there could be other countries with higher adoption rates.\nC. True. Only 20% of European households have air conditioning, but increased global sales will be driven mostly by sales in developing countries.\nD. False. According to the passage, increased European air conditioning system sales will be driven by more people moving to cities.",
       "source": "Administrators-2023-Ultimate-Eu-Test-Book - Verbal Reasoning.pdf"
     },
     {
@@ -2930,7 +2930,7 @@ window.__QUESTION_BANKS__ = {
         "D": "Capsaicin only provides a burning sensation to animals that do not help it disperse"
       },
       "answer": "B",
-      "rationale": "A. False. We are told that Capsicum plant seeds “are dispersed predominantly by birds”, which means that seeds are also dispersed in other ways or by other animals.\nB. True. Mammals have molar teeth which destroy the seeds, thus preventing them from germinating, while birds simply pass the C. D. seeds through their digestive tracts unharmed.\nC. Cannot say. It is only a theory that natural selection “may have led” to increased capsaicin production. It does not mean that it definitely did.\nD. Cannot say. The passage only mentions birds and mammals, and does not refer to reptiles, for example.",
+      "rationale": "A. False. We are told that Capsicum plant seeds “are dispersed predominantly by birds”, which means that seeds are also dispersed in other ways or by other animals.\nB. True. Mammals have molar teeth which destroy the seeds, thus preventing them from germinating, while birds simply pass the seeds through their digestive tracts unharmed.\nC. Cannot say. It is only a theory that natural selection “may have led” to increased capsaicin production. It does not mean that it definitely did.\nD. Cannot say. The passage only mentions birds and mammals, and does not refer to reptiles, for example.",
       "source": "Administrators-2023-Ultimate-Eu-Test-Book - Verbal Reasoning.pdf"
     },
     {
@@ -2975,7 +2975,7 @@ window.__QUESTION_BANKS__ = {
         "D": "Being hungry was found to negatively impact a person’s patience"
       },
       "answer": "D",
-      "rationale": "A. Cannot say. While it can be said based on the passage that it is possible that they are hungry, we cannot say if it is probable.\nB. Cannot say. Benjamin Vincent said that “it is C. D. important that people know that being hungry can affect their preferences”, because of the “danger” of them making decisions that entrench their poverty. However while this is a danger it does not mean it will always happen.\nC. Cannot say. The passage never discusses why people end up in poverty, only that going hungry may negatively impact their ability to escape it.\nD. True. The scientists found that “hunger can … lead to impatience”.",
+      "rationale": "A. Cannot say. While it can be said based on the passage that it is possible that they are hungry, we cannot say if it is probable.\nB. Cannot say. Benjamin Vincent said that “it is important that people know that being hungry can affect their preferences”, because of the “danger” of them making decisions that entrench their poverty. However while this is a danger it does not mean it will always happen.\nC. Cannot say. The passage never discusses why people end up in poverty, only that going hungry may negatively impact their ability to escape it.\nD. True. The scientists found that “hunger can … lead to impatience”.",
       "source": "Administrators-2023-Ultimate-Eu-Test-Book - Verbal Reasoning.pdf"
     },
     {
@@ -3005,7 +3005,7 @@ window.__QUESTION_BANKS__ = {
         "D": "More was paid out to cyclists in claims in 2018 than in any of the previous four years"
       },
       "answer": "A",
-      "rationale": "A. True. Although the passage does not tell us by how much, the amount paid out in claims means less has been saved from suspending repairs than initially would have been the case.\nB. Cannot say. While likely the case, it could also be that people are now more proficient at filing claims or simply file more of them.\nC. Cannot say. We are told that 571 claims were made in 2018 and that the number of successful claims in 2018 was “more than four times the 68 on which TfL paid out in 2017”. Four times 68 is 272, which is indeed less than half the total of 571 claims. However, because the number of successful claims was “more than” four times 68, we cannot be sure that the 102 D. actual number of successful claims was less than half of the total of 571 claims.\nD. Cannot say. We are told that £1.7 million has been paid to cyclists over the past 5 years, of which almost £350,000 was in 2018. This means that at least £1,350,000 was paid in the other 4 years combined. This could have been paid out evenly, meaning no other year exceeded £350,000 (the average of £1,350,000 over 4 years being only £337,500), but it is also possible that the 2018 figure of £350,000 could have been exceeded previously.",
+      "rationale": "A. True. Although the passage does not tell us by how much, the amount paid out in claims means less has been saved from suspending repairs than initially would have been the case.\nB. Cannot say. While likely the case, it could also be that people are now more proficient at filing claims or simply file more of them.\nC. Cannot say. We are told that 571 claims were made in 2018 and that the number of successful claims in 2018 was “more than four times the 68 on which TfL paid out in 2017”. Four times 68 is 272, which is indeed less than half the total of 571 claims. However, because the number of successful claims was “more than” four times 68, we cannot be sure that the actual number of successful claims was less than half of the total of 571 claims.\nD. Cannot say. We are told that £1.7 million has been paid to cyclists over the past 5 years, of which almost £350,000 was in 2018. This means that at least £1,350,000 was paid in the other 4 years combined. This could have been paid out evenly, meaning no other year exceeded £350,000 (the average of £1,350,000 over 4 years being only £337,500), but it is also possible that the 2018 figure of £350,000 could have been exceeded previously.",
       "source": "Administrators-2023-Ultimate-Eu-Test-Book - Verbal Reasoning.pdf"
     },
     {
@@ -3050,7 +3050,7 @@ window.__QUESTION_BANKS__ = {
         "D": "Using antibiotics inevitably reduces microbial diversity in the gut"
       },
       "answer": "A",
-      "rationale": "A. True. Two-thirds of the patients showed a marked reduction in microbial diversity at some stage during their stay.\nB. Cannot say. While long-term effects could exist after a person has been discharged, that is not equivalent to saying they will be “worse off” than before they were admitted. Patients will have been admitted for treatment of some other condition.\nC. Cannot say. The passage tells us that twothirds “showed a marked reduction in microbial diversity at some stage during their stay”. This does not exclude the possibility of some patients leaving only after their microbial diversity was back to normal.\nD. Cannot say. Although “heavy use of broadspectrum antibiotics” is something that could contribute to reduced microbial diversity in the gut, that does not necessarily mean that ANY use of antibiotics would inevitably have the same effect. D.",
+      "rationale": "A. True. Two-thirds of the patients showed a marked reduction in microbial diversity at some stage during their stay.\nB. Cannot say. While long-term effects could exist after a person has been discharged, that is not equivalent to saying they will be “worse off” than before they were admitted. Patients will have been admitted for treatment of some other condition.\nC. Cannot say. The passage tells us that twothirds “showed a marked reduction in microbial diversity at some stage during their stay”. This does not exclude the possibility of some patients leaving only after their microbial diversity was back to normal.\nD. Cannot say. Although “heavy use of broadspectrum antibiotics” is something that could contribute to reduced microbial diversity in the gut, that does not necessarily mean that ANY use of antibiotics would inevitably have the same effect.",
       "source": "Administrators-2023-Ultimate-Eu-Test-Book - Verbal Reasoning.pdf"
     },
     {
@@ -3080,7 +3080,7 @@ window.__QUESTION_BANKS__ = {
         "D": "Neutrinos are difficult to measure because of their small weight"
       },
       "answer": "B",
-      "rationale": "A. Cannot say. We are told only that neutrinos are “the lightest of all the known subatomic particles”.\nB. True. Scientists have only been able to measure the upper limit of their mass, but not the lower limit. C. D.\nC. Cannot say. While neutrinos are “among the most abundant particles in the Universe”, we are also told that they are the lightest of the known subatomic particles, so we cannot deduce if they make up most of the universe’s mass.\nD. False. Neutrinos are difficult to measure because they tend to cross matter undetected.",
+      "rationale": "A. Cannot say. We are told only that neutrinos are “the lightest of all the known subatomic particles”.\nB. True. Scientists have only been able to measure the upper limit of their mass, but not the lower limit.\nC. Cannot say. While neutrinos are “among the most abundant particles in the Universe”, we are also told that they are the lightest of the known subatomic particles, so we cannot deduce if they make up most of the universe’s mass.\nD. False. Neutrinos are difficult to measure because they tend to cross matter undetected.",
       "source": "Administrators-2023-Ultimate-Eu-Test-Book - Verbal Reasoning.pdf"
     },
     {
@@ -3095,7 +3095,7 @@ window.__QUESTION_BANKS__ = {
         "D": "Cafeterias which added a second vegetarian option saw vegetarian sales nearly double"
       },
       "answer": "A",
-      "rationale": "",
+      "rationale": "A. True. Although not definitely stating this as a fact, the passage suggests that dining choices may have been influenced by the relative prices of vegetarian and non-vegetarian options. This means that price “may” have been a factor.\nB. Cannot say. The passage does not provide information on the taste of the meals, only their quantity.\nC. Cannot say. This is a possibility, the passage states, but not one that is for certain.\nD. False. Sales of vegetarian meals rose 40-80%.",
       "source": "Administrators-2023-Ultimate-Eu-Test-Book - Verbal Reasoning.pdf"
     },
     {
@@ -3110,7 +3110,7 @@ window.__QUESTION_BANKS__ = {
         "D": "Demographers assemble data for statistical purposes"
       },
       "answer": "A",
-      "rationale": "",
+      "rationale": "A. True. As the passage states, in all countries, the information provided by demographers is key to meeting the population’s present and future needs.\nB. False. Demographers predict how populations are likely to change; this does not mean they necessarily know how they will.\nC. Cannot say. The passage doesn’t say what percentage of people working as demographers actually have a degree in demography, so we cannot say.\nD. False. According to the passage, demographers analyse data that has been assembled by national statistical offices.",
       "source": "Administrators-2023-Ultimate-Eu-Test-Book - Verbal Reasoning.pdf"
     },
     {
@@ -3125,7 +3125,7 @@ window.__QUESTION_BANKS__ = {
         "D": "A large shift in anxiety levels can be harmful to people"
       },
       "answer": "A",
-      "rationale": "A. True. Although not definitely stating this as a fact, the passage suggests that dining choices may have been influenced by the relative prices of vegetarian and non-vegetarian options. This means that price “may” have been a factor.\nB. Cannot say. The passage does not provide information on the taste of the meals, only their quantity.\nC. Cannot say. This is a possibility, the passage states, but not one that is for certain.\nD. False. Sales of vegetarian meals rose 40-80%. True. As the passage states, in all countries, the information provided by demographers is key to meeting the population’s present and future needs. False. Demographers predict how populations are likely to change; this does not mean they necessarily know how they will. Cannot say. The passage doesn’t say what percentage of people working as demographers actually have a degree in demography, so we cannot say. False. According to the passage, demographers analyse data that has been assembled by national statistical offices. B. C. True. According to Professor Newman, some people with anxiety may stay anxious and avoid relaxation to prevent a later larger shift in anxiety. False. It is better to experience shifts in stress levels and to allow yourself to be relaxed at times. Cannot say. The passage says that mindfulness training and other interventions can help people let go and live in the moment. What sort of intervention is best is not stated. D. False. The text tells us that “it’s actually healthier to let yourself experience those shifts”.",
+      "rationale": "A. True. According to Professor Newman, some people with anxiety may stay anxious and avoid relaxation to prevent a later larger shift in anxiety.\nB. False. It is better to experience shifts in stress levels and to allow yourself to be relaxed at times.\nC. Cannot say. The passage says that mindfulness training and other interventions can help people let go and live in the moment. What sort of intervention is best is not stated.\nD. False. The text tells us that “it’s actually healthier to let yourself experience those shifts”.",
       "source": "Administrators-2023-Ultimate-Eu-Test-Book - Verbal Reasoning.pdf"
     },
     {
@@ -3155,7 +3155,7 @@ window.__QUESTION_BANKS__ = {
         "D": "Sheep are the animal most likely to pass Q fever on to humans"
       },
       "answer": "A",
-      "rationale": "",
+      "rationale": "A. True. In its more deadly form, Q fever can damage your brain but many people with the milder form have no symptoms at all, therefore are unaware they have it.\nB. Cannot say. The passage does not provide information on when chicken pox is dangerous or not.\nC. False. The passage says that “if Q fever recurs, you may need to take antibiotics for at least 18 months”.\nD. Cannot say. Q fever is transmitted to humans by animals, “most commonly sheep, goats and cattle”, but we are not told which of these is the most likely to pass it on.",
       "source": "Administrators-2023-Ultimate-Eu-Test-Book - Verbal Reasoning.pdf"
     },
     {
@@ -3170,7 +3170,7 @@ window.__QUESTION_BANKS__ = {
         "D": "Exposure compensation allows photographers to manipulate an image’s darkness"
       },
       "answer": "D",
-      "rationale": "A. True. In its more deadly form, Q fever can damage your brain but many people with the milder form have no symptoms at all, therefore are unaware they have it.\nB. Cannot say. The passage does not provide information on when chicken pox is dangerous or not.\nC. False. The passage says that “if Q fever recurs, you may need to take antibiotics for at least 18 months”.\nD. Cannot say. Q fever is transmitted to humans by animals, “most commonly sheep, goats and cattle”, but we are not told which of these is the most likely to pass it on. B. Cannot say. The passage only discusses its use by photographers in general terms, without reference to their experience. False. Since it is a manual override of an automatic feature, it can also be used when a photographer wants a photo to be lighter or 104 C. D. darker than the camera’s meter would otherwise allow. False. As the passage states, camera meters can usually be relied on, except in challenging lighting conditions. True. Exposure compensation allows a photographer to manually determine how bright, or how dark, a photograph will be.",
+      "rationale": "A. Cannot say. The passage only discusses its use by photographers in general terms, without reference to their experience.\nB. False. Since it is a manual override of an automatic feature, it can also be used when a photographer wants a photo to be lighter or darker than the camera’s meter would otherwise allow.\nC. False. As the passage states, camera meters can usually be relied on, except in challenging lighting conditions.\nD. True. Exposure compensation allows a photographer to manually determine how bright, or how dark, a photograph will be.",
       "source": "Administrators-2023-Ultimate-Eu-Test-Book - Verbal Reasoning.pdf"
     },
     {
@@ -3305,7 +3305,7 @@ window.__QUESTION_BANKS__ = {
         "D": "An ARkStorm is less likely to occur in the neighbouring desert state of Arizona"
       },
       "answer": "B",
-      "rationale": "A. False. More recent data suggests only that this is “likely” to be the case, not that it is known for certain. B.\nB. True. As the passage states, they are hypothetical but scientifically realistic, and it mentions the storms that affected in California in C.\nC. False. The passage says a quarter of California’s homes could be affected, meaning that three-quarters would not. Thus we can conclude that most of California would NOT be underwater. D.\nD. Cannot say. The passage gives no information on the factors that can cause such storms or whether or not they are more or less likely in Arizona or California.",
+      "rationale": "A. False. More recent data suggests only that this is “likely” to be the case, not that it is known for certain.\nB. True. As the passage states, they are hypothetical but scientifically realistic, and it mentions the storms that affected California in 1861–1862.\nC. False. The passage says a quarter of California’s homes could be affected, meaning that three-quarters would not. Thus we can conclude that most of California would NOT be underwater.\nD. Cannot say. The passage gives no information on the factors that can cause such storms or whether or not they are more or less likely in Arizona or California.",
       "source": "Administrators-2023-Ultimate-Eu-Test-Book - Verbal Reasoning.pdf"
     },
     {
@@ -3320,7 +3320,7 @@ window.__QUESTION_BANKS__ = {
         "D": "Slow walkers in their 70s and 80s will die sooner than fast walkers"
       },
       "answer": "B",
-      "rationale": "A. False. The passage says the slowest walkers, not all slow walkers, tended to have indicators for neurodegenerative and psychiatric disorders, and having an indicator for a disease is in any case not the same as actually having it. B.\nB. True. Doctors found that slower walkers were aging faster. C.\nC. Cannot say. The passage discusses the middle-aged and elderly, but does not mention children. D.\nD. Cannot say. Slow walkers in their 70s and 80s tend to die sooner, which is not the same as saying that they always do.",
+      "rationale": "A. False. The passage says the slowest walkers, not all slow walkers, tended to have indicators for neurodegenerative and psychiatric disorders, and having an indicator for a disease is in any case not the same as actually having it.\nB. True. Doctors found that slower walkers were aging faster.\nC. Cannot say. The passage discusses the middle-aged and elderly, but does not mention children.\nD. Cannot say. Slow walkers in their 70s and 80s tend to die sooner, which is not the same as saying that they always do.",
       "source": "Administrators-2023-Ultimate-Eu-Test-Book - Verbal Reasoning.pdf"
     },
     {
@@ -3350,7 +3350,7 @@ window.__QUESTION_BANKS__ = {
         "D": "The danger with glaucoma is that many people are unaware they are developing it"
       },
       "answer": "D",
-      "rationale": "A. Cannot say. While saying it is most common 106 for those in their 70s and 80s, the passage also says it can affect people of all ages.\nB. False. Loss of peripheral vision is the first sign of glaucoma, when it can still be treated.\nC. False. Fluid build-up in the front part of the eye is USUALLY the cause, not just occasionally.\nD. True. Because it tends to develop slowly over many years, i.e. gradually, many people do not realise that they have it.",
+      "rationale": "A. Cannot say. While saying it is most common for those in their 70s and 80s, the passage also says it can affect people of all ages.\nB. False. Loss of peripheral vision is the first sign of glaucoma, when it can still be treated.\nC. False. Fluid build-up in the front part of the eye is USUALLY the cause, not just occasionally.\nD. True. Because it tends to develop slowly over many years, i.e. gradually, many people do not realise that they have it.",
       "source": "Administrators-2023-Ultimate-Eu-Test-Book - Verbal Reasoning.pdf"
     },
     {
@@ -3455,7 +3455,7 @@ window.__QUESTION_BANKS__ = {
         "D": "Doctors said there was not much to be gained from cutting back cigarette consumption"
       },
       "answer": "A",
-      "rationale": "",
+      "rationale": "A. True. According to the passage, even smoking five cigarettes a day is two-thirds as bad for lung damage as smoking 30 a day, meaning that cutting down from 30 to 15 won’t make a big difference.\nB. False. Light smoking caused two-thirds of the damage of heavy smoking.\nC. Cannot say. The passage says that reducing daily cigarette use “can be an important step toward quitting entirely”, but not that people who cut back first are more likely to quit entirely than those who don’t.\nD. False. Because cutting back can be an important step towards quitting entirely, it can still have significant health benefits.",
       "source": "Administrators-2023-Ultimate-Eu-Test-Book - Verbal Reasoning.pdf"
     },
     {
@@ -3470,7 +3470,7 @@ window.__QUESTION_BANKS__ = {
         "D": "In order to be published, some articles may need to include superfluous citations"
       },
       "answer": "D",
-      "rationale": "A. True. According to the passage, even smoking five cigarettes a day is two-thirds as bad for lung damage as smoking 30 a day, meaning that cutting down from 30 to 15 won’t make a big difference.\nB. False. Light smoking caused two-thirds of the damage of heavy smoking.\nC. Cannot say. The passage says that reducing daily cigarette use “can be an important step toward quitting entirely”, but not that people who cut back first are more likely to quit entirely than those who don’t.\nD. False. Because cutting back can be an important step towards quitting entirely, it can still have significant health benefits. Cannot say. The passage says they have their “shortcomings”, but that can mean anything from being bad to being good but just needing some improvement. Cannot say. The passage does not make clear if this is usually the case or if it only occurs within a minority of journals. False. Coercive citations occur when an editor asks for more citations to their own journal, but not when they simply ask for citations to improve a paper. True. As the passage makes clear, in some cases an article may only be published if it includes unnecessary citations referring back to the journal it is being published in.",
+      "rationale": "A. Cannot say. The passage says they have their “shortcomings”, but that can mean anything from being bad to being good but just needing some improvement.\nB. Cannot say. The passage does not make clear if this is usually the case or if it only occurs within a minority of journals.\nC. False. Coercive citations occur when an editor asks for more citations to their own journal, but not when they simply ask for citations to improve a paper.\nD. True. As the passage makes clear, in some cases an article may only be published if it includes unnecessary citations referring back to the journal it is being published in.",
       "source": "Administrators-2023-Ultimate-Eu-Test-Book - Verbal Reasoning.pdf"
     },
     {
@@ -3530,7 +3530,7 @@ window.__QUESTION_BANKS__ = {
         "D": "The Earth's orbit causes a slight wobble in the Sun"
       },
       "answer": "C",
-      "rationale": "A. Cannot say. This seems quite possible, but the passage does not discuss Jupiter and the Sun.\nB. Cannot say. A barycentre being located outside a celestial object may be due to distance, or it may be due to the similar size of the objects.\nC. True. Even when there are differences in size, 108 D. the barycentre is not the exact centre of the larger object.\nD. Cannot say. The text says that when a less massive body orbits a more massive one “the more massive body might be observed to wobble slightly”. However we are not told if this happens in the case of the Earth and the Sun.",
+      "rationale": "A. Cannot say. This seems quite possible, but the passage does not discuss Jupiter and the Sun.\nB. Cannot say. A barycentre being located outside a celestial object may be due to distance, or it may be due to the similar size of the objects.\nC. True. Even when there are differences in size, the barycentre is not the exact centre of the larger object.\nD. Cannot say. The text says that when a less massive body orbits a more massive one “the more massive body might be observed to wobble slightly”. However we are not told if this happens in the case of the Earth and the Sun.",
       "source": "Administrators-2023-Ultimate-Eu-Test-Book - Verbal Reasoning.pdf"
     },
     {
@@ -3575,7 +3575,7 @@ window.__QUESTION_BANKS__ = {
         "D": "Despite a recent drop, more are going to university today than in their parents’ time"
       },
       "answer": "A",
-      "rationale": "True. The rise in tuition fees has impacted those from lower socioeconomic classes more significantly. Cannot say. The passage says the United States has fallen behind, but that does not mean it led formerly. Cannot say. The passage says that it is one of the biggest reasons, but not that it is the biggest. False: “fewer young adults are getting a higher education than their parents”.",
+      "rationale": "A. True. The rise in tuition fees has impacted those from lower socioeconomic classes more significantly.\nB. Cannot say. The passage says the United States has fallen behind, but that does not mean it led formerly.\nC. Cannot say. The passage says that it is one of the biggest reasons, but not that it is the biggest.\nD. False: “fewer young adults are getting a higher education than their parents”.",
       "source": "Administrators-2023-Ultimate-Eu-Test-Book - Verbal Reasoning.pdf"
     },
     {
@@ -3635,7 +3635,7 @@ window.__QUESTION_BANKS__ = {
         "D": "The Roche limit applies when an object’s own gravitational pull is weaker than tidal forces"
       },
       "answer": "D",
-      "rationale": "A. Cannot say. The passage does not mention Saturn or its rings.\nB. False. As the passage states, centrifugal forces are also needed to pull a satellite apart, mean- C. D. ing that a larger planet’s gravity is not enough.\nC. False. It is not the tidal forces created by the satellite that are the issue, but those produced by the object that it orbits.\nD. True. When the tidal forces exerted on a planet are greater than its gravitational selfattraction, then the Roche limit will apply and it will disintegrate.",
+      "rationale": "A. Cannot say. The passage does not mention Saturn or its rings.\nB. False. As the passage states, centrifugal forces are also needed to pull a satellite apart, meaning that a larger planet’s gravity is not enough.\nC. False. It is not the tidal forces created by the satellite that are the issue, but those produced by the object that it orbits.\nD. True. When the tidal forces exerted on a planet are greater than its gravitational selfattraction, then the Roche limit will apply and it will disintegrate.",
       "source": "Administrators-2023-Ultimate-Eu-Test-Book - Verbal Reasoning.pdf"
     },
     {
@@ -3680,7 +3680,7 @@ window.__QUESTION_BANKS__ = {
         "D": "Studies have shown that most parents do in fact have a favourite child"
       },
       "answer": "B",
-      "rationale": "A. False. Eighty-five percent of respondents believed their mother had a favourite child, not both parents.\nB. True. Some parents said they love their children equally, but may get along best with one in particular.\nC. Cannot say. Eight-five percent of respondents thought their mothers had a favourite D. child, but we do not know what percentage of mothers actually did.\nD. Cannot say. The passage says that MANY parents admit to having a favourite child, which may or may not mean MOST.",
+      "rationale": "A. False. Eighty-five percent of respondents believed their mother had a favourite child, not both parents.\nB. True. Some parents said they love their children equally, but may get along best with one in particular.\nC. Cannot say. Eight-five percent of respondents thought their mothers had a favourite child, but we do not know what percentage of mothers actually did.\nD. Cannot say. The passage says that MANY parents admit to having a favourite child, which may or may not mean MOST.",
       "source": "Administrators-2023-Ultimate-Eu-Test-Book - Verbal Reasoning.pdf"
     },
     {
@@ -3695,7 +3695,7 @@ window.__QUESTION_BANKS__ = {
         "D": "Many clinicians do not believe problematic behaviour can be identified in young toddlers"
       },
       "answer": "D",
-      "rationale": "A. False. The passage says the percentage of delayed talkers having persistent language problems later in life is 40%, which is less than half. B.\nB. Cannot say. The passage only mentions that having mental health risks and delayed language skills can be a “double whammy”, but does not say if one causes the other. C.\nC. False. This was the first study to link the two, so it cannot have been already established. D.\nD. True. The study investigated the link between toddlers’ delayed vocabulary and severe temper tantrums, including in children as young as 12 months, “which is much younger than many clinicians typically believe problematic behaviour can be identified”.",
+      "rationale": "A. False. The passage says the percentage of delayed talkers having persistent language problems later in life is 40%, which is less than half.\nB. Cannot say. The passage only mentions that having mental health risks and delayed language skills can be a “double whammy”, but does not say if one causes the other.\nC. False. This was the first study to link the two, so it cannot have been already established.\nD. True. The study investigated the link between toddlers’ delayed vocabulary and severe temper tantrums, including in children as young as 12 months, “which is much younger than many clinicians typically believe problematic behaviour can be identified”.",
       "source": "Administrators-2023-Ultimate-Eu-Test-Book - Verbal Reasoning.pdf"
     },
     {
@@ -3710,7 +3710,7 @@ window.__QUESTION_BANKS__ = {
         "D": "The youngest children in a school year were frequently found to develop mental health problems. 78."
       },
       "answer": "B",
-      "rationale": "A. Cannot say. We are told only that those born in the last three months of the school year were 30% more likely to develop depression than those born in the first three months. There is no information about the actual likelihood of any of these children getting depression.\nB. True. The passage identifies children born in the summer as being the youngest in their school year and tells us that “children born in the last three months of the school year were prone to being 30% more likely to develop depression compared to those born in the first three months”, i.e. those born in the autumn.\nC. Cannot say. The passage mentions how younger children may be more at risk of mental health issues, but does not provide any remedies or suggestions on how to avoid it.\nD. Cannot say. The youngest children were 30% more likely to develop mental health problems, but as we do not know the actual frequency we cannot say if 30% is frequent or uncommon. 110",
+      "rationale": "A. Cannot say. We are told only that those born in the last three months of the school year were 30% more likely to develop depression than those born in the first three months. There is no information about the actual likelihood of any of these children getting depression.\nB. True. The passage identifies children born in the summer as being the youngest in their school year and tells us that “children born in the last three months of the school year were prone to being 30% more likely to develop depression compared to those born in the first three months”, i.e. those born in the autumn.\nC. Cannot say. The passage mentions how younger children may be more at risk of mental health issues, but does not provide any remedies or suggestions on how to avoid it.\nD. Cannot say. The youngest children were 30% more likely to develop mental health problems, but as we do not know the actual frequency we cannot say if 30% is frequent or uncommon.",
       "source": "Administrators-2023-Ultimate-Eu-Test-Book - Verbal Reasoning.pdf"
     },
     {
@@ -3755,7 +3755,7 @@ window.__QUESTION_BANKS__ = {
         "D": "Hope was found to promptly increase during the course of cognitive behavioural therapy"
       },
       "answer": "C",
-      "rationale": "A. Cannot say. Panic disorder was one of the “four common anxiety disorders” studied, but there is no evaluation of which of the four involved the strongest feelings of hopelessness. B.\nB. Cannot say. While saying that increases in hope were a positive indicator in terms of recovery, the passage does not say that those whose hope levels remained unchanged were NOT expected to recover. C.\nC. True. The study looked at the use of CBT for four common anxiety disorders, including panic disorder, finding that hope was a “common element” in recovery for all types and that “increases in hope were greater for those in active treatment than for those in the waitlist”. D.\nD. False. According to the passage, hope increased gradually, not quickly.",
+      "rationale": "A. Cannot say. Panic disorder was one of the “four common anxiety disorders” studied, but there is no evaluation of which of the four involved the strongest feelings of hopelessness.\nB. Cannot say. While saying that increases in hope were a positive indicator in terms of recovery, the passage does not say that those whose hope levels remained unchanged were NOT expected to recover.\nC. True. The study looked at the use of CBT for four common anxiety disorders, including panic disorder, finding that hope was a “common element” in recovery for all types and that “increases in hope were greater for those in active treatment than for those in the waitlist”.\nD. False. According to the passage, hope increased gradually, not quickly.",
       "source": "Administrators-2023-Ultimate-Eu-Test-Book - Verbal Reasoning.pdf"
     },
     {
@@ -3875,7 +3875,7 @@ window.__QUESTION_BANKS__ = {
         "D": "Despite what scientists thought, urban development does not impact wind speed"
       },
       "answer": "C",
-      "rationale": "A. Cannot say. The passage says that wind speed has been increasing in recent years, but does not say if this trend will continue or not.\nB. Cannot say. The topic of climate change is not mentioned.\nC. True. Scientists believed that wind speed was falling due to increasing urbanisation creating more barriers to moving air, but despite continued urbanisation wind speed has increased in recent years. This has created a challenge to the former theory.\nD. Cannot say. While saying that scientists thought the earlier decline in wind speed was due to urban development, the passage does not say this was wrong. It leaves open the possibility that while urban development does indeed slow wind speed, other factors increasing wind speed have more recently counteracted this. 112",
+      "rationale": "A. Cannot say. The passage says that wind speed has been increasing in recent years, but does not say if this trend will continue or not.\nB. Cannot say. The topic of climate change is not mentioned.\nC. True. Scientists believed that wind speed was falling due to increasing urbanisation creating more barriers to moving air, but despite continued urbanisation wind speed has increased in recent years. This has created a challenge to the former theory.\nD. Cannot say. While saying that scientists thought the earlier decline in wind speed was due to urban development, the passage does not say this was wrong. It leaves open the possibility that while urban development does indeed slow wind speed, other factors increasing wind speed have more recently counteracted this.",
       "source": "Administrators-2023-Ultimate-Eu-Test-Book - Verbal Reasoning.pdf"
     },
     {
@@ -3920,7 +3920,7 @@ window.__QUESTION_BANKS__ = {
         "D": "Men felt increased anxiety when they were not following traditional gender norms"
       },
       "answer": "B",
-      "rationale": "A. Cannot say. The passage says men are most stressed when they are entirely economically dependent on their partner, but then says husbands are at their most anxious when they are the sole breadwinner, so we cannot say.\nB. True. According to the study, men were least stressed when their spouse made 40% of the total household income, leaving them as the primary breadwinner.\nC. False. The study only looked at heterosexual couples, thus stating that the study found that gender did not matter would be false. D.\nD. Cannot say. The passage says the study suggests this may be the case, but not that it is known for certain. Men’s anxiety could be being triggered by economic factors or the difficulties of juggling two careers.",
+      "rationale": "A. Cannot say. The passage says men are most stressed when they are entirely economically dependent on their partner, but then says husbands are at their most anxious when they are the sole breadwinner, so we cannot say.\nB. True. According to the study, men were least stressed when their spouse made 40% of the total household income, leaving them as the primary breadwinner.\nC. False. The study only looked at heterosexual couples, thus stating that the study found that gender did not matter would be false.\nD. Cannot say. The passage says the study suggests this may be the case, but not that it is known for certain. Men’s anxiety could be being triggered by economic factors or the difficulties of juggling two careers.",
       "source": "Administrators-2023-Ultimate-Eu-Test-Book - Verbal Reasoning.pdf"
     },
     {
@@ -3965,7 +3965,7 @@ window.__QUESTION_BANKS__ = {
         "D": "Nearly one-third of parents overestimated their ability to detect depression in their children"
       },
       "answer": "C",
-      "rationale": "A. Cannot say. The passage merely says that overconfident parents might not pick up on subtle signals, not what less confident ones might do.\nB. Cannot say. We are told that “30 percent of parents said their child is good at hiding feelings and 40 percent said they struggle to dif- C. D. ferentiate between their child's normal mood swings and signs of depression”. We are NOT told, however, if these two subsets of parents overlap, with some in both groups, so the two figures cannot simply be added together.\nC. True. According to the passage, only a third of parents said they were confident they could detect depression in their children.\nD. Cannot say. The passage says that “one-third were confident they could detect depression in their children” but we are not told what proportion of these might overestimate their ability to detect depression.",
+      "rationale": "A. Cannot say. The passage merely says that overconfident parents might not pick up on subtle signals, not what less confident ones might do.\nB. Cannot say. We are told that “30 percent of parents said their child is good at hiding feelings and 40 percent said they struggle to differentiate between their child's normal mood swings and signs of depression”. We are NOT told, however, if these two subsets of parents overlap, with some in both groups, so the two figures cannot simply be added together.\nC. True. According to the passage, only a third of parents said they were confident they could detect depression in their children.\nD. Cannot say. The passage says that “one-third were confident they could detect depression in their children” but we are not told what proportion of these might overestimate their ability to detect depression.",
       "source": "Administrators-2023-Ultimate-Eu-Test-Book - Verbal Reasoning.pdf"
     },
     {
@@ -4010,7 +4010,7 @@ window.__QUESTION_BANKS__ = {
         "D": "Driving on a straight road is less tiring than driving on a twisting road. 84."
       },
       "answer": "C",
-      "rationale": "A. Cannot say. The age of a car is neither mentioned nor excluded as a factor.\nB. Cannot say. The passage discusses cars but there is no reference to trains. C. D.\nC. True. A person’s muscles are in use throughout long car journeys to keep their posture properly maintained.\nD. Cannot say. While turns are cited as one factor, others are involved, such as the condition of the car and how often it brakes. On a straight road these other factors may outweigh the benefits from lack of turns.",
+      "rationale": "A. Cannot say. The age of a car is neither mentioned nor excluded as a factor.\nB. Cannot say. The passage discusses cars but there is no reference to trains.\nC. True. A person’s muscles are in use throughout long car journeys to keep their posture properly maintained.\nD. Cannot say. While turns are cited as one factor, others are involved, such as the condition of the car and how often it brakes. On a straight road these other factors may outweigh the benefits from lack of turns.",
       "source": "Administrators-2023-Ultimate-Eu-Test-Book - Verbal Reasoning.pdf"
     },
     {
@@ -4055,7 +4055,7 @@ window.__QUESTION_BANKS__ = {
         "D": "Lactose intolerance, while generally harmless, can also be quite dangerous in some cases"
       },
       "answer": "A",
-      "rationale": "A. True. The passage tells us that another name for lactose malabsorption is lactose intolerance, and that lactose intolerance is usually caused by a deficiency of lactase.\nB. False. According to the passage, most people 114 C. D. with lactose intolerance can manage the condition without having to give up all dairy foods.\nC. False. Some people with low levels of lactase can digest milk products without problems. Lactose intolerance is when these low levels lead to symptoms after eating dairy foods.\nD. Cannot say. Although saying that lactose intolerance is generally harmless, the text does not say either way if it can be quite dangerous or not.",
+      "rationale": "A. True. The passage tells us that another name for lactose malabsorption is lactose intolerance, and that lactose intolerance is usually caused by a deficiency of lactase.\nB. False. According to the passage, most people with lactose intolerance can manage the condition without having to give up all dairy foods.\nC. False. Some people with low levels of lactase can digest milk products without problems. Lactose intolerance is when these low levels lead to symptoms after eating dairy foods.\nD. Cannot say. Although saying that lactose intolerance is generally harmless, the text does not say either way if it can be quite dangerous or not.",
       "source": "Administrators-2023-Ultimate-Eu-Test-Book - Verbal Reasoning.pdf"
     },
     {
@@ -4100,7 +4100,7 @@ window.__QUESTION_BANKS__ = {
         "D": "Red sprites only form in the part of the atmosphere known as the mesosphere"
       },
       "answer": "C",
-      "rationale": "A. Cannot say. Both occur above thunderstorms, but we are not given any data on which can reach the highest altitudes.\nB. Cannot say. We are told that blue jets propagate from the tops of thunderclouds at C. D. around 100km per second but there is no information about the velocity of blue tendrils, which trail below red sprites.\nC. True. Red sprites form between 40 and 90 km in altitude and this includes the ionospheric D region, which is between 70 and 90 km in altitude. The causes of both red sprites and blue jets are not known, therefore they are unexplained.\nD. False. Red sprites form “over a broad region between 40 and 90 km in altitude” and as the mesosphere is “between about 50 and 80 km in altitude”, this means they can form outside the mesosphere.",
+      "rationale": "A. Cannot say. Both occur above thunderstorms, but we are not given any data on which can reach the highest altitudes.\nB. Cannot say. We are told that blue jets propagate from the tops of thunderclouds at around 100km per second but there is no information about the velocity of blue tendrils, which trail below red sprites.\nC. True. Red sprites form between 40 and 90 km in altitude and this includes the ionospheric D region, which is between 70 and 90 km in altitude. The causes of both red sprites and blue jets are not known, therefore they are unexplained.\nD. False. Red sprites form “over a broad region between 40 and 90 km in altitude” and as the mesosphere is “between about 50 and 80 km in altitude”, this means they can form outside the mesosphere.",
       "source": "Administrators-2023-Ultimate-Eu-Test-Book - Verbal Reasoning.pdf"
     },
     {
@@ -4220,7 +4220,7 @@ window.__QUESTION_BANKS__ = {
         "D": "Professors and other professionals with social science degrees were found to have more similar political opinions than those with medical degrees"
       },
       "answer": "D",
-      "rationale": "A. Cannot say. The passage only says this in reference to European professors.\nB. Cannot say. The passage says universities are accused of this, and that professors are more liberal and left-leaning than other professionals, but that cannot be equated with universities being hostile to conservative values.\nC. False. The passage said there was no greater homogeneity, i.e. no less heterogeneity, among the professoriate relative to other specific professions.\nD. True. According to the study, differences between professors and other professionals with a social science degree were not as clear as they were in other fields, such as medical, STEM, economics and law. 116",
+      "rationale": "A. Cannot say. The passage only says this in reference to European professors.\nB. Cannot say. The passage says universities are accused of this, and that professors are more liberal and left-leaning than other professionals, but that cannot be equated with universities being hostile to conservative values.\nC. False. The passage said there was no greater homogeneity, i.e. no less heterogeneity, among the professoriate relative to other specific professions.\nD. True. According to the study, differences between professors and other professionals with a social science degree were not as clear as they were in other fields, such as medical, STEM, economics and law.",
       "source": "Administrators-2023-Ultimate-Eu-Test-Book - Verbal Reasoning.pdf"
     },
     {
@@ -4325,7 +4325,7 @@ window.__QUESTION_BANKS__ = {
         "D": "The study found that yellow lights were more likely to keep people awake later at night"
       },
       "answer": "B",
-      "rationale": "A. Cannot say. The study only tested for colour, “without changing the brightness”, so it did not provide results on the impact of brightness. B.\nB. True. The passage says that “the blue light filters on our devices are designed to help us sleep better” but instead “could be doing the exact opposite”. C.\nC. Cannot say. The study suggests that “dimmer, cooler lights in the evening” may be better for our sleep patterns but does not indicate which might be the better option of “dimmer, warmer” or “cooler, brighter”. D.\nD. False. Since the study was conducted on mice, it could not have found results on humans.",
+      "rationale": "A. Cannot say. The study only tested for colour, “without changing the brightness”, so it did not provide results on the impact of brightness.\nB. True. The passage says that “the blue light filters on our devices are designed to help us sleep better” but instead “could be doing the exact opposite”.\nC. Cannot say. The study suggests that “dimmer, cooler lights in the evening” may be better for our sleep patterns but does not indicate which might be the better option of “dimmer, warmer” or “cooler, brighter”.\nD. False. Since the study was conducted on mice, it could not have found results on humans.",
       "source": "Administrators-2023-Ultimate-Eu-Test-Book - Verbal Reasoning.pdf"
     },
     {
@@ -4400,7 +4400,7 @@ window.__QUESTION_BANKS__ = {
         "D": "ASD traits for identical twins were found to be more similar than for non-identical twins"
       },
       "answer": "A",
-      "rationale": "A. True. According to the passage, symptom scores varied greatly between twins diagnosed with ASD. B.\nB. False. Although it is extremely likely (a 96% chance) that if one twin has ASD, the other will too, that also means that there are cases where only one twin has it. C.\nC. Cannot say. According to the passage, genetic factors contributed to only 9% of the cause of trait variation among these twins, meaning that it is probably not the case. However it is still possible that there were many other small contributory factors, none of which was as great as 9%. D.\nD. Cannot say. The passage only says that the scores for traits were very similar for identical twins without ASD, but does not mention the level of similarity for those with ASD, or non-identical twins with ASD. 118",
+      "rationale": "A. True. According to the passage, symptom scores varied greatly between twins diagnosed with ASD.\nB. False. Although it is extremely likely (a 96% chance) that if one twin has ASD, the other will too, that also means that there are cases where only one twin has it.\nC. Cannot say. According to the passage, genetic factors contributed to only 9% of the cause of trait variation among these twins, meaning that it is probably not the case. However it is still possible that there were many other small contributory factors, none of which was as great as 9%.\nD. Cannot say. The passage only says that the scores for traits were very similar for identical twins without ASD, but does not mention the level of similarity for those with ASD, or non-identical twins with ASD.",
       "source": "Administrators-2023-Ultimate-Eu-Test-Book - Verbal Reasoning.pdf"
     },
     {
@@ -4446,7 +4446,7 @@ window.__QUESTION_BANKS__ = {
         "D": "De meeste ingevoerde soorten leiden niet tot een verandering van het ecologische evenwicht tussen de inheemse soorten"
       },
       "answer": "B",
-      "rationale": "Definitie: door menselijk handelen geïntroduceerd.",
+      "rationale": "A. Onjuist. Een invasieve soort moet zich juist voldoende voortplanten om zichzelf in stand te houden.\nB. Juist. Volgens de definitie is de soort door menselijk handelen geïntroduceerd waar zij van nature niet voorkwam.\nC. Niet te bepalen. De tekst zegt dat invasieve soorten het ecosysteem kunnen aantasten, maar niet dat de meeste ernstige verstoringen veroorzaken.\nD. Niet te bepalen. De tekst zegt dat de meeste ingevoerde soorten niet tot wezenlijke veranderingen leiden; dat sluit kleinere veranderingen niet uit.",
       "source": "Verbal Reasoning NL Question 1.png"
     },
     {
@@ -4462,7 +4462,7 @@ window.__QUESTION_BANKS__ = {
         "D": "Het grootste verzet tegen het telen van genetisch gemodificeerde aardappelen komt van milieudeskundigen"
       },
       "answer": "A",
-      "rationale": "Resistentie betekent dat schimmelbestrijding niet nodig is.",
+      "rationale": "A. Juist. Het bedrijf verwacht dat resistente aardappelen niet met schimmelbestrijders hoeven te worden besproeid; dit ondersteunt dat deze middelen vooral tegen aardappelmoeheid worden ingezet.\nB. Niet te bepalen. Milieudeskundigen verwachten weerstand tegen genetisch gemodificeerde aardappelen, maar de tekst geeft geen vastgestelde voorkeur van consumenten voor besproeide aardappelen.\nC. Niet te bepalen. Het gaat om de eerste veldproeven in het land; de tekst zegt niet dat nooit eerder toestemming is gevraagd.\nD. Niet te bepalen. Milieudeskundigen voorspellen verzet van consumenten; de tekst vergelijkt de omvang van het verzet van verschillende groepen niet.",
       "source": "Verbal Reasoning NL Question 2.png"
     },
     {
@@ -4478,7 +4478,7 @@ window.__QUESTION_BANKS__ = {
         "D": "Emoes kunnen over lange afstanden lopen met een snelheid van 50 km/uur"
       },
       "answer": "C",
-      "rationale": "Beenspieren vormen een aanzienlijk aandeel van de lichaamsmassa.",
+      "rationale": "A. Onjuist. De struisvogel is volgens de tekst groter dan de emoe.\nB. Niet te bepalen. Spieren en de structuur van de poten dragen beide bij; de tekst noemt geen belangrijkste factor.\nC. Juist. De spieren van de onderste ledematen vormen een aanzienlijk aandeel van de totale lichaamsmassa.\nD. Onjuist. De snelheid van ongeveer 50 km/uur betreft een sprint over korte afstanden.",
       "source": "Verbal Reasoning NL Question 3.png"
     },
     {
@@ -4494,7 +4494,7 @@ window.__QUESTION_BANKS__ = {
         "D": "Een rendier heeft zachte zoolkussens om extra grip te hebben tijdens de winter"
       },
       "answer": "C",
-      "rationale": "Gewei van vrouwelijke rendieren sterft in de zomer af.",
+      "rationale": "A. Niet te bepalen. De tekst geeft geen gemiddelde gewichten waarmee deze algemene vergelijking kan worden gemaakt.\nB. Onjuist. Het gewei van vrouwelijke rendieren sterft in de zomer af, niet in de lente.\nC. Juist. De tekst noemt de zomer voor vrouwelijke rendieren, zonder onderscheid naar leeftijd.\nD. Onjuist. In de winter worden de zoolkussens kleiner en smaller; de uitstekende hoefrand zorgt dan voor grip op ijs en sneeuw.",
       "source": "Verbal Reasoning NL Question 4.png"
     },
     {
@@ -4510,7 +4510,7 @@ window.__QUESTION_BANKS__ = {
         "D": "Oorspronkelijk werd een groot deel van de Alaska Highway als knuppelweg aangelegd"
       },
       "answer": "B",
-      "rationale": "Hout vergaat zeer langzaam in vochtige, zure, anaerobe bodem.",
+      "rationale": "A. Niet te bepalen. De tekst geeft voorbeelden uit de VS, maar vergelijkt het gebruik tussen landen niet.\nB. Juist. In vochtige, zure en anaerobe bodem vergaan de boomstammen slechts zeer langzaam.\nC. Niet te bepalen. De voorbeelden tonen langdurig gebruik, maar de tekst zegt niet hoe knuppelwegen doorgaans worden aangelegd.\nD. Niet te bepalen. De tekst noemt een deel van de Alaska Highway, zonder te zeggen hoe groot dat deel was.",
       "source": "Verbal Reasoning NL Question 5.png"
     },
     {
@@ -4526,7 +4526,7 @@ window.__QUESTION_BANKS__ = {
         "D": "Jaarlijks worden enkele honderden DNA-tests uitgevoerd"
       },
       "answer": "B",
-      "rationale": "DNA-test kan de kans bepalen dat iemand een ziekte zal krijgen.",
+      "rationale": "A. Niet te bepalen. De tekst noemt toepassingen van DNA-tests, maar zegt niet expliciet dat zij bij gezonde mensen worden uitgevoerd.\nB. Juist. Met een DNA-test kan worden bepaald hoe groot de kans is dat iemand een ziekte zal krijgen.\nC. Niet te bepalen. Vrijwillige deelname zegt niets over het nut; de tekst noemt zowel voor- als nadelen.\nD. Niet te bepalen. Een paar honderd verwijst naar het aantal beschikbare tests, niet naar het aantal jaarlijks uitgevoerde tests.",
       "source": "Verbal Reasoning NL Question 6.png"
     },
     {
@@ -4542,7 +4542,7 @@ window.__QUESTION_BANKS__ = {
         "D": "Niemand heeft ooit permanent op Antarctica gewoond"
       },
       "answer": "C",
-      "rationale": "Antarctica bevat 90% van al het gletsjerijs.",
+      "rationale": "A. Niet te bepalen. De Rus maakte deel uit van een groep die beweerde Antarctica als eerste te hebben gezien; zijn individuele voorrang staat niet vast.\nB. Niet te bepalen. Twaalf naties vestigden onderzoeksstations; dat betekent niet dat zij alle twaalf grondgebied opeisten.\nC. Juist. Antarctica bevat 90% van het gletsjerijs, tegenover 10% voor de rest van de wereld samen.\nD. Niet te bepalen. De tekst zegt dat geen onderdanen van de zeven claimende naties er ooit permanent hadden gewoond, maar doet geen onbeperkte uitspraak over iedereen en alle tijden.",
       "source": "Verbal Reasoning NL Question 7.png"
     },
     {
@@ -4558,7 +4558,7 @@ window.__QUESTION_BANKS__ = {
         "D": "Bessarabië en Bukovina zijn thans respectievelijk de Republiek Moldavië en Oekraïne"
       },
       "answer": "A",
-      "rationale": "Historisch Moldavië ligt tegenwoordig over Roemenië, Moldavië en Oekraïne.",
+      "rationale": "A. Juist. Het historische gebied ligt tegenwoordig in ten minste Roemenië, de Republiek Moldavië en Oekraïne.\nB. Niet te bepalen. Bessarabië behoorde op verschillende tijdstippen tot Moldavië, maar de tekst specificeert niet dat dit tot 1859 duurde.\nC. Onjuist. Moldavië en de huidige Republiek Moldavië beslaan niet hetzelfde gebied.\nD. Onjuist. Alleen het grootste deel van Bessarabië vormt de Republiek Moldavië; de rest en het noordelijke deel van Bukovina liggen in Oekraïne.",
       "source": "Verbal Reasoning NL Question 8.png"
     },
     {
@@ -4574,7 +4574,7 @@ window.__QUESTION_BANKS__ = {
         "D": "De quercus gambelii kan noch door bosbrand noch door droogte afsterven"
       },
       "answer": "C",
-      "rationale": "De boom ondervindt op rijkere bodems meer concurrentie.",
+      "rationale": "A. Onjuist. De tekst zegt dat er weinig andere plantensoorten voorkomen, niet dat er geen andere planten overleven.\nB. Niet te bepalen. De tekst noemt het midden van het zuidwesten van de VS, maar stelt niet dat de boom in heel de VS voorkomt.\nC. Juist. De boom gedijt goed op bodems met weinig andere plantensoorten en ondervindt op rijkere bodems meer concurrentie om voeding.\nD. Niet te bepalen. Goed herstel na brand en overleving tijdens droogte betekenen niet dat de boom hierdoor nooit kan afsterven.",
       "source": "Verbal Reasoning NL Question 9.png"
     },
     {
@@ -4590,7 +4590,7 @@ window.__QUESTION_BANKS__ = {
         "D": "Een haiku verwijst altijd naar het seizoen waarin hij is gesitueerd"
       },
       "answer": "D",
-      "rationale": "Volgens de tekst bevat een haiku altijd een seizoenswoord.",
+      "rationale": "A. Onjuist. Een haiku is volgens de tekst niet-rijmend.\nB. Onjuist. De beschreven haiku heeft 17 lettergrepen en wordt in één of drie regels gedrukt; de genoemde langere structuur wordt niet beschreven.\nC. Onjuist. Vijf, zeven en vijf slaan op lettergrepen per regel, niet op drie woorden.\nD. Juist. Een haiku bevat altijd een woord dat het seizoen beschrijft waarin hij is gesitueerd.",
       "source": "Verbal Reasoning NL Question 10.png"
     }
   ]

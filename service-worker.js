@@ -1,4 +1,4 @@
-const CACHE_VERSION = "epso-practice-v21";
+const CACHE_VERSION = "epso-practice-v22";
 const CORE_ASSETS = [
   "./",
   "./index.html",
