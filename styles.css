@@ -1841,8 +1841,22 @@ body.exam-active .hero {
   backdrop-filter: blur(2px);
 }
 
-.modal-backdrop.calculator-backdrop {
-  backdrop-filter: none;
+/* Tool wrappers do not cover or intercept the test screen. */
+.tool-layer {
+  display: contents;
+}
+
+.tool-layer .floating-tool {
+  position: fixed;
+  z-index: 48;
+  max-height: calc(100dvh - 24px);
+  overflow: auto;
+  pointer-events: auto;
+  animation: none;
+}
+
+.tool-layer .floating-tool.is-front {
+  z-index: 49;
 }
 
 .floating-tool {
@@ -1905,7 +1919,7 @@ body.exam-active .hero {
 }
 
 .scratchpad-modal {
-  width: min(700px, calc(100vw - 36px));
+  width: min(490px, calc(100vw - 36px));
 }
 
 .scratch-tabs {
@@ -1977,17 +1991,17 @@ body.exam-active .hero {
   width: min(390px, calc(100vw - 36px));
 }
 
-.calculator-drag-handle {
+.tool-drag-handle {
   cursor: grab;
   touch-action: none;
   user-select: none;
 }
 
-.calculator-modal.is-dragging {
+.floating-tool.is-dragging {
   animation: none;
 }
 
-.calculator-modal.is-dragging .calculator-drag-handle {
+.floating-tool.is-dragging .tool-drag-handle {
   cursor: grabbing;
 }
 

@@ -297,6 +297,8 @@ function startTest(
     highlighterEnabled: false,
     highlighterColor: "yellow",
     overlay: null,
+    tools: { scratchpad: { open: false, position: null }, calculator: { open: false, position: null } },
+    topTool: "scratchpad",
     overviewFilter: "all",
     scratchpad: { mode: "type", note: "", drawing: null },
     calculator: createCalculatorState(),
@@ -702,15 +704,19 @@ function captureHighlights() {
 
 function openOverlay(name) {
   captureHighlights();
-  activeTest.overlay = name;
+  if (name === "scratchpad" || name === "calculator") {
+    activeTest.tools[name].open = true;
+    activeTest.topTool = name;
+  } else {
+    activeTest.overlay = name;
+  }
   renderTest();
 }
 
 function renderOverlay() {
-  if (activeTest.overlay === "overview") return renderOverview();
-  if (activeTest.overlay === "scratchpad") return renderScratchpad();
-  if (activeTest.overlay === "calculator") return renderCalculator();
-  return "";
+  return `${activeTest.tools.scratchpad.open ? renderScratchpad() : ""}
+    ${activeTest.tools.calculator.open ? renderCalculator() : ""}
+    ${activeTest.overlay === "overview" ? renderOverview() : ""}`;
 }
 
 function renderOverview() {
@@ -808,12 +814,12 @@ function overviewQuestion(question, index) {
 function renderScratchpad() {
   const pad = activeTest.scratchpad;
   return `
-    <div class="modal-backdrop" data-close-modal="true">
-      <section class="floating-tool scratchpad-modal" role="dialog" aria-modal="true" aria-labelledby="scratchpad-title">
-        <header class="floating-header">
+    <div class="tool-layer">
+      <section class="floating-tool scratchpad-modal" data-tool="scratchpad" role="dialog" aria-labelledby="scratchpad-title">
+        <header class="floating-header tool-drag-handle" title="Drag to move scratchpad">
           <span>${icon("note")}</span>
           <h2 id="scratchpad-title">Scratchpad</h2>
-          <button type="button" class="close-tool" id="close-overlay" aria-label="Close scratchpad">${icon("close")}</button>
+          <button type="button" class="close-tool" data-close-tool="scratchpad" aria-label="Close scratchpad">${icon("close")}</button>
         </header>
         <div class="scratch-tabs" role="tablist">
           <button type="button" class="${pad.mode === "type" ? "is-active" : ""}" data-scratch-mode="type">Type notes</button>
@@ -838,12 +844,12 @@ function renderCalculator() {
     ["0", "0", "number wide"], [".", "decimal", "number"], ["=", "equals", "operator equals"],
   ];
   return `
-    <div class="modal-backdrop calculator-backdrop" data-close-modal="true">
-      <section class="floating-tool calculator-modal" role="dialog" aria-modal="true" aria-labelledby="calculator-title">
-        <header class="floating-header calculator-drag-handle" title="Drag to move calculator">
+    <div class="tool-layer">
+      <section class="floating-tool calculator-modal" data-tool="calculator" role="dialog" aria-labelledby="calculator-title">
+        <header class="floating-header tool-drag-handle" title="Drag to move calculator">
           <span>${icon("calculator")}</span>
           <h2 id="calculator-title">Calculator</h2>
-          <button type="button" class="close-tool" id="close-overlay" aria-label="Close calculator">${icon("close")}</button>
+          <button type="button" class="close-tool" data-close-tool="calculator" aria-label="Close calculator">${icon("close")}</button>
         </header>
         <div class="calculator-display" aria-live="polite">
           <div class="calculator-expression" id="calculator-expression">${escapeHtml(activeTest.calculator.expression)}</div>
@@ -861,15 +867,26 @@ function renderCalculator() {
 
 function bindOverlayEvents() {
   const backdrop = app.querySelector(".modal-backdrop");
-  if (!backdrop) return;
-
   app.querySelector("#close-overlay")?.addEventListener("click", closeOverlay);
-  backdrop.addEventListener("click", (event) => {
+  backdrop?.addEventListener("click", (event) => {
     if (event.target === backdrop) closeOverlay();
   });
 
-  if (activeTest.overlay === "scratchpad") bindScratchpadEvents();
-  if (activeTest.overlay === "calculator") bindCalculatorEvents();
+  app.querySelectorAll("[data-close-tool]").forEach((button) => {
+    button.addEventListener("click", () => {
+      captureHighlights();
+      activeTest.tools[button.dataset.closeTool].open = false;
+      renderTest();
+    });
+  });
+  if (activeTest.tools.scratchpad.open) {
+    bindFloatingTool("scratchpad");
+    bindScratchpadEvents();
+  }
+  if (activeTest.tools.calculator.open) {
+    bindFloatingTool("calculator");
+    bindCalculatorEvents();
+  }
   if (activeTest.overlay === "overview") bindOverviewEvents();
 }
 
@@ -974,7 +991,7 @@ function initializeDrawingCanvas(canvas, forceClear = false) {
 }
 
 function saveScratchpadState() {
-  if (!activeTest || activeTest.overlay !== "scratchpad") return;
+  if (!activeTest || !activeTest.tools.scratchpad.open) return;
   const note = app.querySelector("#scratch-note");
   if (note) activeTest.scratchpad.note = note.value;
   const canvas = app.querySelector("#scratch-canvas");
@@ -986,7 +1003,6 @@ function createCalculatorState() {
 }
 
 function bindCalculatorEvents() {
-  bindCalculatorDrag();
   app.querySelectorAll("[data-calc-action]").forEach((key) => {
     key.addEventListener("click", () => {
       handleCalculatorAction(key.dataset.calcAction);
@@ -998,49 +1014,72 @@ function bindCalculatorEvents() {
   });
 }
 
-function bindCalculatorDrag() {
-  const calculator = app.querySelector(".calculator-modal");
-  const handle = calculator?.querySelector(".calculator-drag-handle");
-  if (!calculator || !handle) return;
-
+function bindFloatingTool(name) {
+  const panel = app.querySelector(`[data-tool="${name}"]`);
+  const handle = panel?.querySelector(".tool-drag-handle");
+  if (!panel || !handle) return;
+  const state = activeTest.tools[name];
+  const place = (left, top) => {
+    state.position = {
+      left: Math.min(Math.max(0, window.innerWidth - panel.offsetWidth), Math.max(0, left)),
+      top: Math.min(Math.max(0, window.innerHeight - panel.offsetHeight), Math.max(0, top)),
+    };
+    panel.style.left = `${state.position.left}px`;
+    panel.style.top = `${state.position.top}px`;
+  };
+  const initial = state.position || {
+    left: name === "scratchpad" ? 18 : window.innerWidth - panel.offsetWidth - 18,
+    top: name === "scratchpad" ? 110 : 72,
+  };
+  place(initial.left, initial.top);
+  const bringToFront = () => {
+    activeTest.topTool = name;
+    app.querySelectorAll("[data-tool]").forEach((tool) => {
+      tool.classList.toggle("is-front", tool.dataset.tool === name);
+    });
+  };
+  panel.classList.toggle("is-front", activeTest.topTool === name);
+  panel.addEventListener("pointerdown", bringToFront);
+  panel.addEventListener("focusin", bringToFront);
   let pointerId = null;
   let offsetX = 0;
   let offsetY = 0;
-
   handle.addEventListener("pointerdown", (event) => {
     if (event.button !== 0 || event.target.closest("button")) return;
-    const rect = calculator.getBoundingClientRect();
+    const rect = panel.getBoundingClientRect();
     pointerId = event.pointerId;
     offsetX = event.clientX - rect.left;
     offsetY = event.clientY - rect.top;
-    calculator.style.position = "fixed";
-    calculator.style.left = `${rect.left}px`;
-    calculator.style.top = `${rect.top}px`;
-    calculator.classList.add("is-dragging");
+    panel.classList.add("is-dragging");
     handle.setPointerCapture(pointerId);
     event.preventDefault();
   });
-
   handle.addEventListener("pointermove", (event) => {
     if (event.pointerId !== pointerId) return;
-    const maxLeft = Math.max(0, window.innerWidth - calculator.offsetWidth);
-    const maxTop = Math.max(0, window.innerHeight - calculator.offsetHeight);
-    const left = Math.min(maxLeft, Math.max(0, event.clientX - offsetX));
-    const top = Math.min(maxTop, Math.max(0, event.clientY - offsetY));
-    calculator.style.left = `${left}px`;
-    calculator.style.top = `${top}px`;
+    place(event.clientX - offsetX, event.clientY - offsetY);
   });
-
   const finishDrag = (event) => {
     if (event.pointerId !== pointerId) return;
     if (handle.hasPointerCapture(pointerId)) handle.releasePointerCapture(pointerId);
     pointerId = null;
-    calculator.classList.remove("is-dragging");
+    panel.classList.remove("is-dragging");
   };
-
   handle.addEventListener("pointerup", finishDrag);
   handle.addEventListener("pointercancel", finishDrag);
+  handle.addEventListener("lostpointercapture", finishDrag);
 }
+
+window.addEventListener("resize", () => {
+  if (!activeTest) return;
+  app.querySelectorAll("[data-tool]").forEach((panel) => {
+    const position = activeTest.tools[panel.dataset.tool].position;
+    if (!position) return;
+    position.left = Math.min(position.left, Math.max(0, window.innerWidth - panel.offsetWidth));
+    position.top = Math.min(position.top, Math.max(0, window.innerHeight - panel.offsetHeight));
+    panel.style.left = `${position.left}px`;
+    panel.style.top = `${position.top}px`;
+  });
+});
 
 function handleCalculatorAction(action) {
   const calculator = activeTest.calculator;
